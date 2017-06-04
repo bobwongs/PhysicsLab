@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2118D8C81EE44F2D00B8429C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2118D8C71EE44F2D00B8429C /* main.m */; };
+		2118D8CB1EE44F2D00B8429C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2118D8CA1EE44F2D00B8429C /* AppDelegate.m */; };
+		2118D8CE1EE44F2D00B8429C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2118D8CD1EE44F2D00B8429C /* ViewController.m */; };
+		2118D8D11EE44F2D00B8429C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2118D8CF1EE44F2D00B8429C /* Main.storyboard */; };
+		2118D8D31EE44F2D00B8429C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2118D8D21EE44F2D00B8429C /* Assets.xcassets */; };
+		2118D8D61EE44F2D00B8429C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2118D8D41EE44F2D00B8429C /* LaunchScreen.storyboard */; };
+		2118D8E11EE44F2D00B8429C /* BWOnlineEducationiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2118D8E01EE44F2D00B8429C /* BWOnlineEducationiOSTests.m */; };
+		2118D8EC1EE44F2D00B8429C /* BWOnlineEducationiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2118D8EB1EE44F2D00B8429C /* BWOnlineEducationiOSUITests.m */; };
+		D8A9CA9D93DEB15F352BB386 /* libPods-BWOnlineEducationiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67880BEE9F090BCD41C91DDE /* libPods-BWOnlineEducationiOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2118D8DD1EE44F2D00B8429C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2118D8BB1EE44F2D00B8429C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2118D8C21EE44F2D00B8429C;
+			remoteInfo = BWOnlineEducationiOS;
+		};
+		2118D8E81EE44F2D00B8429C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2118D8BB1EE44F2D00B8429C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2118D8C21EE44F2D00B8429C;
+			remoteInfo = BWOnlineEducationiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2118D8C31EE44F2D00B8429C /* BWOnlineEducationiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWOnlineEducationiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2118D8C71EE44F2D00B8429C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2118D8C91EE44F2D00B8429C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2118D8CA1EE44F2D00B8429C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2118D8CC1EE44F2D00B8429C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2118D8CD1EE44F2D00B8429C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2118D8D01EE44F2D00B8429C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2118D8D21EE44F2D00B8429C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2118D8D51EE44F2D00B8429C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2118D8D71EE44F2D00B8429C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2118D8DC1EE44F2D00B8429C /* BWOnlineEducationiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWOnlineEducationiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2118D8E01EE44F2D00B8429C /* BWOnlineEducationiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWOnlineEducationiOSTests.m; sourceTree = "<group>"; };
+		2118D8E21EE44F2D00B8429C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2118D8E71EE44F2D00B8429C /* BWOnlineEducationiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWOnlineEducationiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2118D8EB1EE44F2D00B8429C /* BWOnlineEducationiOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWOnlineEducationiOSUITests.m; sourceTree = "<group>"; };
+		2118D8ED1EE44F2D00B8429C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58C8E70CADD4B5C827B4FA7E /* Pods-BWOnlineEducationiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWOnlineEducationiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWOnlineEducationiOS/Pods-BWOnlineEducationiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		60CCFDB5C89C5FE98CAB9682 /* Pods-BWOnlineEducationiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWOnlineEducationiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWOnlineEducationiOS/Pods-BWOnlineEducationiOS.release.xcconfig"; sourceTree = "<group>"; };
+		67880BEE9F090BCD41C91DDE /* libPods-BWOnlineEducationiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWOnlineEducationiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2118D8C01EE44F2D00B8429C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A9CA9D93DEB15F352BB386 /* libPods-BWOnlineEducationiOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2118D8D91EE44F2D00B8429C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2118D8E41EE44F2D00B8429C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2118D8BA1EE44F2D00B8429C = {
+			isa = PBXGroup;
+			children = (
+				2118D8C51EE44F2D00B8429C /* BWOnlineEducationiOS */,
+				2118D8DF1EE44F2D00B8429C /* BWOnlineEducationiOSTests */,
+				2118D8EA1EE44F2D00B8429C /* BWOnlineEducationiOSUITests */,
+				2118D8C41EE44F2D00B8429C /* Products */,
+				C6CE59C98D52CB5A9DB9936E /* Pods */,
+				4C12FE668183A59EA0621FD8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2118D8C41EE44F2D00B8429C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2118D8C31EE44F2D00B8429C /* BWOnlineEducationiOS.app */,
+				2118D8DC1EE44F2D00B8429C /* BWOnlineEducationiOSTests.xctest */,
+				2118D8E71EE44F2D00B8429C /* BWOnlineEducationiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2118D8C51EE44F2D00B8429C /* BWOnlineEducationiOS */ = {
+			isa = PBXGroup;
+			children = (
+				2118D8C91EE44F2D00B8429C /* AppDelegate.h */,
+				2118D8CA1EE44F2D00B8429C /* AppDelegate.m */,
+				2118D8CC1EE44F2D00B8429C /* ViewController.h */,
+				2118D8CD1EE44F2D00B8429C /* ViewController.m */,
+				2118D8CF1EE44F2D00B8429C /* Main.storyboard */,
+				2118D8D21EE44F2D00B8429C /* Assets.xcassets */,
+				2118D8D41EE44F2D00B8429C /* LaunchScreen.storyboard */,
+				2118D8D71EE44F2D00B8429C /* Info.plist */,
+				2118D8C61EE44F2D00B8429C /* Supporting Files */,
+			);
+			path = BWOnlineEducationiOS;
+			sourceTree = "<group>";
+		};
+		2118D8C61EE44F2D00B8429C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2118D8C71EE44F2D00B8429C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2118D8DF1EE44F2D00B8429C /* BWOnlineEducationiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				2118D8E01EE44F2D00B8429C /* BWOnlineEducationiOSTests.m */,
+				2118D8E21EE44F2D00B8429C /* Info.plist */,
+			);
+			path = BWOnlineEducationiOSTests;
+			sourceTree = "<group>";
+		};
+		2118D8EA1EE44F2D00B8429C /* BWOnlineEducationiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2118D8EB1EE44F2D00B8429C /* BWOnlineEducationiOSUITests.m */,
+				2118D8ED1EE44F2D00B8429C /* Info.plist */,
+			);
+			path = BWOnlineEducationiOSUITests;
+			sourceTree = "<group>";
+		};
+		4C12FE668183A59EA0621FD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67880BEE9F090BCD41C91DDE /* libPods-BWOnlineEducationiOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6CE59C98D52CB5A9DB9936E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58C8E70CADD4B5C827B4FA7E /* Pods-BWOnlineEducationiOS.debug.xcconfig */,
+				60CCFDB5C89C5FE98CAB9682 /* Pods-BWOnlineEducationiOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2118D8C21EE44F2D00B8429C /* BWOnlineEducationiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2118D8F01EE44F2D00B8429C /* Build configuration list for PBXNativeTarget "BWOnlineEducationiOS" */;
+			buildPhases = (
+				3C907807A3373A7503057396 /* [CP] Check Pods Manifest.lock */,
+				2118D8BF1EE44F2D00B8429C /* Sources */,
+				2118D8C01EE44F2D00B8429C /* Frameworks */,
+				2118D8C11EE44F2D00B8429C /* Resources */,
+				9B1B0D18F08132E281C6424D /* [CP] Embed Pods Frameworks */,
+				A94EA7E0BC858804CFD8899A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BWOnlineEducationiOS;
+			productName = BWOnlineEducationiOS;
+			productReference = 2118D8C31EE44F2D00B8429C /* BWOnlineEducationiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2118D8DB1EE44F2D00B8429C /* BWOnlineEducationiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2118D8F31EE44F2D00B8429C /* Build configuration list for PBXNativeTarget "BWOnlineEducationiOSTests" */;
+			buildPhases = (
+				2118D8D81EE44F2D00B8429C /* Sources */,
+				2118D8D91EE44F2D00B8429C /* Frameworks */,
+				2118D8DA1EE44F2D00B8429C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2118D8DE1EE44F2D00B8429C /* PBXTargetDependency */,
+			);
+			name = BWOnlineEducationiOSTests;
+			productName = BWOnlineEducationiOSTests;
+			productReference = 2118D8DC1EE44F2D00B8429C /* BWOnlineEducationiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2118D8E61EE44F2D00B8429C /* BWOnlineEducationiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2118D8F61EE44F2D00B8429C /* Build configuration list for PBXNativeTarget "BWOnlineEducationiOSUITests" */;
+			buildPhases = (
+				2118D8E31EE44F2D00B8429C /* Sources */,
+				2118D8E41EE44F2D00B8429C /* Frameworks */,
+				2118D8E51EE44F2D00B8429C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2118D8E91EE44F2D00B8429C /* PBXTargetDependency */,
+			);
+			name = BWOnlineEducationiOSUITests;
+			productName = BWOnlineEducationiOSUITests;
+			productReference = 2118D8E71EE44F2D00B8429C /* BWOnlineEducationiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2118D8BB1EE44F2D00B8429C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Bob Wong Studio";
+				TargetAttributes = {
+					2118D8C21EE44F2D00B8429C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = V3E8GUFW32;
+						ProvisioningStyle = Automatic;
+					};
+					2118D8DB1EE44F2D00B8429C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = V3E8GUFW32;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2118D8C21EE44F2D00B8429C;
+					};
+					2118D8E61EE44F2D00B8429C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = V3E8GUFW32;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2118D8C21EE44F2D00B8429C;
+					};
+				};
+			};
+			buildConfigurationList = 2118D8BE1EE44F2D00B8429C /* Build configuration list for PBXProject "BWOnlineEducationiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2118D8BA1EE44F2D00B8429C;
+			productRefGroup = 2118D8C41EE44F2D00B8429C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2118D8C21EE44F2D00B8429C /* BWOnlineEducationiOS */,
+				2118D8DB1EE44F2D00B8429C /* BWOnlineEducationiOSTests */,
+				2118D8E61EE44F2D00B8429C /* BWOnlineEducationiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2118D8C11EE44F2D00B8429C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2118D8D61EE44F2D00B8429C /* LaunchScreen.storyboard in Resources */,
+				2118D8D31EE44F2D00B8429C /* Assets.xcassets in Resources */,
+				2118D8D11EE44F2D00B8429C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2118D8DA1EE44F2D00B8429C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2118D8E51EE44F2D00B8429C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C907807A3373A7503057396 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B1B0D18F08132E281C6424D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWOnlineEducationiOS/Pods-BWOnlineEducationiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A94EA7E0BC858804CFD8899A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWOnlineEducationiOS/Pods-BWOnlineEducationiOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2118D8BF1EE44F2D00B8429C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2118D8CE1EE44F2D00B8429C /* ViewController.m in Sources */,
+				2118D8CB1EE44F2D00B8429C /* AppDelegate.m in Sources */,
+				2118D8C81EE44F2D00B8429C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2118D8D81EE44F2D00B8429C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2118D8E11EE44F2D00B8429C /* BWOnlineEducationiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2118D8E31EE44F2D00B8429C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2118D8EC1EE44F2D00B8429C /* BWOnlineEducationiOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2118D8DE1EE44F2D00B8429C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2118D8C21EE44F2D00B8429C /* BWOnlineEducationiOS */;
+			targetProxy = 2118D8DD1EE44F2D00B8429C /* PBXContainerItemProxy */;
+		};
+		2118D8E91EE44F2D00B8429C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2118D8C21EE44F2D00B8429C /* BWOnlineEducationiOS */;
+			targetProxy = 2118D8E81EE44F2D00B8429C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2118D8CF1EE44F2D00B8429C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2118D8D01EE44F2D00B8429C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2118D8D41EE44F2D00B8429C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2118D8D51EE44F2D00B8429C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2118D8EE1EE44F2D00B8429C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2118D8EF1EE44F2D00B8429C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2118D8F11EE44F2D00B8429C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58C8E70CADD4B5C827B4FA7E /* Pods-BWOnlineEducationiOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V3E8GUFW32;
+				INFOPLIST_FILE = BWOnlineEducationiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWOnlineEducationiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2118D8F21EE44F2D00B8429C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60CCFDB5C89C5FE98CAB9682 /* Pods-BWOnlineEducationiOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V3E8GUFW32;
+				INFOPLIST_FILE = BWOnlineEducationiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWOnlineEducationiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2118D8F41EE44F2D00B8429C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V3E8GUFW32;
+				INFOPLIST_FILE = BWOnlineEducationiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWOnlineEducationiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BWOnlineEducationiOS.app/BWOnlineEducationiOS";
+			};
+			name = Debug;
+		};
+		2118D8F51EE44F2D00B8429C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V3E8GUFW32;
+				INFOPLIST_FILE = BWOnlineEducationiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWOnlineEducationiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BWOnlineEducationiOS.app/BWOnlineEducationiOS";
+			};
+			name = Release;
+		};
+		2118D8F71EE44F2D00B8429C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V3E8GUFW32;
+				INFOPLIST_FILE = BWOnlineEducationiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWOnlineEducationiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BWOnlineEducationiOS;
+			};
+			name = Debug;
+		};
+		2118D8F81EE44F2D00B8429C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V3E8GUFW32;
+				INFOPLIST_FILE = BWOnlineEducationiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWOnlineEducationiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BWOnlineEducationiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2118D8BE1EE44F2D00B8429C /* Build configuration list for PBXProject "BWOnlineEducationiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2118D8EE1EE44F2D00B8429C /* Debug */,
+				2118D8EF1EE44F2D00B8429C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2118D8F01EE44F2D00B8429C /* Build configuration list for PBXNativeTarget "BWOnlineEducationiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2118D8F11EE44F2D00B8429C /* Debug */,
+				2118D8F21EE44F2D00B8429C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2118D8F31EE44F2D00B8429C /* Build configuration list for PBXNativeTarget "BWOnlineEducationiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2118D8F41EE44F2D00B8429C /* Debug */,
+				2118D8F51EE44F2D00B8429C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2118D8F61EE44F2D00B8429C /* Build configuration list for PBXNativeTarget "BWOnlineEducationiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2118D8F71EE44F2D00B8429C /* Debug */,
+				2118D8F81EE44F2D00B8429C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2118D8BB1EE44F2D00B8429C /* Project object */;
+}
