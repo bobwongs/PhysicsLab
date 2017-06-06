@@ -23,10 +23,11 @@
 		B48F46541EE69F0E00F2DE96 /* Library in Resources */ = {isa = PBXBuildFile; fileRef = B48F463B1EE69F0E00F2DE96 /* Library */; };
 		B48F46581EE69F0E00F2DE96 /* BWNetworkKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F46491EE69F0E00F2DE96 /* BWNetworkKit.m */; };
 		B48F46591EE69F0E00F2DE96 /* Image in Resources */ = {isa = PBXBuildFile; fileRef = B48F464C1EE69F0E00F2DE96 /* Image */; };
-		B48F465C1EE69F9000F2DE96 /* BWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F465B1EE69F9000F2DE96 /* BWBaseViewController.m */; };
-		B48F465F1EE69FFD00F2DE96 /* BWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F465E1EE69FFD00F2DE96 /* BWHomeViewController.m */; };
-		B48F46631EE6A06B00F2DE96 /* BWCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F46621EE6A06B00F2DE96 /* BWCategoryViewController.m */; };
-		B48F46661EE6A07500F2DE96 /* BWMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F46651EE6A07500F2DE96 /* BWMeViewController.m */; };
+		B48F46741EE6A3D800F2DE96 /* BWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F466A1EE6A3D700F2DE96 /* BWBaseViewController.m */; };
+		B48F46751EE6A3D800F2DE96 /* BWCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F466D1EE6A3D800F2DE96 /* BWCategoryViewController.m */; };
+		B48F46761EE6A3D800F2DE96 /* BWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F46701EE6A3D800F2DE96 /* BWHomeViewController.m */; };
+		B48F46771EE6A3D800F2DE96 /* BWMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F46731EE6A3D800F2DE96 /* BWMeViewController.m */; };
+		B48F467B1EE6A42E00F2DE96 /* BWMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F467A1EE6A42E00F2DE96 /* BWMainTabBarController.m */; };
 		D8A9CA9D93DEB15F352BB386 /* libPods-BWOnlineEducationiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67880BEE9F090BCD41C91DDE /* libPods-BWOnlineEducationiOS.a */; };
 /* End PBXBuildFile section */
 
@@ -84,14 +85,17 @@
 		B48F46481EE69F0E00F2DE96 /* BWNetworkKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWNetworkKit.h; sourceTree = "<group>"; };
 		B48F46491EE69F0E00F2DE96 /* BWNetworkKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWNetworkKit.m; sourceTree = "<group>"; };
 		B48F464C1EE69F0E00F2DE96 /* Image */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Image; sourceTree = "<group>"; };
-		B48F465A1EE69F9000F2DE96 /* BWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWBaseViewController.h; sourceTree = "<group>"; };
-		B48F465B1EE69F9000F2DE96 /* BWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWBaseViewController.m; sourceTree = "<group>"; };
-		B48F465D1EE69FFD00F2DE96 /* BWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWHomeViewController.h; sourceTree = "<group>"; };
-		B48F465E1EE69FFD00F2DE96 /* BWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWHomeViewController.m; sourceTree = "<group>"; };
-		B48F46611EE6A06B00F2DE96 /* BWCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWCategoryViewController.h; sourceTree = "<group>"; };
-		B48F46621EE6A06B00F2DE96 /* BWCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWCategoryViewController.m; sourceTree = "<group>"; };
-		B48F46641EE6A07500F2DE96 /* BWMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWMeViewController.h; sourceTree = "<group>"; };
-		B48F46651EE6A07500F2DE96 /* BWMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWMeViewController.m; sourceTree = "<group>"; };
+		B48F46691EE6A3D700F2DE96 /* BWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWBaseViewController.h; sourceTree = "<group>"; };
+		B48F466A1EE6A3D700F2DE96 /* BWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWBaseViewController.m; sourceTree = "<group>"; };
+		B48F466C1EE6A3D800F2DE96 /* BWCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWCategoryViewController.h; sourceTree = "<group>"; };
+		B48F466D1EE6A3D800F2DE96 /* BWCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWCategoryViewController.m; sourceTree = "<group>"; };
+		B48F466F1EE6A3D800F2DE96 /* BWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWHomeViewController.h; sourceTree = "<group>"; };
+		B48F46701EE6A3D800F2DE96 /* BWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWHomeViewController.m; sourceTree = "<group>"; };
+		B48F46721EE6A3D800F2DE96 /* BWMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWMeViewController.h; sourceTree = "<group>"; };
+		B48F46731EE6A3D800F2DE96 /* BWMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWMeViewController.m; sourceTree = "<group>"; };
+		B48F46791EE6A42E00F2DE96 /* BWMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWMainTabBarController.h; sourceTree = "<group>"; };
+		B48F467A1EE6A42E00F2DE96 /* BWMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWMainTabBarController.m; sourceTree = "<group>"; };
+		B48F467C1EE6A83F00F2DE96 /* BWOnlineEducationiOS.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWOnlineEducationiOS.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +152,7 @@
 				2118D8C91EE44F2D00B8429C /* AppDelegate.h */,
 				2118D8CA1EE44F2D00B8429C /* AppDelegate.m */,
 				B48F46331EE69F0E00F2DE96 /* Document */,
-				B48F463C1EE69F0E00F2DE96 /* MVC */,
+				B48F46671EE6A3D700F2DE96 /* Business */,
 				B48F46351EE69F0E00F2DE96 /* Global */,
 				B48F46241EE69F0E00F2DE96 /* Common */,
 				B48F46461EE69F0E00F2DE96 /* Network */,
@@ -166,6 +170,7 @@
 				2118D8C71EE44F2D00B8429C /* main.m */,
 				2118D8D71EE44F2D00B8429C /* Info.plist */,
 				2118D8D41EE44F2D00B8429C /* LaunchScreen.storyboard */,
+				B48F467C1EE6A83F00F2DE96 /* BWOnlineEducationiOS.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -272,44 +277,6 @@
 			path = Library;
 			sourceTree = "<group>";
 		};
-		B48F463C1EE69F0E00F2DE96 /* MVC */ = {
-			isa = PBXGroup;
-			children = (
-				B48F463D1EE69F0E00F2DE96 /* Base */,
-				B48F46401EE69F0E00F2DE96 /* Home */,
-				B48F46601EE6A04D00F2DE96 /* Category */,
-				B48F46431EE69F0E00F2DE96 /* Me */,
-			);
-			path = MVC;
-			sourceTree = "<group>";
-		};
-		B48F463D1EE69F0E00F2DE96 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				B48F465A1EE69F9000F2DE96 /* BWBaseViewController.h */,
-				B48F465B1EE69F9000F2DE96 /* BWBaseViewController.m */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		B48F46401EE69F0E00F2DE96 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				B48F465D1EE69FFD00F2DE96 /* BWHomeViewController.h */,
-				B48F465E1EE69FFD00F2DE96 /* BWHomeViewController.m */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		B48F46431EE69F0E00F2DE96 /* Me */ = {
-			isa = PBXGroup;
-			children = (
-				B48F46641EE6A07500F2DE96 /* BWMeViewController.h */,
-				B48F46651EE6A07500F2DE96 /* BWMeViewController.m */,
-			);
-			path = Me;
-			sourceTree = "<group>";
-		};
 		B48F46461EE69F0E00F2DE96 /* Network */ = {
 			isa = PBXGroup;
 			children = (
@@ -336,13 +303,61 @@
 			path = Image;
 			sourceTree = "<group>";
 		};
-		B48F46601EE6A04D00F2DE96 /* Category */ = {
+		B48F46671EE6A3D700F2DE96 /* Business */ = {
 			isa = PBXGroup;
 			children = (
-				B48F46611EE6A06B00F2DE96 /* BWCategoryViewController.h */,
-				B48F46621EE6A06B00F2DE96 /* BWCategoryViewController.m */,
+				B48F46681EE6A3D700F2DE96 /* Base */,
+				B48F46781EE6A41C00F2DE96 /* Main */,
+				B48F466E1EE6A3D800F2DE96 /* Home */,
+				B48F466B1EE6A3D700F2DE96 /* Category */,
+				B48F46711EE6A3D800F2DE96 /* Me */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		B48F46681EE6A3D700F2DE96 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B48F46691EE6A3D700F2DE96 /* BWBaseViewController.h */,
+				B48F466A1EE6A3D700F2DE96 /* BWBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B48F466B1EE6A3D700F2DE96 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B48F466C1EE6A3D800F2DE96 /* BWCategoryViewController.h */,
+				B48F466D1EE6A3D800F2DE96 /* BWCategoryViewController.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		B48F466E1EE6A3D800F2DE96 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B48F466F1EE6A3D800F2DE96 /* BWHomeViewController.h */,
+				B48F46701EE6A3D800F2DE96 /* BWHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B48F46711EE6A3D800F2DE96 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				B48F46721EE6A3D800F2DE96 /* BWMeViewController.h */,
+				B48F46731EE6A3D800F2DE96 /* BWMeViewController.m */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		B48F46781EE6A41C00F2DE96 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B48F46791EE6A42E00F2DE96 /* BWMainTabBarController.h */,
+				B48F467A1EE6A42E00F2DE96 /* BWMainTabBarController.m */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 		C6CE59C98D52CB5A9DB9936E /* Pods */ = {
@@ -546,15 +561,16 @@
 				2118D8CB1EE44F2D00B8429C /* AppDelegate.m in Sources */,
 				B48F46511EE69F0E00F2DE96 /* BWCustomView.m in Sources */,
 				B48F46581EE69F0E00F2DE96 /* BWNetworkKit.m in Sources */,
-				B48F465F1EE69FFD00F2DE96 /* BWHomeViewController.m in Sources */,
+				B48F467B1EE6A42E00F2DE96 /* BWMainTabBarController.m in Sources */,
 				B48F464E1EE69F0E00F2DE96 /* BWString.m in Sources */,
-				B48F46661EE6A07500F2DE96 /* BWMeViewController.m in Sources */,
 				B48F464D1EE69F0E00F2DE96 /* NSString+BWExtension.m in Sources */,
+				B48F46771EE6A3D800F2DE96 /* BWMeViewController.m in Sources */,
+				B48F46751EE6A3D800F2DE96 /* BWCategoryViewController.m in Sources */,
+				B48F46761EE6A3D800F2DE96 /* BWHomeViewController.m in Sources */,
 				2118D8C81EE44F2D00B8429C /* main.m in Sources */,
-				B48F46631EE6A06B00F2DE96 /* BWCategoryViewController.m in Sources */,
 				B48F464F1EE69F0E00F2DE96 /* BWHudUtil.m in Sources */,
-				B48F465C1EE69F9000F2DE96 /* BWBaseViewController.m in Sources */,
 				B48F46501EE69F0E00F2DE96 /* BWUtility.m in Sources */,
+				B48F46741EE6A3D800F2DE96 /* BWBaseViewController.m in Sources */,
 				B48F46531EE69F0E00F2DE96 /* BWGlobal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -698,6 +714,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V3E8GUFW32;
+				GCC_PREFIX_HEADER = BWOnlineEducationiOS/BWOnlineEducationiOS.pch;
 				INFOPLIST_FILE = BWOnlineEducationiOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -712,6 +729,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V3E8GUFW32;
+				GCC_PREFIX_HEADER = BWOnlineEducationiOS/BWOnlineEducationiOS.pch;
 				INFOPLIST_FILE = BWOnlineEducationiOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
