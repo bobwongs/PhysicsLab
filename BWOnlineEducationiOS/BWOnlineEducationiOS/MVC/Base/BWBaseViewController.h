@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  BWBaseViewController.h
 //  BWOnlineEducationiOS
 //
-//  Created by Bob Wong on 2017/6/4.
+//  Created by BobWong on 2017/6/6.
 //  Copyright © 2017年 Bob Wong Studio. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BWBaseViewController : UIViewController
 
 @end
-
