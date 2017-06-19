@@ -16,6 +16,10 @@
 		B4A16E991EF79E930013D961 /* BWOnlineEducationiOSInSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A16E981EF79E930013D961 /* BWOnlineEducationiOSInSwiftUITests.swift */; };
 		B4A16EAF1EF7A16A0013D961 /* BWBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A16EAE1EF7A16A0013D961 /* BWBaseViewController.swift */; };
 		B4A16EB11EF7A3B50013D961 /* BWHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A16EB01EF7A3B50013D961 /* BWHomeViewController.swift */; };
+		B4A16EB41EF7A9AA0013D961 /* BWMainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A16EB31EF7A9AA0013D961 /* BWMainTabBarController.swift */; };
+		B4A16EB61EF7AA200013D961 /* BWDiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A16EB51EF7AA200013D961 /* BWDiscoveryViewController.swift */; };
+		B4A16EB81EF7AA350013D961 /* BWSortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A16EB71EF7AA350013D961 /* BWSortViewController.swift */; };
+		B4A16EBA1EF7AA400013D961 /* BWMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A16EB91EF7AA400013D961 /* BWMeViewController.swift */; };
 		EE2B7B7D8E75522D69957EAA /* Pods_BWOnlineEducationiOSInSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBB363551549C7F2E5AA4CA /* Pods_BWOnlineEducationiOSInSwiftTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +62,10 @@
 		B4A16E9A1EF79E930013D961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4A16EAE1EF7A16A0013D961 /* BWBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWBaseViewController.swift; sourceTree = "<group>"; };
 		B4A16EB01EF7A3B50013D961 /* BWHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWHomeViewController.swift; sourceTree = "<group>"; };
+		B4A16EB31EF7A9AA0013D961 /* BWMainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWMainTabBarController.swift; sourceTree = "<group>"; };
+		B4A16EB51EF7AA200013D961 /* BWDiscoveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWDiscoveryViewController.swift; sourceTree = "<group>"; };
+		B4A16EB71EF7AA350013D961 /* BWSortViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWSortViewController.swift; sourceTree = "<group>"; };
+		B4A16EB91EF7AA400013D961 /* BWMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWMeViewController.swift; sourceTree = "<group>"; };
 		E18DC3C6997CBD3C8AB8FE2E /* Pods_BWOnlineEducationiOSInSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BWOnlineEducationiOSInSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -170,9 +178,9 @@
 				B4A16EA71EF79FFD0013D961 /* Base */,
 				B4A16EB21EF7A7550013D961 /* Main */,
 				B4A16EA91EF79FFD0013D961 /* Home */,
+				B4A16EAB1EF79FFD0013D961 /* Sort */,
 				B4A16EA81EF79FFD0013D961 /* Discovery */,
 				B4A16EAA1EF79FFD0013D961 /* Me */,
-				B4A16EAB1EF79FFD0013D961 /* Sort */,
 			);
 			path = MVC;
 			sourceTree = "<group>";
@@ -188,6 +196,7 @@
 		B4A16EA81EF79FFD0013D961 /* Discovery */ = {
 			isa = PBXGroup;
 			children = (
+				B4A16EB51EF7AA200013D961 /* BWDiscoveryViewController.swift */,
 			);
 			path = Discovery;
 			sourceTree = "<group>";
@@ -203,6 +212,7 @@
 		B4A16EAA1EF79FFD0013D961 /* Me */ = {
 			isa = PBXGroup;
 			children = (
+				B4A16EB91EF7AA400013D961 /* BWMeViewController.swift */,
 			);
 			path = Me;
 			sourceTree = "<group>";
@@ -210,6 +220,7 @@
 		B4A16EAB1EF79FFD0013D961 /* Sort */ = {
 			isa = PBXGroup;
 			children = (
+				B4A16EB71EF7AA350013D961 /* BWSortViewController.swift */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -217,6 +228,7 @@
 		B4A16EB21EF7A7550013D961 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				B4A16EB31EF7A9AA0013D961 /* BWMainTabBarController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -505,8 +517,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4A16EB11EF7A3B50013D961 /* BWHomeViewController.swift in Sources */,
+				B4A16EB61EF7AA200013D961 /* BWDiscoveryViewController.swift in Sources */,
+				B4A16EB41EF7A9AA0013D961 /* BWMainTabBarController.swift in Sources */,
 				B4A16EAF1EF7A16A0013D961 /* BWBaseViewController.swift in Sources */,
+				B4A16EBA1EF7AA400013D961 /* BWMeViewController.swift in Sources */,
 				B4A16E791EF79E930013D961 /* AppDelegate.swift in Sources */,
+				B4A16EB81EF7AA350013D961 /* BWSortViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
