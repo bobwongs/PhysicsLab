@@ -7,192 +7,177 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2118D9071EE44F7B00B8429C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2118D9061EE44F7B00B8429C /* main.m */; };
-		2118D90A1EE44F7B00B8429C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2118D9091EE44F7B00B8429C /* AppDelegate.m */; };
-		2118D90D1EE44F7B00B8429C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2118D90C1EE44F7B00B8429C /* ViewController.m */; };
-		2118D9101EE44F7B00B8429C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2118D90E1EE44F7B00B8429C /* Main.storyboard */; };
-		2118D9121EE44F7B00B8429C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2118D9111EE44F7B00B8429C /* Assets.xcassets */; };
-		2118D9151EE44F7B00B8429C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2118D9131EE44F7B00B8429C /* LaunchScreen.storyboard */; };
-		2118D9201EE44F7B00B8429C /* BWOnlineEducationiOSInSwiftTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2118D91F1EE44F7B00B8429C /* BWOnlineEducationiOSInSwiftTests.m */; };
-		2118D92B1EE44F7B00B8429C /* BWOnlineEducationiOSInSwiftUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2118D92A1EE44F7B00B8429C /* BWOnlineEducationiOSInSwiftUITests.m */; };
-		62FFC863B1D6B061667647A1 /* Pods_BWOnlineEducationiOSInSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60DB9AB85E4B0778DEF8614F /* Pods_BWOnlineEducationiOSInSwiftTests.framework */; };
-		7EF542913C5CCC57CC55D573 /* Pods_BWOnlineEducationiOSInSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFEADC51D78D1DDC90893433 /* Pods_BWOnlineEducationiOSInSwift.framework */; };
-		B46C1F49B73062AC27897A00 /* Pods_BWOnlineEducationiOSInSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E216581B164056A6F7CDECCF /* Pods_BWOnlineEducationiOSInSwiftUITests.framework */; };
+		5C5761F995EE926380D19DDF /* Pods_BWOnlineEducationiOSInSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E18DC3C6997CBD3C8AB8FE2E /* Pods_BWOnlineEducationiOSInSwiftUITests.framework */; };
+		992901AF41C9CF7371017A76 /* Pods_BWOnlineEducationiOSInSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9676579902540821F317AB06 /* Pods_BWOnlineEducationiOSInSwift.framework */; };
+		B4A16E791EF79E930013D961 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A16E781EF79E930013D961 /* AppDelegate.swift */; };
+		B4A16E7B1EF79E930013D961 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A16E7A1EF79E930013D961 /* ViewController.swift */; };
+		B4A16E7E1EF79E930013D961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A16E7C1EF79E930013D961 /* Main.storyboard */; };
+		B4A16E801EF79E930013D961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4A16E7F1EF79E930013D961 /* Assets.xcassets */; };
+		B4A16E831EF79E930013D961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A16E811EF79E930013D961 /* LaunchScreen.storyboard */; };
+		B4A16E8E1EF79E930013D961 /* BWOnlineEducationiOSInSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A16E8D1EF79E930013D961 /* BWOnlineEducationiOSInSwiftTests.swift */; };
+		B4A16E991EF79E930013D961 /* BWOnlineEducationiOSInSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A16E981EF79E930013D961 /* BWOnlineEducationiOSInSwiftUITests.swift */; };
+		EE2B7B7D8E75522D69957EAA /* Pods_BWOnlineEducationiOSInSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBB363551549C7F2E5AA4CA /* Pods_BWOnlineEducationiOSInSwiftTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2118D91C1EE44F7B00B8429C /* PBXContainerItemProxy */ = {
+		B4A16E8A1EF79E930013D961 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2118D8FA1EE44F7B00B8429C /* Project object */;
+			containerPortal = B4A16E6D1EF79E930013D961 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2118D9011EE44F7B00B8429C;
+			remoteGlobalIDString = B4A16E741EF79E930013D961;
 			remoteInfo = BWOnlineEducationiOSInSwift;
 		};
-		2118D9271EE44F7B00B8429C /* PBXContainerItemProxy */ = {
+		B4A16E951EF79E930013D961 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2118D8FA1EE44F7B00B8429C /* Project object */;
+			containerPortal = B4A16E6D1EF79E930013D961 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2118D9011EE44F7B00B8429C;
+			remoteGlobalIDString = B4A16E741EF79E930013D961;
 			remoteInfo = BWOnlineEducationiOSInSwift;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D0FDF9447A7C22CA8B492DC /* Pods-BWOnlineEducationiOSInSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWOnlineEducationiOSInSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWOnlineEducationiOSInSwift/Pods-BWOnlineEducationiOSInSwift.debug.xcconfig"; sourceTree = "<group>"; };
-		2118D9021EE44F7B00B8429C /* BWOnlineEducationiOSInSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWOnlineEducationiOSInSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2118D9061EE44F7B00B8429C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2118D9081EE44F7B00B8429C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2118D9091EE44F7B00B8429C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2118D90B1EE44F7B00B8429C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2118D90C1EE44F7B00B8429C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2118D90F1EE44F7B00B8429C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2118D9111EE44F7B00B8429C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2118D9141EE44F7B00B8429C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2118D9161EE44F7B00B8429C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2118D91B1EE44F7B00B8429C /* BWOnlineEducationiOSInSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWOnlineEducationiOSInSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2118D91F1EE44F7B00B8429C /* BWOnlineEducationiOSInSwiftTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWOnlineEducationiOSInSwiftTests.m; sourceTree = "<group>"; };
-		2118D9211EE44F7B00B8429C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2118D9261EE44F7B00B8429C /* BWOnlineEducationiOSInSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWOnlineEducationiOSInSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2118D92A1EE44F7B00B8429C /* BWOnlineEducationiOSInSwiftUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWOnlineEducationiOSInSwiftUITests.m; sourceTree = "<group>"; };
-		2118D92C1EE44F7B00B8429C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		288102AA4F4DB75DE657227C /* Pods-BWOnlineEducationiOSInSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWOnlineEducationiOSInSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWOnlineEducationiOSInSwiftUITests/Pods-BWOnlineEducationiOSInSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
-		60DB9AB85E4B0778DEF8614F /* Pods_BWOnlineEducationiOSInSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BWOnlineEducationiOSInSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DE173275D3D99EB917C2F75 /* Pods-BWOnlineEducationiOSInSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWOnlineEducationiOSInSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWOnlineEducationiOSInSwiftTests/Pods-BWOnlineEducationiOSInSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
-		918CE1AC91E223A1B5A06766 /* Pods-BWOnlineEducationiOSInSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWOnlineEducationiOSInSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWOnlineEducationiOSInSwiftUITests/Pods-BWOnlineEducationiOSInSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		CDDB3367DD766191EAFFD6E5 /* Pods-BWOnlineEducationiOSInSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWOnlineEducationiOSInSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWOnlineEducationiOSInSwiftTests/Pods-BWOnlineEducationiOSInSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DDED305AF207458B5CF646B3 /* Pods-BWOnlineEducationiOSInSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWOnlineEducationiOSInSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWOnlineEducationiOSInSwift/Pods-BWOnlineEducationiOSInSwift.release.xcconfig"; sourceTree = "<group>"; };
-		E216581B164056A6F7CDECCF /* Pods_BWOnlineEducationiOSInSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BWOnlineEducationiOSInSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFEADC51D78D1DDC90893433 /* Pods_BWOnlineEducationiOSInSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BWOnlineEducationiOSInSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D75D6BF95FF2AD5B26FD836 /* Pods-BWOnlineEducationiOSInSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWOnlineEducationiOSInSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWOnlineEducationiOSInSwiftTests/Pods-BWOnlineEducationiOSInSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		6EBB363551549C7F2E5AA4CA /* Pods_BWOnlineEducationiOSInSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BWOnlineEducationiOSInSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9676579902540821F317AB06 /* Pods_BWOnlineEducationiOSInSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BWOnlineEducationiOSInSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9870C75A0D6C8B08662DE9C0 /* Pods-BWOnlineEducationiOSInSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWOnlineEducationiOSInSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWOnlineEducationiOSInSwift/Pods-BWOnlineEducationiOSInSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		99E7EB20E6E79292F4C8881E /* Pods-BWOnlineEducationiOSInSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWOnlineEducationiOSInSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWOnlineEducationiOSInSwiftTests/Pods-BWOnlineEducationiOSInSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE56C54FDED4FBB1D5C918CE /* Pods-BWOnlineEducationiOSInSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWOnlineEducationiOSInSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWOnlineEducationiOSInSwift/Pods-BWOnlineEducationiOSInSwift.release.xcconfig"; sourceTree = "<group>"; };
+		B04D965C140CEBCADBFF3E61 /* Pods-BWOnlineEducationiOSInSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWOnlineEducationiOSInSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWOnlineEducationiOSInSwiftUITests/Pods-BWOnlineEducationiOSInSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B212482781EEB87EDE6F98E7 /* Pods-BWOnlineEducationiOSInSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWOnlineEducationiOSInSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWOnlineEducationiOSInSwiftUITests/Pods-BWOnlineEducationiOSInSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B4A16E751EF79E930013D961 /* BWOnlineEducationiOSInSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWOnlineEducationiOSInSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A16E781EF79E930013D961 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4A16E7A1EF79E930013D961 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B4A16E7D1EF79E930013D961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4A16E7F1EF79E930013D961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4A16E821EF79E930013D961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4A16E841EF79E930013D961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4A16E891EF79E930013D961 /* BWOnlineEducationiOSInSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWOnlineEducationiOSInSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A16E8D1EF79E930013D961 /* BWOnlineEducationiOSInSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BWOnlineEducationiOSInSwiftTests.swift; sourceTree = "<group>"; };
+		B4A16E8F1EF79E930013D961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4A16E941EF79E930013D961 /* BWOnlineEducationiOSInSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWOnlineEducationiOSInSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A16E981EF79E930013D961 /* BWOnlineEducationiOSInSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BWOnlineEducationiOSInSwiftUITests.swift; sourceTree = "<group>"; };
+		B4A16E9A1EF79E930013D961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E18DC3C6997CBD3C8AB8FE2E /* Pods_BWOnlineEducationiOSInSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BWOnlineEducationiOSInSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2118D8FF1EE44F7B00B8429C /* Frameworks */ = {
+		B4A16E721EF79E930013D961 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EF542913C5CCC57CC55D573 /* Pods_BWOnlineEducationiOSInSwift.framework in Frameworks */,
+				992901AF41C9CF7371017A76 /* Pods_BWOnlineEducationiOSInSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2118D9181EE44F7B00B8429C /* Frameworks */ = {
+		B4A16E861EF79E930013D961 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62FFC863B1D6B061667647A1 /* Pods_BWOnlineEducationiOSInSwiftTests.framework in Frameworks */,
+				EE2B7B7D8E75522D69957EAA /* Pods_BWOnlineEducationiOSInSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2118D9231EE44F7B00B8429C /* Frameworks */ = {
+		B4A16E911EF79E930013D961 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B46C1F49B73062AC27897A00 /* Pods_BWOnlineEducationiOSInSwiftUITests.framework in Frameworks */,
+				5C5761F995EE926380D19DDF /* Pods_BWOnlineEducationiOSInSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05572262F8C1C40372FE0129 /* Frameworks */ = {
+		AF3D3F94B3D969C1935DF83B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FFEADC51D78D1DDC90893433 /* Pods_BWOnlineEducationiOSInSwift.framework */,
-				60DB9AB85E4B0778DEF8614F /* Pods_BWOnlineEducationiOSInSwiftTests.framework */,
-				E216581B164056A6F7CDECCF /* Pods_BWOnlineEducationiOSInSwiftUITests.framework */,
+				9870C75A0D6C8B08662DE9C0 /* Pods-BWOnlineEducationiOSInSwift.debug.xcconfig */,
+				AE56C54FDED4FBB1D5C918CE /* Pods-BWOnlineEducationiOSInSwift.release.xcconfig */,
+				99E7EB20E6E79292F4C8881E /* Pods-BWOnlineEducationiOSInSwiftTests.debug.xcconfig */,
+				2D75D6BF95FF2AD5B26FD836 /* Pods-BWOnlineEducationiOSInSwiftTests.release.xcconfig */,
+				B04D965C140CEBCADBFF3E61 /* Pods-BWOnlineEducationiOSInSwiftUITests.debug.xcconfig */,
+				B212482781EEB87EDE6F98E7 /* Pods-BWOnlineEducationiOSInSwiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B34E723FF67A8B31CE1D62A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9676579902540821F317AB06 /* Pods_BWOnlineEducationiOSInSwift.framework */,
+				6EBB363551549C7F2E5AA4CA /* Pods_BWOnlineEducationiOSInSwiftTests.framework */,
+				E18DC3C6997CBD3C8AB8FE2E /* Pods_BWOnlineEducationiOSInSwiftUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2118D8F91EE44F7B00B8429C = {
+		B4A16E6C1EF79E930013D961 = {
 			isa = PBXGroup;
 			children = (
-				2118D9041EE44F7B00B8429C /* BWOnlineEducationiOSInSwift */,
-				2118D91E1EE44F7B00B8429C /* BWOnlineEducationiOSInSwiftTests */,
-				2118D9291EE44F7B00B8429C /* BWOnlineEducationiOSInSwiftUITests */,
-				2118D9031EE44F7B00B8429C /* Products */,
-				478B5AC50D6137F6B036A8F3 /* Pods */,
-				05572262F8C1C40372FE0129 /* Frameworks */,
+				B4A16E771EF79E930013D961 /* BWOnlineEducationiOSInSwift */,
+				B4A16E8C1EF79E930013D961 /* BWOnlineEducationiOSInSwiftTests */,
+				B4A16E971EF79E930013D961 /* BWOnlineEducationiOSInSwiftUITests */,
+				B4A16E761EF79E930013D961 /* Products */,
+				AF3D3F94B3D969C1935DF83B /* Pods */,
+				B34E723FF67A8B31CE1D62A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		2118D9031EE44F7B00B8429C /* Products */ = {
+		B4A16E761EF79E930013D961 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2118D9021EE44F7B00B8429C /* BWOnlineEducationiOSInSwift.app */,
-				2118D91B1EE44F7B00B8429C /* BWOnlineEducationiOSInSwiftTests.xctest */,
-				2118D9261EE44F7B00B8429C /* BWOnlineEducationiOSInSwiftUITests.xctest */,
+				B4A16E751EF79E930013D961 /* BWOnlineEducationiOSInSwift.app */,
+				B4A16E891EF79E930013D961 /* BWOnlineEducationiOSInSwiftTests.xctest */,
+				B4A16E941EF79E930013D961 /* BWOnlineEducationiOSInSwiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2118D9041EE44F7B00B8429C /* BWOnlineEducationiOSInSwift */ = {
+		B4A16E771EF79E930013D961 /* BWOnlineEducationiOSInSwift */ = {
 			isa = PBXGroup;
 			children = (
-				2118D9081EE44F7B00B8429C /* AppDelegate.h */,
-				2118D9091EE44F7B00B8429C /* AppDelegate.m */,
-				2118D90B1EE44F7B00B8429C /* ViewController.h */,
-				2118D90C1EE44F7B00B8429C /* ViewController.m */,
-				2118D90E1EE44F7B00B8429C /* Main.storyboard */,
-				2118D9111EE44F7B00B8429C /* Assets.xcassets */,
-				2118D9131EE44F7B00B8429C /* LaunchScreen.storyboard */,
-				2118D9161EE44F7B00B8429C /* Info.plist */,
-				2118D9051EE44F7B00B8429C /* Supporting Files */,
+				B4A16E781EF79E930013D961 /* AppDelegate.swift */,
+				B4A16E7A1EF79E930013D961 /* ViewController.swift */,
+				B4A16E7C1EF79E930013D961 /* Main.storyboard */,
+				B4A16E7F1EF79E930013D961 /* Assets.xcassets */,
+				B4A16E811EF79E930013D961 /* LaunchScreen.storyboard */,
+				B4A16E841EF79E930013D961 /* Info.plist */,
 			);
 			path = BWOnlineEducationiOSInSwift;
 			sourceTree = "<group>";
 		};
-		2118D9051EE44F7B00B8429C /* Supporting Files */ = {
+		B4A16E8C1EF79E930013D961 /* BWOnlineEducationiOSInSwiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				2118D9061EE44F7B00B8429C /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		2118D91E1EE44F7B00B8429C /* BWOnlineEducationiOSInSwiftTests */ = {
-			isa = PBXGroup;
-			children = (
-				2118D91F1EE44F7B00B8429C /* BWOnlineEducationiOSInSwiftTests.m */,
-				2118D9211EE44F7B00B8429C /* Info.plist */,
+				B4A16E8D1EF79E930013D961 /* BWOnlineEducationiOSInSwiftTests.swift */,
+				B4A16E8F1EF79E930013D961 /* Info.plist */,
 			);
 			path = BWOnlineEducationiOSInSwiftTests;
 			sourceTree = "<group>";
 		};
-		2118D9291EE44F7B00B8429C /* BWOnlineEducationiOSInSwiftUITests */ = {
+		B4A16E971EF79E930013D961 /* BWOnlineEducationiOSInSwiftUITests */ = {
 			isa = PBXGroup;
 			children = (
-				2118D92A1EE44F7B00B8429C /* BWOnlineEducationiOSInSwiftUITests.m */,
-				2118D92C1EE44F7B00B8429C /* Info.plist */,
+				B4A16E981EF79E930013D961 /* BWOnlineEducationiOSInSwiftUITests.swift */,
+				B4A16E9A1EF79E930013D961 /* Info.plist */,
 			);
 			path = BWOnlineEducationiOSInSwiftUITests;
-			sourceTree = "<group>";
-		};
-		478B5AC50D6137F6B036A8F3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1D0FDF9447A7C22CA8B492DC /* Pods-BWOnlineEducationiOSInSwift.debug.xcconfig */,
-				DDED305AF207458B5CF646B3 /* Pods-BWOnlineEducationiOSInSwift.release.xcconfig */,
-				CDDB3367DD766191EAFFD6E5 /* Pods-BWOnlineEducationiOSInSwiftTests.debug.xcconfig */,
-				6DE173275D3D99EB917C2F75 /* Pods-BWOnlineEducationiOSInSwiftTests.release.xcconfig */,
-				918CE1AC91E223A1B5A06766 /* Pods-BWOnlineEducationiOSInSwiftUITests.debug.xcconfig */,
-				288102AA4F4DB75DE657227C /* Pods-BWOnlineEducationiOSInSwiftUITests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2118D9011EE44F7B00B8429C /* BWOnlineEducationiOSInSwift */ = {
+		B4A16E741EF79E930013D961 /* BWOnlineEducationiOSInSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2118D92F1EE44F7B00B8429C /* Build configuration list for PBXNativeTarget "BWOnlineEducationiOSInSwift" */;
+			buildConfigurationList = B4A16E9D1EF79E930013D961 /* Build configuration list for PBXNativeTarget "BWOnlineEducationiOSInSwift" */;
 			buildPhases = (
-				FE4001FD8590562541A59CDB /* [CP] Check Pods Manifest.lock */,
-				2118D8FE1EE44F7B00B8429C /* Sources */,
-				2118D8FF1EE44F7B00B8429C /* Frameworks */,
-				2118D9001EE44F7B00B8429C /* Resources */,
-				56022EF753822F7AEF2903BD /* [CP] Embed Pods Frameworks */,
-				F87A9522C3E4C0711DDE1DDA /* [CP] Copy Pods Resources */,
+				47277786E29A9918118CAFA5 /* [CP] Check Pods Manifest.lock */,
+				B4A16E711EF79E930013D961 /* Sources */,
+				B4A16E721EF79E930013D961 /* Frameworks */,
+				B4A16E731EF79E930013D961 /* Resources */,
+				4B67FB72D5288489F531D1DE /* [CP] Embed Pods Frameworks */,
+				5B05F27981706927C1508C07 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,80 +185,81 @@
 			);
 			name = BWOnlineEducationiOSInSwift;
 			productName = BWOnlineEducationiOSInSwift;
-			productReference = 2118D9021EE44F7B00B8429C /* BWOnlineEducationiOSInSwift.app */;
+			productReference = B4A16E751EF79E930013D961 /* BWOnlineEducationiOSInSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2118D91A1EE44F7B00B8429C /* BWOnlineEducationiOSInSwiftTests */ = {
+		B4A16E881EF79E930013D961 /* BWOnlineEducationiOSInSwiftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2118D9321EE44F7B00B8429C /* Build configuration list for PBXNativeTarget "BWOnlineEducationiOSInSwiftTests" */;
+			buildConfigurationList = B4A16EA01EF79E930013D961 /* Build configuration list for PBXNativeTarget "BWOnlineEducationiOSInSwiftTests" */;
 			buildPhases = (
-				DD04609C5C69E819A951BBBF /* [CP] Check Pods Manifest.lock */,
-				2118D9171EE44F7B00B8429C /* Sources */,
-				2118D9181EE44F7B00B8429C /* Frameworks */,
-				2118D9191EE44F7B00B8429C /* Resources */,
-				BC91725CC7FD9658B6A0E3C3 /* [CP] Embed Pods Frameworks */,
-				1097B75E06E61D68F9750449 /* [CP] Copy Pods Resources */,
+				1BB2372C069A706755BFBB64 /* [CP] Check Pods Manifest.lock */,
+				B4A16E851EF79E930013D961 /* Sources */,
+				B4A16E861EF79E930013D961 /* Frameworks */,
+				B4A16E871EF79E930013D961 /* Resources */,
+				C6956B2B46151B041169B156 /* [CP] Embed Pods Frameworks */,
+				46232A0E0BEF99EAAC442A56 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2118D91D1EE44F7B00B8429C /* PBXTargetDependency */,
+				B4A16E8B1EF79E930013D961 /* PBXTargetDependency */,
 			);
 			name = BWOnlineEducationiOSInSwiftTests;
 			productName = BWOnlineEducationiOSInSwiftTests;
-			productReference = 2118D91B1EE44F7B00B8429C /* BWOnlineEducationiOSInSwiftTests.xctest */;
+			productReference = B4A16E891EF79E930013D961 /* BWOnlineEducationiOSInSwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2118D9251EE44F7B00B8429C /* BWOnlineEducationiOSInSwiftUITests */ = {
+		B4A16E931EF79E930013D961 /* BWOnlineEducationiOSInSwiftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2118D9351EE44F7B00B8429C /* Build configuration list for PBXNativeTarget "BWOnlineEducationiOSInSwiftUITests" */;
+			buildConfigurationList = B4A16EA31EF79E930013D961 /* Build configuration list for PBXNativeTarget "BWOnlineEducationiOSInSwiftUITests" */;
 			buildPhases = (
-				A2CC52221E98FE752951F5EE /* [CP] Check Pods Manifest.lock */,
-				2118D9221EE44F7B00B8429C /* Sources */,
-				2118D9231EE44F7B00B8429C /* Frameworks */,
-				2118D9241EE44F7B00B8429C /* Resources */,
-				9076325681273A62B7712D62 /* [CP] Embed Pods Frameworks */,
-				BA268117A06B2B7F8D3EE203 /* [CP] Copy Pods Resources */,
+				A6C442F7133BC3B061F427AB /* [CP] Check Pods Manifest.lock */,
+				B4A16E901EF79E930013D961 /* Sources */,
+				B4A16E911EF79E930013D961 /* Frameworks */,
+				B4A16E921EF79E930013D961 /* Resources */,
+				DFA64D323C16864DD766BA26 /* [CP] Embed Pods Frameworks */,
+				757D101F718EE61654935E4D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2118D9281EE44F7B00B8429C /* PBXTargetDependency */,
+				B4A16E961EF79E930013D961 /* PBXTargetDependency */,
 			);
 			name = BWOnlineEducationiOSInSwiftUITests;
 			productName = BWOnlineEducationiOSInSwiftUITests;
-			productReference = 2118D9261EE44F7B00B8429C /* BWOnlineEducationiOSInSwiftUITests.xctest */;
+			productReference = B4A16E941EF79E930013D961 /* BWOnlineEducationiOSInSwiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2118D8FA1EE44F7B00B8429C /* Project object */ = {
+		B4A16E6D1EF79E930013D961 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = "Bob Wong Studio";
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = BobWongStudio;
 				TargetAttributes = {
-					2118D9011EE44F7B00B8429C = {
-						CreatedOnToolsVersion = 8.3.2;
+					B4A16E741EF79E930013D961 = {
+						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = V3E8GUFW32;
 						ProvisioningStyle = Automatic;
 					};
-					2118D91A1EE44F7B00B8429C = {
-						CreatedOnToolsVersion = 8.3.2;
+					B4A16E881EF79E930013D961 = {
+						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = V3E8GUFW32;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 2118D9011EE44F7B00B8429C;
+						TestTargetID = B4A16E741EF79E930013D961;
 					};
-					2118D9251EE44F7B00B8429C = {
-						CreatedOnToolsVersion = 8.3.2;
+					B4A16E931EF79E930013D961 = {
+						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = V3E8GUFW32;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 2118D9011EE44F7B00B8429C;
+						TestTargetID = B4A16E741EF79E930013D961;
 					};
 				};
 			};
-			buildConfigurationList = 2118D8FD1EE44F7B00B8429C /* Build configuration list for PBXProject "BWOnlineEducationiOSInSwift" */;
+			buildConfigurationList = B4A16E701EF79E930013D961 /* Build configuration list for PBXProject "BWOnlineEducationiOSInSwift" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -281,37 +267,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 2118D8F91EE44F7B00B8429C;
-			productRefGroup = 2118D9031EE44F7B00B8429C /* Products */;
+			mainGroup = B4A16E6C1EF79E930013D961;
+			productRefGroup = B4A16E761EF79E930013D961 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2118D9011EE44F7B00B8429C /* BWOnlineEducationiOSInSwift */,
-				2118D91A1EE44F7B00B8429C /* BWOnlineEducationiOSInSwiftTests */,
-				2118D9251EE44F7B00B8429C /* BWOnlineEducationiOSInSwiftUITests */,
+				B4A16E741EF79E930013D961 /* BWOnlineEducationiOSInSwift */,
+				B4A16E881EF79E930013D961 /* BWOnlineEducationiOSInSwiftTests */,
+				B4A16E931EF79E930013D961 /* BWOnlineEducationiOSInSwiftUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2118D9001EE44F7B00B8429C /* Resources */ = {
+		B4A16E731EF79E930013D961 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2118D9151EE44F7B00B8429C /* LaunchScreen.storyboard in Resources */,
-				2118D9121EE44F7B00B8429C /* Assets.xcassets in Resources */,
-				2118D9101EE44F7B00B8429C /* Main.storyboard in Resources */,
+				B4A16E831EF79E930013D961 /* LaunchScreen.storyboard in Resources */,
+				B4A16E801EF79E930013D961 /* Assets.xcassets in Resources */,
+				B4A16E7E1EF79E930013D961 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2118D9191EE44F7B00B8429C /* Resources */ = {
+		B4A16E871EF79E930013D961 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2118D9241EE44F7B00B8429C /* Resources */ = {
+		B4A16E921EF79E930013D961 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,7 +307,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1097B75E06E61D68F9750449 /* [CP] Copy Pods Resources */ = {
+		1BB2372C069A706755BFBB64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		46232A0E0BEF99EAAC442A56 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -336,7 +337,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWOnlineEducationiOSInSwiftTests/Pods-BWOnlineEducationiOSInSwiftTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		56022EF753822F7AEF2903BD /* [CP] Embed Pods Frameworks */ = {
+		47277786E29A9918118CAFA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4B67FB72D5288489F531D1DE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -351,82 +367,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWOnlineEducationiOSInSwift/Pods-BWOnlineEducationiOSInSwift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9076325681273A62B7712D62 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWOnlineEducationiOSInSwiftUITests/Pods-BWOnlineEducationiOSInSwiftUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A2CC52221E98FE752951F5EE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		BA268117A06B2B7F8D3EE203 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWOnlineEducationiOSInSwiftUITests/Pods-BWOnlineEducationiOSInSwiftUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BC91725CC7FD9658B6A0E3C3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWOnlineEducationiOSInSwiftTests/Pods-BWOnlineEducationiOSInSwiftTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DD04609C5C69E819A951BBBF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		F87A9522C3E4C0711DDE1DDA /* [CP] Copy Pods Resources */ = {
+		5B05F27981706927C1508C07 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -441,7 +382,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWOnlineEducationiOSInSwift/Pods-BWOnlineEducationiOSInSwift-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FE4001FD8590562541A59CDB /* [CP] Check Pods Manifest.lock */ = {
+		757D101F718EE61654935E4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWOnlineEducationiOSInSwiftUITests/Pods-BWOnlineEducationiOSInSwiftUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6C442F7133BC3B061F427AB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -456,63 +412,92 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		C6956B2B46151B041169B156 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWOnlineEducationiOSInSwiftTests/Pods-BWOnlineEducationiOSInSwiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFA64D323C16864DD766BA26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWOnlineEducationiOSInSwiftUITests/Pods-BWOnlineEducationiOSInSwiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2118D8FE1EE44F7B00B8429C /* Sources */ = {
+		B4A16E711EF79E930013D961 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2118D90D1EE44F7B00B8429C /* ViewController.m in Sources */,
-				2118D90A1EE44F7B00B8429C /* AppDelegate.m in Sources */,
-				2118D9071EE44F7B00B8429C /* main.m in Sources */,
+				B4A16E7B1EF79E930013D961 /* ViewController.swift in Sources */,
+				B4A16E791EF79E930013D961 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2118D9171EE44F7B00B8429C /* Sources */ = {
+		B4A16E851EF79E930013D961 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2118D9201EE44F7B00B8429C /* BWOnlineEducationiOSInSwiftTests.m in Sources */,
+				B4A16E8E1EF79E930013D961 /* BWOnlineEducationiOSInSwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2118D9221EE44F7B00B8429C /* Sources */ = {
+		B4A16E901EF79E930013D961 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2118D92B1EE44F7B00B8429C /* BWOnlineEducationiOSInSwiftUITests.m in Sources */,
+				B4A16E991EF79E930013D961 /* BWOnlineEducationiOSInSwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2118D91D1EE44F7B00B8429C /* PBXTargetDependency */ = {
+		B4A16E8B1EF79E930013D961 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2118D9011EE44F7B00B8429C /* BWOnlineEducationiOSInSwift */;
-			targetProxy = 2118D91C1EE44F7B00B8429C /* PBXContainerItemProxy */;
+			target = B4A16E741EF79E930013D961 /* BWOnlineEducationiOSInSwift */;
+			targetProxy = B4A16E8A1EF79E930013D961 /* PBXContainerItemProxy */;
 		};
-		2118D9281EE44F7B00B8429C /* PBXTargetDependency */ = {
+		B4A16E961EF79E930013D961 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2118D9011EE44F7B00B8429C /* BWOnlineEducationiOSInSwift */;
-			targetProxy = 2118D9271EE44F7B00B8429C /* PBXContainerItemProxy */;
+			target = B4A16E741EF79E930013D961 /* BWOnlineEducationiOSInSwift */;
+			targetProxy = B4A16E951EF79E930013D961 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2118D90E1EE44F7B00B8429C /* Main.storyboard */ = {
+		B4A16E7C1EF79E930013D961 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2118D90F1EE44F7B00B8429C /* Base */,
+				B4A16E7D1EF79E930013D961 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		2118D9131EE44F7B00B8429C /* LaunchScreen.storyboard */ = {
+		B4A16E811EF79E930013D961 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2118D9141EE44F7B00B8429C /* Base */,
+				B4A16E821EF79E930013D961 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -520,12 +505,11 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2118D92D1EE44F7B00B8429C /* Debug */ = {
+		B4A16E9B1EF79E930013D961 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -561,19 +545,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		2118D92E1EE44F7B00B8429C /* Release */ = {
+		B4A16E9C1EF79E930013D961 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -603,89 +588,102 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		2118D9301EE44F7B00B8429C /* Debug */ = {
+		B4A16E9E1EF79E930013D961 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D0FDF9447A7C22CA8B492DC /* Pods-BWOnlineEducationiOSInSwift.debug.xcconfig */;
+			baseConfigurationReference = 9870C75A0D6C8B08662DE9C0 /* Pods-BWOnlineEducationiOSInSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V3E8GUFW32;
 				INFOPLIST_FILE = BWOnlineEducationiOSInSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWOnlineEducationiOSInSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		2118D9311EE44F7B00B8429C /* Release */ = {
+		B4A16E9F1EF79E930013D961 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDED305AF207458B5CF646B3 /* Pods-BWOnlineEducationiOSInSwift.release.xcconfig */;
+			baseConfigurationReference = AE56C54FDED4FBB1D5C918CE /* Pods-BWOnlineEducationiOSInSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V3E8GUFW32;
 				INFOPLIST_FILE = BWOnlineEducationiOSInSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWOnlineEducationiOSInSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		2118D9331EE44F7B00B8429C /* Debug */ = {
+		B4A16EA11EF79E930013D961 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDDB3367DD766191EAFFD6E5 /* Pods-BWOnlineEducationiOSInSwiftTests.debug.xcconfig */;
+			baseConfigurationReference = 99E7EB20E6E79292F4C8881E /* Pods-BWOnlineEducationiOSInSwiftTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = V3E8GUFW32;
 				INFOPLIST_FILE = BWOnlineEducationiOSInSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWOnlineEducationiOSInSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BWOnlineEducationiOSInSwift.app/BWOnlineEducationiOSInSwift";
 			};
 			name = Debug;
 		};
-		2118D9341EE44F7B00B8429C /* Release */ = {
+		B4A16EA21EF79E930013D961 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DE173275D3D99EB917C2F75 /* Pods-BWOnlineEducationiOSInSwiftTests.release.xcconfig */;
+			baseConfigurationReference = 2D75D6BF95FF2AD5B26FD836 /* Pods-BWOnlineEducationiOSInSwiftTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = V3E8GUFW32;
 				INFOPLIST_FILE = BWOnlineEducationiOSInSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWOnlineEducationiOSInSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BWOnlineEducationiOSInSwift.app/BWOnlineEducationiOSInSwift";
 			};
 			name = Release;
 		};
-		2118D9361EE44F7B00B8429C /* Debug */ = {
+		B4A16EA41EF79E930013D961 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 918CE1AC91E223A1B5A06766 /* Pods-BWOnlineEducationiOSInSwiftUITests.debug.xcconfig */;
+			baseConfigurationReference = B04D965C140CEBCADBFF3E61 /* Pods-BWOnlineEducationiOSInSwiftUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = V3E8GUFW32;
 				INFOPLIST_FILE = BWOnlineEducationiOSInSwiftUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWOnlineEducationiOSInSwiftUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = BWOnlineEducationiOSInSwift;
 			};
 			name = Debug;
 		};
-		2118D9371EE44F7B00B8429C /* Release */ = {
+		B4A16EA51EF79E930013D961 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 288102AA4F4DB75DE657227C /* Pods-BWOnlineEducationiOSInSwiftUITests.release.xcconfig */;
+			baseConfigurationReference = B212482781EEB87EDE6F98E7 /* Pods-BWOnlineEducationiOSInSwiftUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = V3E8GUFW32;
 				INFOPLIST_FILE = BWOnlineEducationiOSInSwiftUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWOnlineEducationiOSInSwiftUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = BWOnlineEducationiOSInSwift;
 			};
 			name = Release;
@@ -693,40 +691,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2118D8FD1EE44F7B00B8429C /* Build configuration list for PBXProject "BWOnlineEducationiOSInSwift" */ = {
+		B4A16E701EF79E930013D961 /* Build configuration list for PBXProject "BWOnlineEducationiOSInSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2118D92D1EE44F7B00B8429C /* Debug */,
-				2118D92E1EE44F7B00B8429C /* Release */,
+				B4A16E9B1EF79E930013D961 /* Debug */,
+				B4A16E9C1EF79E930013D961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2118D92F1EE44F7B00B8429C /* Build configuration list for PBXNativeTarget "BWOnlineEducationiOSInSwift" */ = {
+		B4A16E9D1EF79E930013D961 /* Build configuration list for PBXNativeTarget "BWOnlineEducationiOSInSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2118D9301EE44F7B00B8429C /* Debug */,
-				2118D9311EE44F7B00B8429C /* Release */,
+				B4A16E9E1EF79E930013D961 /* Debug */,
+				B4A16E9F1EF79E930013D961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		2118D9321EE44F7B00B8429C /* Build configuration list for PBXNativeTarget "BWOnlineEducationiOSInSwiftTests" */ = {
+		B4A16EA01EF79E930013D961 /* Build configuration list for PBXNativeTarget "BWOnlineEducationiOSInSwiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2118D9331EE44F7B00B8429C /* Debug */,
-				2118D9341EE44F7B00B8429C /* Release */,
+				B4A16EA11EF79E930013D961 /* Debug */,
+				B4A16EA21EF79E930013D961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		2118D9351EE44F7B00B8429C /* Build configuration list for PBXNativeTarget "BWOnlineEducationiOSInSwiftUITests" */ = {
+		B4A16EA31EF79E930013D961 /* Build configuration list for PBXNativeTarget "BWOnlineEducationiOSInSwiftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2118D9361EE44F7B00B8429C /* Debug */,
-				2118D9371EE44F7B00B8429C /* Release */,
+				B4A16EA41EF79E930013D961 /* Debug */,
+				B4A16EA51EF79E930013D961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2118D8FA1EE44F7B00B8429C /* Project object */;
+	rootObject = B4A16E6D1EF79E930013D961 /* Project object */;
 }
