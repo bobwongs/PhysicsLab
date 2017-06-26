@@ -14,23 +14,22 @@ class BWMainTabBarController: UITabBarController {
         super.viewDidLoad()
         
         let homeVC = BWHomeViewController.init()
-        homeVC.tabBarItem.title = "Home"
+        let homeNvgtVC = UINavigationController.init(rootViewController: homeVC)
+        homeNvgtVC.tabBarItem.title = "Home"
         
         let sortVC = BWSortViewController.init()
-        sortVC.tabBarItem.title = "Sort"
+        let sortNvgtVC = UINavigationController.init(rootViewController: sortVC)
+        sortNvgtVC.tabBarItem.title = "Sort"
         
         let discoveryVC = BWDiscoveryViewController.init()
-        discoveryVC.tabBarItem.title = "Discovery"
+        let discoveryNvgtVC = UINavigationController.init(rootViewController: discoveryVC)
+        discoveryNvgtVC.tabBarItem.title = "Discovery"
         
         let meVC = BWMeViewController.init()
-        meVC.tabBarItem.title = "Me"
+        let meNvgtVC = UINavigationController.init(rootViewController: meVC)
+        meNvgtVC.tabBarItem.title = "Me"
         
-        self.viewControllers = [homeVC, sortVC, discoveryVC, meVC]
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        self.viewControllers = [homeNvgtVC, sortNvgtVC, discoveryNvgtVC, meNvgtVC]
     }
 
 }

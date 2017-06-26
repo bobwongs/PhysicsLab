@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		5C5761F995EE926380D19DDF /* Pods_BWOnlineEducationiOSInSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E18DC3C6997CBD3C8AB8FE2E /* Pods_BWOnlineEducationiOSInSwiftUITests.framework */; };
 		992901AF41C9CF7371017A76 /* Pods_BWOnlineEducationiOSInSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9676579902540821F317AB06 /* Pods_BWOnlineEducationiOSInSwift.framework */; };
+		B4739C121F01069A009BAECA /* BWHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4739C111F01069A009BAECA /* BWHomeViewController.xib */; };
+		B4739C241F010BB0009BAECA /* BWHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4739C221F010BB0009BAECA /* BWHomeCell.swift */; };
+		B4739C251F010BB0009BAECA /* BWHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4739C231F010BB0009BAECA /* BWHomeCell.xib */; };
 		B4A16E791EF79E930013D961 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A16E781EF79E930013D961 /* AppDelegate.swift */; };
 		B4A16E801EF79E930013D961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4A16E7F1EF79E930013D961 /* Assets.xcassets */; };
 		B4A16E831EF79E930013D961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A16E811EF79E930013D961 /* LaunchScreen.storyboard */; };
@@ -49,6 +52,9 @@
 		AE56C54FDED4FBB1D5C918CE /* Pods-BWOnlineEducationiOSInSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWOnlineEducationiOSInSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWOnlineEducationiOSInSwift/Pods-BWOnlineEducationiOSInSwift.release.xcconfig"; sourceTree = "<group>"; };
 		B04D965C140CEBCADBFF3E61 /* Pods-BWOnlineEducationiOSInSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWOnlineEducationiOSInSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWOnlineEducationiOSInSwiftUITests/Pods-BWOnlineEducationiOSInSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B212482781EEB87EDE6F98E7 /* Pods-BWOnlineEducationiOSInSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWOnlineEducationiOSInSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWOnlineEducationiOSInSwiftUITests/Pods-BWOnlineEducationiOSInSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B4739C111F01069A009BAECA /* BWHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BWHomeViewController.xib; sourceTree = "<group>"; };
+		B4739C221F010BB0009BAECA /* BWHomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWHomeCell.swift; sourceTree = "<group>"; };
+		B4739C231F010BB0009BAECA /* BWHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BWHomeCell.xib; sourceTree = "<group>"; };
 		B4A16E751EF79E930013D961 /* BWOnlineEducationiOSInSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWOnlineEducationiOSInSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A16E781EF79E930013D961 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4A16E7F1EF79E930013D961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -118,6 +124,113 @@
 				E18DC3C6997CBD3C8AB8FE2E /* Pods_BWOnlineEducationiOSInSwiftUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4739C131F010774009BAECA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B4739C141F010774009BAECA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4739C151F010774009BAECA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B4739C221F010BB0009BAECA /* BWHomeCell.swift */,
+				B4739C231F010BB0009BAECA /* BWHomeCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4739C161F010792009BAECA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B4739C171F010792009BAECA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4739C181F010792009BAECA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4739C191F0107A0009BAECA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B4739C1A1F0107A0009BAECA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4739C1B1F0107A0009BAECA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4739C1C1F0107AB009BAECA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B4739C1D1F0107AB009BAECA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4739C1E1F0107AB009BAECA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4739C1F1F0107B3009BAECA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B4739C201F0107B3009BAECA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4739C211F0107B3009BAECA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		B4A16E6C1EF79E930013D961 = {
@@ -197,6 +310,9 @@
 			isa = PBXGroup;
 			children = (
 				B4A16EB51EF7AA200013D961 /* BWDiscoveryViewController.swift */,
+				B4739C161F010792009BAECA /* Controller */,
+				B4739C171F010792009BAECA /* Model */,
+				B4739C181F010792009BAECA /* View */,
 			);
 			path = Discovery;
 			sourceTree = "<group>";
@@ -205,6 +321,10 @@
 			isa = PBXGroup;
 			children = (
 				B4A16EB01EF7A3B50013D961 /* BWHomeViewController.swift */,
+				B4739C111F01069A009BAECA /* BWHomeViewController.xib */,
+				B4739C131F010774009BAECA /* Controller */,
+				B4739C141F010774009BAECA /* Model */,
+				B4739C151F010774009BAECA /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -213,6 +333,9 @@
 			isa = PBXGroup;
 			children = (
 				B4A16EB91EF7AA400013D961 /* BWMeViewController.swift */,
+				B4739C1C1F0107AB009BAECA /* Controller */,
+				B4739C1D1F0107AB009BAECA /* Model */,
+				B4739C1E1F0107AB009BAECA /* View */,
 			);
 			path = Me;
 			sourceTree = "<group>";
@@ -221,6 +344,9 @@
 			isa = PBXGroup;
 			children = (
 				B4A16EB71EF7AA350013D961 /* BWSortViewController.swift */,
+				B4739C1F1F0107B3009BAECA /* Controller */,
+				B4739C201F0107B3009BAECA /* Model */,
+				B4739C211F0107B3009BAECA /* View */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -228,6 +354,9 @@
 		B4A16EB21EF7A7550013D961 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				B4739C191F0107A0009BAECA /* Controller */,
+				B4739C1A1F0107A0009BAECA /* Model */,
+				B4739C1B1F0107A0009BAECA /* View */,
 				B4A16EB31EF7A9AA0013D961 /* BWMainTabBarController.swift */,
 			);
 			path = Main;
@@ -352,6 +481,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4739C121F01069A009BAECA /* BWHomeViewController.xib in Resources */,
+				B4739C251F010BB0009BAECA /* BWHomeCell.xib in Resources */,
 				B4A16E831EF79E930013D961 /* LaunchScreen.storyboard in Resources */,
 				B4A16E801EF79E930013D961 /* Assets.xcassets in Resources */,
 			);
@@ -521,6 +652,7 @@
 				B4A16EB41EF7A9AA0013D961 /* BWMainTabBarController.swift in Sources */,
 				B4A16EAF1EF7A16A0013D961 /* BWBaseViewController.swift in Sources */,
 				B4A16EBA1EF7AA400013D961 /* BWMeViewController.swift in Sources */,
+				B4739C241F010BB0009BAECA /* BWHomeCell.swift in Sources */,
 				B4A16E791EF79E930013D961 /* AppDelegate.swift in Sources */,
 				B4A16EB81EF7AA350013D961 /* BWSortViewController.swift in Sources */,
 			);
