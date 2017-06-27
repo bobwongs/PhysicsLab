@@ -13,7 +13,7 @@ class BWMainTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let homeVC = BWHomeViewController.init()
+        let homeVC = BWHomeViewController.init(nibName:"BWHomeViewController", bundle: nil)
         let homeNvgtVC = UINavigationController.init(rootViewController: homeVC)
         homeNvgtVC.tabBarItem.title = "Home"
         

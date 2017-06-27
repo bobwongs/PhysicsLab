@@ -8,7 +8,9 @@
 
 import UIKit
 
-class BWHomeViewController: BWBaseViewController, UICollectionViewDataSource {
+let BWHomeCellId = "BWHomeCellId"
+
+class BWHomeViewController: BWBaseViewController, UICollectionViewDataSource, BWHomeCellDelegate {
 
     // MARK: UI
     @IBOutlet weak var collectionView: UICollectionView!
@@ -25,12 +27,18 @@ class BWHomeViewController: BWBaseViewController, UICollectionViewDataSource {
         self.title = "Home"
         
         self.navigationItem.rightBarButtonItem = UIBarButtonItem.init(title: "Push", style: .plain, target: self, action: #selector(push))
+        
+        self.collectionView.register(UINib.init(nibName: "BWHomeCell", bundle: nil), forCellWithReuseIdentifier: BWHomeCellId)
+        self.setData()
+        self.collectionView.reloadData()
     }
     
     // MARK: Private Method
     
     func setData() {
-        dataSource = NSMutableArray()
+        let array = ["1", "2", "3"]
+        
+        self.dataSource = NSMutableArray.init(array: array)
     }
     
     func push() {
@@ -41,11 +49,20 @@ class BWHomeViewController: BWBaseViewController, UICollectionViewDataSource {
     // MARK: System Delegate
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return (dataSource != nil) ? (dataSource?.count)! : 0
+        return (self.dataSource != nil) ? (self.dataSource?.count)! : 0
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        <#code#>
+        let cell = self.collectionView.dequeueReusableCell(withReuseIdentifier: BWHomeCellId, for: indexPath) as! BWHomeCell
+        cell.delegate = self
+        cell.titleLabel.text = self.dataSource?.object(at: indexPath.row) as! String?
+        return cell
+    }
+    
+    // MARK: Custom Delegate
+    
+    func triggleHomeCellEdit() {
+        print("triggleHomeCellEdit")
     }
 
 }
