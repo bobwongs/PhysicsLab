@@ -15,6 +15,7 @@ class BWHomeViewController: BWBaseViewController, UICollectionViewDataSource, BW
 
     // MARK: UI
     @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var outputTextView: UITextView!
     
     // MARK: Data
     var dataSource: NSMutableArray?
@@ -43,11 +44,35 @@ class BWHomeViewController: BWBaseViewController, UICollectionViewDataSource, BW
     }
     
     func push() {
+        var request = URLRequest(url: URL(string: "http://127.0.0.1:8000/MobileApp/UserInfo")!)
+        request.httpMethod = "POST"
         
+        // If is http, set the parameter in http body
+        let postString = "name=Bob&id=123"
+        request.httpBody = postString.data(using: .utf8)
         
+        let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
+            guard let data = data, error == nil else {  // check for fundamental networking error
+                print("error=\(error)")
+                return
+            }
+            
+            if let httpStatus = response as? HTTPURLResponse, httpStatus.statusCode != 200 {  // check for http errors
+                print("statusCode should be 200, but is \(httpStatus.statusCode)")
+                print("response = \(response)")
+            }
+            
+            let responseString = String(data: data, encoding: .utf8)
+            print("responseString = \(responseString)")
+            
+            DispatchQueue.main.async {
+                self.outputTextView.text = responseString
+            }
+        }
+        task.resume()
         
-        let vc = BWBaseViewController.init()
-        self.navigationController?.pushViewController(vc, animated: true)
+//        let vc = BWBaseViewController.init()
+//        self.navigationController?.pushViewController(vc, animated: true)
     }
 
     // MARK: System Delegate
