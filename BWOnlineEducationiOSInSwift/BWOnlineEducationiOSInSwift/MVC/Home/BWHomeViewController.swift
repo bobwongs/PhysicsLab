@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 let BWHomeCellId = "BWHomeCellId"
 
@@ -42,6 +43,9 @@ class BWHomeViewController: BWBaseViewController, UICollectionViewDataSource, BW
     }
     
     func push() {
+        
+        
+        
         let vc = BWBaseViewController.init()
         self.navigationController?.pushViewController(vc, animated: true)
     }
@@ -54,8 +58,12 @@ class BWHomeViewController: BWBaseViewController, UICollectionViewDataSource, BW
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = self.collectionView.dequeueReusableCell(withReuseIdentifier: BWHomeCellId, for: indexPath) as! BWHomeCell
-        cell.delegate = self
+//        cell.delegate = self
+        cell.editHandler = {
+            print("edit handler \(self.dataSource?.object(at: indexPath.row))")
+        }
         cell.titleLabel.text = self.dataSource?.object(at: indexPath.row) as! String?
+        cell.backgroundImageView.sd_setImage(with: URL(string: "https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png"))
         return cell
     }
     

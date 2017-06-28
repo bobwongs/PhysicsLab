@@ -12,7 +12,7 @@ class BWHomeCell: UICollectionViewCell {
 
     @IBOutlet weak var backgroundImageView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
-    var editHandler: [() -> Void] = []
+    var editHandler: (() -> Void)?
     weak var delegate: BWHomeCellDelegate?
     
     override func awakeFromNib() {
@@ -21,7 +21,9 @@ class BWHomeCell: UICollectionViewCell {
     }
     
     @IBAction func editAction(_ sender: Any) {
-        self.delegate?.triggleHomeCellEdit()
+//        self.delegate?.triggleHomeCellEdit()
+        
+        self.editHandler?()
     }
 
 }

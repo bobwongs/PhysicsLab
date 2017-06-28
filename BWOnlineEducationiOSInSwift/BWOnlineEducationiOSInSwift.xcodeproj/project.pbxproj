@@ -263,6 +263,7 @@
 			children = (
 				B4A16E781EF79E930013D961 /* AppDelegate.swift */,
 				B4A16EA61EF79FFD0013D961 /* MVC */,
+				B4BDE2651F020376008E9824 /* Resource */,
 				B4A16E7F1EF79E930013D961 /* Assets.xcassets */,
 				B4A16E811EF79E930013D961 /* LaunchScreen.storyboard */,
 				B4A16E841EF79E930013D961 /* Info.plist */,
@@ -363,6 +364,21 @@
 				B4739C1B1F0107A0009BAECA /* View */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		B4BDE2651F020376008E9824 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B4BDE2661F020388008E9824 /* Images */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B4BDE2661F020388008E9824 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
