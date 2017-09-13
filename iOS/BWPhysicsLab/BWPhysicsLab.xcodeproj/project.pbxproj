@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		37BC0154857E562E4EF76128 /* libPods-BWPhysicsLab.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D36298640E9F59124D0688D1 /* libPods-BWPhysicsLab.a */; };
 		B4C140E71F69166500146644 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C140E61F69166500146644 /* main.m */; };
 		B4C140EA1F69166500146644 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C140E91F69166500146644 /* AppDelegate.m */; };
-		B4C140ED1F69166500146644 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C140EC1F69166500146644 /* ViewController.m */; };
-		B4C140F01F69166500146644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4C140EE1F69166500146644 /* Main.storyboard */; };
 		B4C140F21F69166500146644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4C140F11F69166500146644 /* Assets.xcassets */; };
-		B4C140F51F69166500146644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4C140F31F69166500146644 /* LaunchScreen.storyboard */; };
 		B4C141001F69166500146644 /* BWPhysicsLabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C140FF1F69166500146644 /* BWPhysicsLabTests.m */; };
 		B4C1410B1F69166500146644 /* BWPhysicsLabUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C1410A1F69166500146644 /* BWPhysicsLabUITests.m */; };
+		B4C141861F69278100146644 /* Zhankeng in Resources */ = {isa = PBXBuildFile; fileRef = B4C141691F69278100146644 /* Zhankeng */; };
+		B4C141871F69278100146644 /* Zhankeng in Resources */ = {isa = PBXBuildFile; fileRef = B4C1416B1F69278100146644 /* Zhankeng */; };
+		B4C141881F69278100146644 /* Zhankeng in Resources */ = {isa = PBXBuildFile; fileRef = B4C1416D1F69278100146644 /* Zhankeng */; };
+		B4C141891F69278100146644 /* Zhankeng in Resources */ = {isa = PBXBuildFile; fileRef = B4C1416F1F69278100146644 /* Zhankeng */; };
+		B4C1418A1F69278100146644 /* Zhankeng in Resources */ = {isa = PBXBuildFile; fileRef = B4C141711F69278100146644 /* Zhankeng */; };
+		B4C1418B1F69278100146644 /* Zhankeng in Resources */ = {isa = PBXBuildFile; fileRef = B4C141731F69278100146644 /* Zhankeng */; };
+		B4C1418C1F69278100146644 /* Zhankeng in Resources */ = {isa = PBXBuildFile; fileRef = B4C141761F69278100146644 /* Zhankeng */; };
+		B4C1418D1F69278100146644 /* Zhankeng in Resources */ = {isa = PBXBuildFile; fileRef = B4C141781F69278100146644 /* Zhankeng */; };
+		B4C1418E1F69278100146644 /* Zhankeng in Resources */ = {isa = PBXBuildFile; fileRef = B4C1417A1F69278100146644 /* Zhankeng */; };
+		B4C1418F1F69278100146644 /* Zhankeng in Resources */ = {isa = PBXBuildFile; fileRef = B4C1417C1F69278100146644 /* Zhankeng */; };
+		B4C141901F69278100146644 /* Zhankeng in Resources */ = {isa = PBXBuildFile; fileRef = B4C1417E1F69278100146644 /* Zhankeng */; };
+		B4C141911F69278100146644 /* Zhankeng in Resources */ = {isa = PBXBuildFile; fileRef = B4C141801F69278100146644 /* Zhankeng */; };
+		B4C141921F69278100146644 /* Zhankeng in Resources */ = {isa = PBXBuildFile; fileRef = B4C141831F69278100146644 /* Zhankeng */; };
+		B4C141931F69278100146644 /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4C141851F69278100146644 /* Localization.strings */; };
+		B4C141961F6927E000146644 /* Zhankeng in Resources */ = {isa = PBXBuildFile; fileRef = B4C141951F6927E000146644 /* Zhankeng */; };
+		E1D84540357C9FFBEC514FEB /* libPods-BWPhysicsLab.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 786F7E037FF67B1E81F42C76 /* libPods-BWPhysicsLab.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,17 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		052105168DCB94E30BA8EC5B /* Pods-BWPhysicsLab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWPhysicsLab.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWPhysicsLab/Pods-BWPhysicsLab.release.xcconfig"; sourceTree = "<group>"; };
-		52C7C53867807DFDA789B7B0 /* Pods-BWPhysicsLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWPhysicsLab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWPhysicsLab/Pods-BWPhysicsLab.debug.xcconfig"; sourceTree = "<group>"; };
+		3C3B2E4EC1F0BF857640C6DA /* Pods-BWPhysicsLab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWPhysicsLab.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWPhysicsLab/Pods-BWPhysicsLab.release.xcconfig"; sourceTree = "<group>"; };
+		786F7E037FF67B1E81F42C76 /* libPods-BWPhysicsLab.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWPhysicsLab.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9014C2B9ACF551523C301609 /* Pods-BWPhysicsLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWPhysicsLab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWPhysicsLab/Pods-BWPhysicsLab.debug.xcconfig"; sourceTree = "<group>"; };
 		B4C140E21F69166500146644 /* BWPhysicsLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWPhysicsLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4C140E61F69166500146644 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B4C140E81F69166500146644 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B4C140E91F69166500146644 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B4C140EB1F69166500146644 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B4C140EC1F69166500146644 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B4C140EF1F69166500146644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B4C140F11F69166500146644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B4C140F41F69166500146644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4C140F61F69166500146644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4C140FB1F69166500146644 /* BWPhysicsLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWPhysicsLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4C140FF1F69166500146644 /* BWPhysicsLabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWPhysicsLabTests.m; sourceTree = "<group>"; };
@@ -54,7 +63,21 @@
 		B4C141061F69166500146644 /* BWPhysicsLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWPhysicsLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4C1410A1F69166500146644 /* BWPhysicsLabUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWPhysicsLabUITests.m; sourceTree = "<group>"; };
 		B4C1410C1F69166500146644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D36298640E9F59124D0688D1 /* libPods-BWPhysicsLab.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWPhysicsLab.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4C141691F69278100146644 /* Zhankeng */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Zhankeng; sourceTree = "<group>"; };
+		B4C1416B1F69278100146644 /* Zhankeng */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Zhankeng; sourceTree = "<group>"; };
+		B4C1416D1F69278100146644 /* Zhankeng */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Zhankeng; sourceTree = "<group>"; };
+		B4C1416F1F69278100146644 /* Zhankeng */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Zhankeng; sourceTree = "<group>"; };
+		B4C141711F69278100146644 /* Zhankeng */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Zhankeng; sourceTree = "<group>"; };
+		B4C141731F69278100146644 /* Zhankeng */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Zhankeng; sourceTree = "<group>"; };
+		B4C141761F69278100146644 /* Zhankeng */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Zhankeng; sourceTree = "<group>"; };
+		B4C141781F69278100146644 /* Zhankeng */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Zhankeng; sourceTree = "<group>"; };
+		B4C1417A1F69278100146644 /* Zhankeng */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Zhankeng; sourceTree = "<group>"; };
+		B4C1417C1F69278100146644 /* Zhankeng */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Zhankeng; sourceTree = "<group>"; };
+		B4C1417E1F69278100146644 /* Zhankeng */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Zhankeng; sourceTree = "<group>"; };
+		B4C141801F69278100146644 /* Zhankeng */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Zhankeng; sourceTree = "<group>"; };
+		B4C141831F69278100146644 /* Zhankeng */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Zhankeng; sourceTree = "<group>"; };
+		B4C141851F69278100146644 /* Localization.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localization.strings; sourceTree = "<group>"; };
+		B4C141951F6927E000146644 /* Zhankeng */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Zhankeng; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37BC0154857E562E4EF76128 /* libPods-BWPhysicsLab.a in Frameworks */,
+				E1D84540357C9FFBEC514FEB /* libPods-BWPhysicsLab.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,12 +106,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		542FE0EFCFEB155B758B132D /* Frameworks */ = {
+		57504B5FD89E2E310906D856 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D36298640E9F59124D0688D1 /* libPods-BWPhysicsLab.a */,
+				9014C2B9ACF551523C301609 /* Pods-BWPhysicsLab.debug.xcconfig */,
+				3C3B2E4EC1F0BF857640C6DA /* Pods-BWPhysicsLab.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		B4C140D91F69166400146644 = {
@@ -98,8 +122,8 @@
 				B4C140FE1F69166500146644 /* BWPhysicsLabTests */,
 				B4C141091F69166500146644 /* BWPhysicsLabUITests */,
 				B4C140E31F69166500146644 /* Products */,
-				E9063E6072285D110DC49CE7 /* Pods */,
-				542FE0EFCFEB155B758B132D /* Frameworks */,
+				57504B5FD89E2E310906D856 /* Pods */,
+				BB168ECB2A13DE7C54549B2E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,12 +142,14 @@
 			children = (
 				B4C140E81F69166500146644 /* AppDelegate.h */,
 				B4C140E91F69166500146644 /* AppDelegate.m */,
-				B4C140EB1F69166500146644 /* ViewController.h */,
-				B4C140EC1F69166500146644 /* ViewController.m */,
-				B4C140EE1F69166500146644 /* Main.storyboard */,
+				B4C141941F6927E000146644 /* Document */,
+				B4C141741F69278100146644 /* MVC */,
+				B4C141701F69278100146644 /* Global */,
+				B4C141671F69278100146644 /* Common */,
+				B4C1417F1F69278100146644 /* Network */,
+				B4C141721F69278100146644 /* Library */,
+				B4C141811F69278100146644 /* Resource */,
 				B4C140F11F69166500146644 /* Assets.xcassets */,
-				B4C140F31F69166500146644 /* LaunchScreen.storyboard */,
-				B4C140F61F69166500146644 /* Info.plist */,
 				B4C140E51F69166500146644 /* Supporting Files */,
 			);
 			path = BWPhysicsLab;
@@ -133,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				B4C140E61F69166500146644 /* main.m */,
+				B4C140F61F69166500146644 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -155,13 +182,164 @@
 			path = BWPhysicsLabUITests;
 			sourceTree = "<group>";
 		};
-		E9063E6072285D110DC49CE7 /* Pods */ = {
+		B4C141671F69278100146644 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				52C7C53867807DFDA789B7B0 /* Pods-BWPhysicsLab.debug.xcconfig */,
-				052105168DCB94E30BA8EC5B /* Pods-BWPhysicsLab.release.xcconfig */,
+				B4C141681F69278100146644 /* Category */,
+				B4C1416A1F69278100146644 /* Class */,
+				B4C1416C1F69278100146644 /* Utility */,
+				B4C1416E1F69278100146644 /* View */,
 			);
-			name = Pods;
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B4C141681F69278100146644 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B4C141691F69278100146644 /* Zhankeng */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B4C1416A1F69278100146644 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				B4C1416B1F69278100146644 /* Zhankeng */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		B4C1416C1F69278100146644 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				B4C1416D1F69278100146644 /* Zhankeng */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		B4C1416E1F69278100146644 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B4C1416F1F69278100146644 /* Zhankeng */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4C141701F69278100146644 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				B4C141711F69278100146644 /* Zhankeng */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		B4C141721F69278100146644 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				B4C141731F69278100146644 /* Zhankeng */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		B4C141741F69278100146644 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				B4C141751F69278100146644 /* Base */,
+				B4C141791F69278100146644 /* Lab */,
+				B4C1417D1F69278100146644 /* Reference */,
+				B4C141771F69278100146644 /* Discovery */,
+				B4C1417B1F69278100146644 /* Me */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		B4C141751F69278100146644 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B4C141761F69278100146644 /* Zhankeng */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B4C141771F69278100146644 /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				B4C141781F69278100146644 /* Zhankeng */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		B4C141791F69278100146644 /* Lab */ = {
+			isa = PBXGroup;
+			children = (
+				B4C1417A1F69278100146644 /* Zhankeng */,
+			);
+			path = Lab;
+			sourceTree = "<group>";
+		};
+		B4C1417B1F69278100146644 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				B4C1417C1F69278100146644 /* Zhankeng */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		B4C1417D1F69278100146644 /* Reference */ = {
+			isa = PBXGroup;
+			children = (
+				B4C1417E1F69278100146644 /* Zhankeng */,
+			);
+			path = Reference;
+			sourceTree = "<group>";
+		};
+		B4C1417F1F69278100146644 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B4C141801F69278100146644 /* Zhankeng */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B4C141811F69278100146644 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B4C141841F69278100146644 /* Localization */,
+				B4C141821F69278100146644 /* Image */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B4C141821F69278100146644 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				B4C141831F69278100146644 /* Zhankeng */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		B4C141841F69278100146644 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				B4C141851F69278100146644 /* Localization.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		B4C141941F6927E000146644 /* Document */ = {
+			isa = PBXGroup;
+			children = (
+				B4C141951F6927E000146644 /* Zhankeng */,
+			);
+			path = Document;
+			sourceTree = "<group>";
+		};
+		BB168ECB2A13DE7C54549B2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				786F7E037FF67B1E81F42C76 /* libPods-BWPhysicsLab.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,12 +349,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4C1410F1F69166500146644 /* Build configuration list for PBXNativeTarget "BWPhysicsLab" */;
 			buildPhases = (
-				4FCEAB437E9EACFA648554DC /* [CP] Check Pods Manifest.lock */,
+				CE7021E96889467D4ECA51D5 /* [CP] Check Pods Manifest.lock */,
 				B4C140DE1F69166500146644 /* Sources */,
 				B4C140DF1F69166500146644 /* Frameworks */,
 				B4C140E01F69166500146644 /* Resources */,
-				431A278FEADEC4AC431A3F0D /* [CP] Embed Pods Frameworks */,
-				D274B77D8C39FF0C812A0789 /* [CP] Copy Pods Resources */,
+				3F0E2FB9C5357B25E869E496 /* [CP] Embed Pods Frameworks */,
+				8087C89CC2DF2664AC900F99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -276,9 +454,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4C140F51F69166500146644 /* LaunchScreen.storyboard in Resources */,
+				B4C1418F1F69278100146644 /* Zhankeng in Resources */,
+				B4C1418E1F69278100146644 /* Zhankeng in Resources */,
+				B4C1418A1F69278100146644 /* Zhankeng in Resources */,
+				B4C141891F69278100146644 /* Zhankeng in Resources */,
+				B4C141871F69278100146644 /* Zhankeng in Resources */,
+				B4C141911F69278100146644 /* Zhankeng in Resources */,
+				B4C1418D1F69278100146644 /* Zhankeng in Resources */,
+				B4C141931F69278100146644 /* Localization.strings in Resources */,
+				B4C141901F69278100146644 /* Zhankeng in Resources */,
+				B4C1418B1F69278100146644 /* Zhankeng in Resources */,
+				B4C141861F69278100146644 /* Zhankeng in Resources */,
+				B4C141921F69278100146644 /* Zhankeng in Resources */,
+				B4C141881F69278100146644 /* Zhankeng in Resources */,
+				B4C1418C1F69278100146644 /* Zhankeng in Resources */,
+				B4C141961F6927E000146644 /* Zhankeng in Resources */,
 				B4C140F21F69166500146644 /* Assets.xcassets in Resources */,
-				B4C140F01F69166500146644 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +490,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		431A278FEADEC4AC431A3F0D /* [CP] Embed Pods Frameworks */ = {
+		3F0E2FB9C5357B25E869E496 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -314,25 +505,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWPhysicsLab/Pods-BWPhysicsLab-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4FCEAB437E9EACFA648554DC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BWPhysicsLab-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D274B77D8C39FF0C812A0789 /* [CP] Copy Pods Resources */ = {
+		8087C89CC2DF2664AC900F99 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -350,6 +523,24 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWPhysicsLab/Pods-BWPhysicsLab-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		CE7021E96889467D4ECA51D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BWPhysicsLab-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -357,7 +548,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4C140ED1F69166500146644 /* ViewController.m in Sources */,
 				B4C140EA1F69166500146644 /* AppDelegate.m in Sources */,
 				B4C140E71F69166500146644 /* main.m in Sources */,
 			);
@@ -393,25 +583,6 @@
 			targetProxy = B4C141071F69166500146644 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B4C140EE1F69166500146644 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B4C140EF1F69166500146644 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B4C140F31F69166500146644 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B4C140F41F69166500146644 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B4C1410D1F69166500146644 /* Debug */ = {
@@ -506,11 +677,12 @@
 		};
 		B4C141101F69166500146644 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52C7C53867807DFDA789B7B0 /* Pods-BWPhysicsLab.debug.xcconfig */;
+			baseConfigurationReference = 9014C2B9ACF551523C301609 /* Pods-BWPhysicsLab.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V3E8GUFW32;
 				INFOPLIST_FILE = BWPhysicsLab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWPhysicsLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -519,11 +691,12 @@
 		};
 		B4C141111F69166500146644 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 052105168DCB94E30BA8EC5B /* Pods-BWPhysicsLab.release.xcconfig */;
+			baseConfigurationReference = 3C3B2E4EC1F0BF857640C6DA /* Pods-BWPhysicsLab.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V3E8GUFW32;
 				INFOPLIST_FILE = BWPhysicsLab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWPhysicsLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -599,6 +772,7 @@
 				B4C141111F69166500146644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4C141121F69166500146644 /* Build configuration list for PBXNativeTarget "BWPhysicsLabTests" */ = {
 			isa = XCConfigurationList;
@@ -607,6 +781,7 @@
 				B4C141141F69166500146644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4C141151F69166500146644 /* Build configuration list for PBXNativeTarget "BWPhysicsLabUITests" */ = {
 			isa = XCConfigurationList;
@@ -615,6 +790,7 @@
 				B4C141171F69166500146644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
