@@ -1,9 +1,9 @@
 //
 //  BMShowCommon.m
-//  BMWash
+//  BWPhysicsLab
 //
-//  Created by fenglh on 2016/10/17.
-//  Copyright © 2016年 月亮小屋（中国）有限公司. All rights reserved.
+//  Created by BobWong on 2016/10/17.
+//  Copyright © 2016年 BobWongStudio. All rights reserved.
 //
 
 
@@ -14,15 +14,14 @@
 #import <CXAlertView.h>
 #import "WXApi.h"
 
-#import "UIDevice+BMKit.h"
-#import "UIApplication+BMKit.h"
+#import "UIDevice+BWAdd.h"
+#import "UIApplication+BWAdd.h"
 //获取手机运营商
 #import <CoreTelephony/CTTelephonyNetworkInfo.h>
 #import <CoreTelephony/CTCarrier.h>
 //版本比较
 #import "BMVersionManager.h"
 #import "BMAppContext.h"
-#import "NSString+BMKit.h"
 //联系方式
 #define BMContactTitle @"客服联系方式"
 #define BMContactMessage @"1、拨打24小时客服电话 400-111-1118\n2、关注微信公众号“月亮小屋”进行在线咨询"
@@ -168,8 +167,8 @@
 + (void)showVersionUpdate
 {
     NSString *clientVersion = [BMAppContext sharedInstance].clientVersion;
-    NSString *lastesVersion = [BMVersionManager sharedInstance].latestVersion;
-    if (isStrEmpty(lastesVersion) || [clientVersion bm_versionCompare:lastesVersion] >= 0) {
+    NSString *latestVersion = [BMVersionManager sharedInstance].latestVersion;
+    if (!latestVersion || latestVersion.length == 0 || [clientVersion compare:latestVersion options:NSNumericSearch] != NSOrderedAscending) {
         CXAlertView *alertView = [[CXAlertView alloc] initWithTitle:@"已经是最新版本" message:nil cancelButtonTitle:nil];
         [alertView addButtonWithTitle:@"确定" type:CXAlertViewButtonTypeDefault handler:^(CXAlertView *alertView, CXAlertButtonItem *button) {
             [alertView dismiss];

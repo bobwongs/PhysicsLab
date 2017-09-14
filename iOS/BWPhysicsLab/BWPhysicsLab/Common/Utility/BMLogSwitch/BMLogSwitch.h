@@ -2,7 +2,7 @@
 //  BMLogSwitch.h
 //  BlueMoonHouse
 //
-//  Created by fenglh on 15/11/27.
+//  Created by BobWong on 15/11/27.
 //  Copyright (c) 2015年 bluemoon. All rights reserved.
 //
 

@@ -1,6 +1,6 @@
 //
 //  UIView+BMExtension.m
-//  B2BMall
+//  BWPhysicsLab
 //
 //  Created by BobWong on 2017/8/21.
 //  Copyright © 2017年 BobWong. All rights reserved.
@@ -27,6 +27,22 @@
     }
     CAGradientLayer *layer = [CAGradientLayer bm_gradientLayerWithColorArray:colorArray size:size];
     [self.layer insertSublayer:layer atIndex:0];
+}
+
++ (void)bm_animateUpdateConstraintsInLayoutView:(UIView *)viewLayout toUpdateBlock:(void (^)(void))blockToUpdate {
+    [UIView animateWithDuration:0.25 animations:^{
+        if (blockToUpdate) blockToUpdate();
+        
+        [viewLayout setNeedsLayout];
+        [viewLayout layoutIfNeeded];
+    }];
+}
+
++ (instancetype)bm_viewFormXib {
+    
+    UIView *view = [[[NSBundle mainBundle] loadNibNamed:NSStringFromClass([self class]) owner:nil options:nil] firstObject];
+    view.autoresizingMask = UIViewAutoresizingNone;
+    return view;
 }
 
 @end

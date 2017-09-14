@@ -3,22 +3,22 @@
 //  BMiOSUIComponents
 //
 //  Created by BobWong on 2017/6/1.
-//  Copyright © 2017年 月亮小屋（中国）有限公司. All rights reserved.
+//  Copyright © 2017年 BobWongStudio. All rights reserved.
 //
 
 #import "BMNewAddressSourceManager.h"
 #import <FMDB.h>
 #import "BMNewRegionModel.h"
-#import "BMSAPGetRegionAPIManager.h"
+//#import "BMSAPGetRegionAPIManager.h"
 #import <MJExtension.h>
 #import "BMGifLoadingHUD.h"
 
-@interface BMNewAddressSourceManager () <BMAPIManagerCallBackDelegate>
+@interface BMNewAddressSourceManager ()
 
 @property (strong, nonatomic) FMDatabase *database;
-@property (strong, nonatomic) BMSAPGetRegionAPIManager *getSAPRegionAPIMng;
+//@property (strong, nonatomic) BMSAPGetRegionAPIManager *getSAPRegionAPIMng;
 
-@property (strong, nonatomic) BMSAPGetRegionAPIManager *getSAPSelectedRegionAPIMng;
+//@property (strong, nonatomic) BMSAPGetRegionAPIManager *getSAPSelectedRegionAPIMng;
 @property (strong, nonatomic) NSArray<BMNewRegionModel *> *selectedRegionArray;
 @property (strong, nonatomic) NSMutableArray<NSArray<BMNewRegionModel *> *> *selectedRegionDataSource;
 
@@ -44,7 +44,7 @@
             [self db_addressSourceArrayWithParentCode:parentCode addressType:addressType];
             break;
         case BMAddressDataSourceTypeSAP:
-            [self sap_addressSourceArrayWithParentCode:parentCode addressType:addressType];
+//            [self sap_addressSourceArrayWithParentCode:parentCode addressType:addressType];
             break;
     }
 }
@@ -71,40 +71,40 @@
         }
             break;
         case BMAddressDataSourceTypeSAP: {
-            [BMGifLoadingHUD show];
-            __weak typeof(self) weakSelf = self;
-            [arrayM enumerateObjectsUsingBlock:^(BMNewRegionModel * _Nonnull regionModel, NSUInteger idx, BOOL * _Nonnull stop) {
-                __strong typeof(weakSelf) strongSelf = weakSelf;
-                [strongSelf.getSAPSelectedRegionAPIMng loadDataWithParams:@{@"pid": regionModel.dcode ? regionModel.dcode : @"",
-                                                                            @"type": BM_ADDRESS_TYPE_ARRAY[idx]}];  // 根据序列去加载，不能直接传Model里面的，Model里面会相差一级
-            }];
+//            [BMGifLoadingHUD show];
+//            __weak typeof(self) weakSelf = self;
+//            [arrayM enumerateObjectsUsingBlock:^(BMNewRegionModel * _Nonnull regionModel, NSUInteger idx, BOOL * _Nonnull stop) {
+//                __strong typeof(weakSelf) strongSelf = weakSelf;
+//                [strongSelf.getSAPSelectedRegionAPIMng loadDataWithParams:@{@"pid": regionModel.dcode ? regionModel.dcode : @"",
+//                                                                            @"type": BM_ADDRESS_TYPE_ARRAY[idx]}];  // 根据序列去加载，不能直接传Model里面的，Model里面会相差一级
+//            }];
         }
     }
 }
 
 #pragma mark - Network
 
-- (void)managerCallApiDidSuccess:(BMBaseAPIManager *)manager {
-    [BMGifLoadingHUD dismiss];
-    NSDictionary *responseData = [manager fetchDataWithReformer:nil];
-    
-    if (self.getSAPRegionAPIMng == manager) {
-        
-        
-        NSArray<BMNewRegionModel *> *regionArray = [BMNewRegionModel mj_objectArrayWithKeyValuesArray:responseData[@"lists"]];
-        if (self.finishedGetRegionBlock) self.finishedGetRegionBlock(regionArray);
-    }
-    else if (self.getSAPSelectedRegionAPIMng == manager) {
-        NSArray<BMNewRegionModel *> *regionArray = [BMNewRegionModel mj_objectArrayWithKeyValuesArray:responseData[@"lists"]];
-        [self.selectedRegionDataSource addObject:regionArray];
-        [self finishedGetSelectedDataSource];
-    }
-}
-
-- (void)managerCallApiDidFailed:(BMBaseAPIManager *)manager {
-    [BMGifLoadingHUD dismiss];
-    [BMManagerMsgShow showPromptMessageWithManager:manager toView:[UIApplication sharedApplication].keyWindow];
-}
+//- (void)managerCallApiDidSuccess:(BMBaseAPIManager *)manager {
+//    [BMGifLoadingHUD dismiss];
+//    NSDictionary *responseData = [manager fetchDataWithReformer:nil];
+//    
+//    if (self.getSAPRegionAPIMng == manager) {
+//        
+//        
+//        NSArray<BMNewRegionModel *> *regionArray = [BMNewRegionModel mj_objectArrayWithKeyValuesArray:responseData[@"lists"]];
+//        if (self.finishedGetRegionBlock) self.finishedGetRegionBlock(regionArray);
+//    }
+//    else if (self.getSAPSelectedRegionAPIMng == manager) {
+//        NSArray<BMNewRegionModel *> *regionArray = [BMNewRegionModel mj_objectArrayWithKeyValuesArray:responseData[@"lists"]];
+//        [self.selectedRegionDataSource addObject:regionArray];
+//        [self finishedGetSelectedDataSource];
+//    }
+//}
+//
+//- (void)managerCallApiDidFailed:(BMBaseAPIManager *)manager {
+//    [BMGifLoadingHUD dismiss];
+//    [BMManagerMsgShow showPromptMessageWithManager:manager toView:[UIApplication sharedApplication].keyWindow];
+//}
 
 #pragma mark - Private Method
 
@@ -148,11 +148,11 @@
     return arrayM;
 }
 
-- (void)sap_addressSourceArrayWithParentCode:(NSString *)parentCode addressType:(NSString *)addressType {
-    [BMGifLoadingHUD show];
-    [self.getSAPRegionAPIMng loadDataWithParams:@{@"pid": parentCode ? parentCode : @"",
-                                                  @"type": addressType ? addressType : @""}];
-}
+//- (void)sap_addressSourceArrayWithParentCode:(NSString *)parentCode addressType:(NSString *)addressType {
+//    [BMGifLoadingHUD show];
+//    [self.getSAPRegionAPIMng loadDataWithParams:@{@"pid": parentCode ? parentCode : @"",
+//                                                  @"type": addressType ? addressType : @""}];
+//}
 
 /** 获取完已选中的数据，首先会判断数据是否完全 */
 - (void)finishedGetSelectedDataSource {
@@ -194,20 +194,20 @@
     return _database;
 }
 
-- (BMSAPGetRegionAPIManager *)getSAPRegionAPIMng {
-    if (!_getSAPRegionAPIMng) {
-        _getSAPRegionAPIMng = [BMSAPGetRegionAPIManager new];
-        _getSAPRegionAPIMng.apiCallBackDelegate = self;
-    }
-    return _getSAPRegionAPIMng;
-}
-
-- (BMSAPGetRegionAPIManager *)getSAPSelectedRegionAPIMng {
-    if (!_getSAPSelectedRegionAPIMng) {
-        _getSAPSelectedRegionAPIMng = [BMSAPGetRegionAPIManager new];
-        _getSAPSelectedRegionAPIMng.apiCallBackDelegate = self;
-    }
-    return _getSAPSelectedRegionAPIMng;
-}
+//- (BMSAPGetRegionAPIManager *)getSAPRegionAPIMng {
+//    if (!_getSAPRegionAPIMng) {
+//        _getSAPRegionAPIMng = [BMSAPGetRegionAPIManager new];
+//        _getSAPRegionAPIMng.apiCallBackDelegate = self;
+//    }
+//    return _getSAPRegionAPIMng;
+//}
+//
+//- (BMSAPGetRegionAPIManager *)getSAPSelectedRegionAPIMng {
+//    if (!_getSAPSelectedRegionAPIMng) {
+//        _getSAPSelectedRegionAPIMng = [BMSAPGetRegionAPIManager new];
+//        _getSAPSelectedRegionAPIMng.apiCallBackDelegate = self;
+//    }
+//    return _getSAPSelectedRegionAPIMng;
+//}
 
 @end

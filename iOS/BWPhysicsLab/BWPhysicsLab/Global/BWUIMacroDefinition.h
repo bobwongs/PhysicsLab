@@ -40,6 +40,8 @@
 #define BMb2b_F8C4AF [UIColor colorWithHexString:@"F8C4AF"]  // 浅橙色
 #define BMb2b_FFEDDF [UIColor colorWithHexString:@"FFEDDF"]  // 浅白橙色
 #define BMb2b_DBECFF [UIColor colorWithHexString:@"DBECFF"]  // 浅灰色
+#define BMCOMMON_COLOR_333333 [UIColor colorWithHexString:@"333333"]  // 深黑
+#define BMCOMMON_COLOR_999999 [UIColor colorWithHexString:@"999999"]  // 浅黑
 
 
 /* -------------------- Font -------------------- */

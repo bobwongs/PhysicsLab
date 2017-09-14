@@ -1,18 +1,17 @@
 //
 //  BMShoppingCartView.m
-//  BMWash
+//  BWPhysicsLab
 //
-//  Created by ___liangdahong on 2017/2/14.
-//  Copyright © 2017年 月亮小屋（中国）有限公司. All rights reserved.
+//  Created by BobWong on 2017/2/14.
+//  Copyright © 2017年 BobWongStudio. All rights reserved.
 //
 
 #import "BMShoppingCartView.h"
-#import "UIView+BMKit.h"
-#import "BMCornerLabel.h"
+#import "UIView+BMExtension.h"
 
 @interface BMShoppingCartView ()
 
-@property (weak, nonatomic) IBOutlet BMCornerLabel *angleCountLabel; ///< 角标 label
+@property (weak, nonatomic) IBOutlet UILabel *angleCountLabel; ///< 角标 label
 @property (weak, nonatomic) IBOutlet UIImageView *iconImageView; ///< 购物车 icon
 
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *cornerWidth;
@@ -38,8 +37,7 @@
 - (void)setAngleCount:(NSInteger)angleCount {
     _angleCount = angleCount;
     
-    CGFloat width = [self.angleCountLabel widthOfUpdateCornerLabelWithCount:angleCount];
-    self.cornerWidth.constant = width;
+    self.angleCountLabel.text = @(angleCount).stringValue;
 }
 
 - (void)setImageName:(NSString *)imageName {

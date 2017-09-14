@@ -1,9 +1,9 @@
 //
 //  BMLoginUserManager.h
-//  BMWash
+//  BWPhysicsLab
 //
-//  Created by fenglh on 2016/10/21.
-//  Copyright © 2016年 月亮小屋（中国）有限公司. All rights reserved.
+//  Created by BobWong on 2016/10/21.
+//  Copyright © 2016年 BobWongStudio. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -19,14 +19,14 @@
  *      4. 整个App的用户信息，都从该对象中loginedUserModel 读取。禁止通过接口读取而跳过这一步.
  *
  
- * 2016/11/04 fenglh
+ * 2016/11/04 BobWong
  * version 1.0.0
  
- * 2016/11/16 fenglh
+ * 2016/11/16 BobWong
  * version 1.0.1
  * 修改：1.将宏定义换成常量并extern，通知object带上keypath，方便判断loginedUserModel的哪个成员发生改变
  *
- * 2016/12/05 fenglh
+ * 2016/12/05 BobWong
  * version 1.0.2
  * 修改：1.observeValueForKeyPath方法内，增加判断新旧值一致，防止循环发送通知
  */

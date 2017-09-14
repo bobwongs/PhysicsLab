@@ -1,9 +1,9 @@
 //
 //  BMImageModel.m
-//  BMWash
+//  BWPhysicsLab
 //
 //  Created by elvin on 2016/10/19.
-//  Copyright © 2016年 月亮小屋（中国）有限公司. All rights reserved.
+//  Copyright © 2016年 BobWongStudio. All rights reserved.
 //
 
 #import "BMImageModel.h"

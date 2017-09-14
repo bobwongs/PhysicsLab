@@ -1,9 +1,9 @@
 //
 //  BMGifLoadingHUD.h
-//  B2BMall
+//  BWPhysicsLab
 //
 //  Created by BobWong on 2017/8/30.
-//  Copyright © 2017年 月亮小屋（中国）有限公司. All rights reserved.
+//  Copyright © 2017年 BobWongStudio. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

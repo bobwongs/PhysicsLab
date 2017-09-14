@@ -2,7 +2,7 @@
 //  BMVersionManager.h
 //  BlueMoonSFA
 //
-//  Created by fenglh on 2017/3/7.
+//  Created by BobWong on 2017/3/7.
 //  Copyright © 2017年 BlueMoon. All rights reserved.
 //
 

@@ -1,9 +1,9 @@
 //
 //  BMSuperViewController.m
-//  B2BMall
+//  BWPhysicsLab
 //
 //  Created by BobWong on 2017/8/17.
-//  Copyright © 2017年 月亮小屋（中国）有限公司. All rights reserved.
+//  Copyright © 2017年 BobWongStudio. All rights reserved.
 //
 
 #import "BMSuperViewController.h"
@@ -39,7 +39,7 @@
 
 - (void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
-    DDLogInfo(@"-viewDidAppear: %@ ,title:%@",NSStringFromClass([self class]),self.title);
+    NSLog(@"-viewDidAppear: %@ ,title:%@",NSStringFromClass([self class]),self.title);
     
     if (self.navigationController.viewControllers.count == 1) {
         self.navigationController.interactivePopGestureRecognizer.enabled = NO;  // 第一个VC禁用，兼容右滑第一个页面三下会页面卡死的问题

@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		B495D1691F6A19BC00CD01B7 /* UITextView+BWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B495D1681F6A19BC00CD01B7 /* UITextView+BWAdd.m */; };
+		B495D16D1F6A1C8200CD01B7 /* BMAppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = B495D16C1F6A1C8200CD01B7 /* BMAppContext.m */; };
+		B495D1701F6A1D2B00CD01B7 /* UIDevice+BWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B495D16F1F6A1D2B00CD01B7 /* UIDevice+BWAdd.m */; };
+		B495D1731F6A1DCA00CD01B7 /* UIApplication+BWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B495D1721F6A1DCA00CD01B7 /* UIApplication+BWAdd.m */; };
+		B495D1771F6A22AC00CD01B7 /* BWMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B495D1761F6A22AC00CD01B7 /* BWMainTabBarController.m */; };
 		B4C140E71F69166500146644 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C140E61F69166500146644 /* main.m */; };
 		B4C140EA1F69166500146644 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C140E91F69166500146644 /* AppDelegate.m */; };
 		B4C140F21F69166500146644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4C140F11F69166500146644 /* Assets.xcassets */; };
@@ -55,7 +59,6 @@
 		B4C141FB1F692F2700146644 /* UIView+BMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C141EC1F692F2600146644 /* UIView+BMExtension.m */; };
 		B4C141FC1F692F2700146644 /* UIViewController+BMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C141EE1F692F2600146644 /* UIViewController+BMExtension.m */; };
 		B4C143311F692F7600146644 /* BMNewAddressSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C142B91F692F7600146644 /* BMNewAddressSourceManager.m */; };
-		B4C143321F692F7600146644 /* BMSAPGetRegionAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C142BC1F692F7600146644 /* BMSAPGetRegionAPIManager.m */; };
 		B4C143331F692F7600146644 /* BMNewAddressPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C142BE1F692F7600146644 /* BMNewAddressPicker.m */; };
 		B4C143341F692F7600146644 /* BMNewRegionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C142C01F692F7600146644 /* BMNewRegionModel.m */; };
 		B4C143351F692F7600146644 /* address.db in Resources */ = {isa = PBXBuildFile; fileRef = B4C142C21F692F7600146644 /* address.db */; };
@@ -156,6 +159,14 @@
 		9014C2B9ACF551523C301609 /* Pods-BWPhysicsLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWPhysicsLab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWPhysicsLab/Pods-BWPhysicsLab.debug.xcconfig"; sourceTree = "<group>"; };
 		B495D1671F6A19BC00CD01B7 /* UITextView+BWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+BWAdd.h"; sourceTree = "<group>"; };
 		B495D1681F6A19BC00CD01B7 /* UITextView+BWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+BWAdd.m"; sourceTree = "<group>"; };
+		B495D16B1F6A1C8200CD01B7 /* BMAppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMAppContext.h; sourceTree = "<group>"; };
+		B495D16C1F6A1C8200CD01B7 /* BMAppContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMAppContext.m; sourceTree = "<group>"; };
+		B495D16E1F6A1D2B00CD01B7 /* UIDevice+BWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+BWAdd.h"; sourceTree = "<group>"; };
+		B495D16F1F6A1D2B00CD01B7 /* UIDevice+BWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+BWAdd.m"; sourceTree = "<group>"; };
+		B495D1711F6A1DCA00CD01B7 /* UIApplication+BWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+BWAdd.h"; sourceTree = "<group>"; };
+		B495D1721F6A1DCA00CD01B7 /* UIApplication+BWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+BWAdd.m"; sourceTree = "<group>"; };
+		B495D1751F6A22AC00CD01B7 /* BWMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWMainTabBarController.h; sourceTree = "<group>"; };
+		B495D1761F6A22AC00CD01B7 /* BWMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWMainTabBarController.m; sourceTree = "<group>"; };
 		B4C140E21F69166500146644 /* BWPhysicsLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWPhysicsLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4C140E61F69166500146644 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B4C140E81F69166500146644 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -236,8 +247,6 @@
 		B4C141EE1F692F2600146644 /* UIViewController+BMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BMExtension.m"; sourceTree = "<group>"; };
 		B4C142B81F692F7600146644 /* BMNewAddressSourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMNewAddressSourceManager.h; sourceTree = "<group>"; };
 		B4C142B91F692F7600146644 /* BMNewAddressSourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMNewAddressSourceManager.m; sourceTree = "<group>"; };
-		B4C142BB1F692F7600146644 /* BMSAPGetRegionAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMSAPGetRegionAPIManager.h; sourceTree = "<group>"; };
-		B4C142BC1F692F7600146644 /* BMSAPGetRegionAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMSAPGetRegionAPIManager.m; sourceTree = "<group>"; };
 		B4C142BD1F692F7600146644 /* BMNewAddressPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMNewAddressPicker.h; sourceTree = "<group>"; };
 		B4C142BE1F692F7600146644 /* BMNewAddressPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMNewAddressPicker.m; sourceTree = "<group>"; };
 		B4C142BF1F692F7600146644 /* BMNewRegionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMNewRegionModel.h; sourceTree = "<group>"; };
@@ -394,6 +403,24 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B495D16A1F6A1C8200CD01B7 /* BMAPPContext */ = {
+			isa = PBXGroup;
+			children = (
+				B495D16B1F6A1C8200CD01B7 /* BMAppContext.h */,
+				B495D16C1F6A1C8200CD01B7 /* BMAppContext.m */,
+			);
+			path = BMAPPContext;
+			sourceTree = "<group>";
+		};
+		B495D1741F6A22AC00CD01B7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B495D1751F6A22AC00CD01B7 /* BWMainTabBarController.h */,
+				B495D1761F6A22AC00CD01B7 /* BWMainTabBarController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		B4C140D91F69166400146644 = {
 			isa = PBXGroup;
 			children = (
@@ -494,6 +521,7 @@
 		B4C1416C1F69278100146644 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				B495D16A1F6A1C8200CD01B7 /* BMAPPContext */,
 				B4C1436F1F692FA200146644 /* BMLoginAssistant */,
 				B4C143781F692FA200146644 /* BMLogSwitch */,
 				B4C1437B1F692FA200146644 /* BMNetworkStatusManager */,
@@ -542,6 +570,7 @@
 			isa = PBXGroup;
 			children = (
 				B4C141751F69278100146644 /* Base */,
+				B495D1741F6A22AC00CD01B7 /* Main */,
 				B4C141791F69278100146644 /* Lab */,
 				B4C1417D1F69278100146644 /* Reference */,
 				B4C141771F69278100146644 /* Discovery */,
@@ -746,6 +775,10 @@
 				B4C141EE1F692F2600146644 /* UIViewController+BMExtension.m */,
 				B495D1671F6A19BC00CD01B7 /* UITextView+BWAdd.h */,
 				B495D1681F6A19BC00CD01B7 /* UITextView+BWAdd.m */,
+				B495D16E1F6A1D2B00CD01B7 /* UIDevice+BWAdd.h */,
+				B495D16F1F6A1D2B00CD01B7 /* UIDevice+BWAdd.m */,
+				B495D1711F6A1DCA00CD01B7 /* UIApplication+BWAdd.h */,
+				B495D1721F6A1DCA00CD01B7 /* UIApplication+BWAdd.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -781,18 +814,8 @@
 			children = (
 				B4C142B81F692F7600146644 /* BMNewAddressSourceManager.h */,
 				B4C142B91F692F7600146644 /* BMNewAddressSourceManager.m */,
-				B4C142BA1F692F7600146644 /* BMSAPGetRegionAPIManager */,
 			);
 			path = AddressSource;
-			sourceTree = "<group>";
-		};
-		B4C142BA1F692F7600146644 /* BMSAPGetRegionAPIManager */ = {
-			isa = PBXGroup;
-			children = (
-				B4C142BB1F692F7600146644 /* BMSAPGetRegionAPIManager.h */,
-				B4C142BC1F692F7600146644 /* BMSAPGetRegionAPIManager.m */,
-			);
-			path = BMSAPGetRegionAPIManager;
 			sourceTree = "<group>";
 		};
 		B4C142C11F692F7600146644 /* Resource */ = {
@@ -1376,6 +1399,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-BWPhysicsLab/Pods-BWPhysicsLab-resources.sh",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -1418,6 +1442,7 @@
 				B4C1434E1F692F7600146644 /* BMPlaceholderLabel.m in Sources */,
 				B4C141FA1F692F2700146644 /* UITableViewCell+BMExtension.m in Sources */,
 				B4C141BC1F692DC900146644 /* BMTipsViewController.m in Sources */,
+				B495D1701F6A1D2B00CD01B7 /* UIDevice+BWAdd.m in Sources */,
 				B4C143941F692FA200146644 /* BMPaymentManager.m in Sources */,
 				B4C141F51F692F2600146644 /* UIButton+BMExtension.m in Sources */,
 				B4C1434C1F692F7600146644 /* BMParagraphFieldView.m in Sources */,
@@ -1435,13 +1460,13 @@
 				B4C1434F1F692F7600146644 /* BMRadioView.m in Sources */,
 				B4C141BD1F692DC900146644 /* BMTipsContentView.m in Sources */,
 				B4C143501F692F7600146644 /* BMSingleLineRadioView.m in Sources */,
-				B4C143321F692F7600146644 /* BMSAPGetRegionAPIManager.m in Sources */,
 				B4C1435F1F692F7600146644 /* BMTextLineCell.m in Sources */,
 				B4C143311F692F7600146644 /* BMNewAddressSourceManager.m in Sources */,
 				B4C1438F1F692FA200146644 /* BMLoginMediator.m in Sources */,
 				B4C1435D1F692F7600146644 /* BMTextField2View.m in Sources */,
 				B4C143991F692FA200146644 /* BMVersionManager.m in Sources */,
 				B4C143551F692F7600146644 /* BMTextArrowView.m in Sources */,
+				B495D1731F6A1DCA00CD01B7 /* UIApplication+BWAdd.m in Sources */,
 				B4C143531F692F7600146644 /* BMTextArrowCell.m in Sources */,
 				B4C1436D1F692F7600146644 /* BMShoppingCartView.m in Sources */,
 				B4C140EA1F69166500146644 /* AppDelegate.m in Sources */,
@@ -1462,6 +1487,7 @@
 				B4C141F81F692F2600146644 /* UINavigationController+BMExtension.m in Sources */,
 				B4C143901F692FA200146644 /* BMLoginUserManager.m in Sources */,
 				B4C143571F692F7600146644 /* BMTextFieldCell.m in Sources */,
+				B495D1771F6A22AC00CD01B7 /* BWMainTabBarController.m in Sources */,
 				B4C143401F692F7600146644 /* BMSetNumberAlert.m in Sources */,
 				B4C143331F692F7600146644 /* BMNewAddressPicker.m in Sources */,
 				B4C143591F692F7600146644 /* BMTextFieldView.m in Sources */,
@@ -1474,6 +1500,7 @@
 				B495D1691F6A19BC00CD01B7 /* UITextView+BWAdd.m in Sources */,
 				B4C143481F692F7600146644 /* BMIrregularGirCollectionView.m in Sources */,
 				B4C143381F692F7600146644 /* BMNewAddressPickerCell.m in Sources */,
+				B495D16D1F6A1C8200CD01B7 /* BMAppContext.m in Sources */,
 				B4C1433B1F692F7600146644 /* BMAddToCartView.m in Sources */,
 				B4C141F11F692F2600146644 /* BMNoDataView.m in Sources */,
 				B4C143341F692F7600146644 /* BMNewRegionModel.m in Sources */,

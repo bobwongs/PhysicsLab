@@ -1,9 +1,9 @@
 //
 //  BMLoginUserManager.m
-//  BMWash
+//  BWPhysicsLab
 //
-//  Created by fenglh on 2016/10/21.
-//  Copyright © 2016年 月亮小屋（中国）有限公司. All rights reserved.
+//  Created by BobWong on 2016/10/21.
+//  Copyright © 2016年 BobWongStudio. All rights reserved.
 //
 
 #import "BMLoginUserManager.h"

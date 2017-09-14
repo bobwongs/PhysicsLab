@@ -2,41 +2,42 @@
 //  BMLoginMediator.m
 //  BlueMoonBlueHouse
 //
-//  Created by 冯立海 on 15/9/28.
-//  Copyright (c) 2015年 fenglh. All rights reserved.
+//  Created by BobWong on 15/9/28.
+//  Copyright (c) 2015年 BobWong. All rights reserved.
 //
 
 #import "BMLoginMediator.h"
-#import "SVProgressHUD.h"
-#import "UIApplication+BMKit.h"
-#import "BMLoginViewController.h"
+#import <SVProgressHUD.h>
+#import "UIApplication+BWAdd.h"
+//#import "BMLoginViewController.h"
 #import "BMLoginUserManager.h"
 #import "BMShowCommon.h"
 #import <CXAlertView.h>
-#import "UIApplication+BMKit.h"
-#import "BMLogoutAPIManager.h"
-#import "BMLoginUserManager.h"
+//#import "BMLogoutAPIManager.h"
+//#import "BMLoginUserManager.h"
 //#import "BMLoginRemindViewController.h"
 #import "UINavigationController+BMExtension.h"
-#import "BMLoginExceptionViewController.h"
-#import "BMMainTabBarController.h"
+//#import "BMLoginExceptionViewController.h"
+#import "BWMainTabBarController.h"
 
 //登录
 #define BMTokenInvalidTitle @"登录已过期,请重新登录"
 #define BMTokenInvalidLeftButtonTitle @"暂不登录"
 #define BMTokenInvalidRightButtonTitle @"去登录"
 
-
 NSString *BMNotificationRequestLogin = @"NotificationRequestLogin";
 NSString *BMNotificationLoginOK = @"NotificationLoginOK";
 NSString *BMNotificationRegisterOK = @"NotificationRegisterOK";
+
+NSString * BMNotificationNetworkingTokenInvalid = @"BMNotificationNetworkingTokenInvalid";
+NSString * BMNotificationNetworkingUserUnLogin = @"BMNotificationNetworkingUserUnLogin";
 
 
 @interface BMLoginMediator ()
 
 @property (strong, nonatomic) UINavigationController *loginExceptionNavigationController;  // 重新登录VC
 @property (nonatomic ,assign) BOOL tokenInvalidAlertViewShowing;//是否正在登录
-@property (retain, nonatomic) BMBaseAPIManager *manager;
+//@property (retain, nonatomic) BMBaseAPIManager *manager;
 
 @end
 
@@ -68,7 +69,7 @@ NSString *BMNotificationRegisterOK = @"NotificationRegisterOK";
 - (void)changeToLoginStatus {
     [UIApplication sharedApplication].keyWindow.rootViewController = self.loginNavigationController;
     [[BMLoginUserManager sharedInstance] clean];  // 清楚登录信息
-    [BMLoginUserManager sharedInstance].loginedUserModel.loginStatus = BMUserLoginStatusUnLogin;  // 切换为登录失效
+//    [BMLoginUserManager sharedInstance].loginedUserModel.loginStatus = BMUserLoginStatusUnLogin;  // 切换为登录失效
     [[NSNotificationCenter defaultCenter] postNotificationName:BMNotificationRequestLogin object:nil];  // 切换为登录状态的通知
 }
 
@@ -76,20 +77,20 @@ NSString *BMNotificationRegisterOK = @"NotificationRegisterOK";
 
 - (void)userUnLogin:(NSNotification *)notification
 {
-    if ([BMLoginUserManager sharedInstance].loginedUserModel.loginStatus != BMUserLoginStatusUnLogin) {
-        [BMLoginUserManager sharedInstance].loginedUserModel.loginStatus = BMUserLoginStatusUnLogin;
-    }
+//    if ([BMLoginUserManager sharedInstance].loginedUserModel.loginStatus != BMUserLoginStatusUnLogin) {
+//        [BMLoginUserManager sharedInstance].loginedUserModel.loginStatus = BMUserLoginStatusUnLogin;
+//    }
 }
 - (void)tokenInvalid:(NSNotification *)notification
 {
-    if ([BMLoginUserManager sharedInstance].loginedUserModel.loginStatus != BMUserLoginStatusTokenInvalid) {
-        [BMLoginUserManager sharedInstance].loginedUserModel.loginStatus = BMUserLoginStatusTokenInvalid;
-    }
+//    if ([BMLoginUserManager sharedInstance].loginedUserModel.loginStatus != BMUserLoginStatusTokenInvalid) {
+//        [BMLoginUserManager sharedInstance].loginedUserModel.loginStatus = BMUserLoginStatusTokenInvalid;
+//    }
     [self showPreAlertLogin];
 }
 
 - (void)loginSuccessfully:(NSNotification *)notification {
-    [UIApplication sharedApplication].keyWindow.rootViewController = [BMMainTabBarController new];
+    [UIApplication sharedApplication].keyWindow.rootViewController = [BWMainTabBarController new];
 }
 
 - (BOOL)isLogining
@@ -111,9 +112,9 @@ NSString *BMNotificationRegisterOK = @"NotificationRegisterOK";
 - (void)showLogin
 {
     BOOL directShowLogin = NO;
-    if ( [BMLoginUserManager sharedInstance].loginedUserModel.loginStatus == BMUserLoginStatusTokenInvalid) {
-        directShowLogin = YES;
-    }
+//    if ( [BMLoginUserManager sharedInstance].loginedUserModel.loginStatus == BMUserLoginStatusTokenInvalid) {
+//        directShowLogin = YES;
+//    }
     
     //直接跳到登录页面，
 //    BMLoginRemindViewController *loginRemindViewController = [[BMLoginRemindViewController alloc] init];
@@ -124,19 +125,19 @@ NSString *BMNotificationRegisterOK = @"NotificationRegisterOK";
 
 #pragma mark - getters and setters
 
-- (UINavigationController *)loginNavigationController {
-    if (!_loginNavigationController) {
-        BMLoginViewController *loginVC = [BMLoginViewController new];
-        _loginNavigationController = [UINavigationController bm_rootViewController:loginVC tintColor:nil barTintColor:[UIColor whiteColor] titleColor:BMb2b_sub_color1 titleFont:[UIFont systemFontOfSize:16.0] barBgImageColor:[UIColor whiteColor] bottomLineColor:nil bottomLineHeight:0];
-    }
-    return _loginNavigationController;
-}
-
-- (UINavigationController *)loginExceptionNavigationController {
-    if (!_loginExceptionNavigationController) {
-        _loginExceptionNavigationController = [UINavigationController bmB2B_defaultStyleWithRootViewController:[BMLoginExceptionViewController new]];
-    }
-    return _loginExceptionNavigationController;
-}
+//- (UINavigationController *)loginNavigationController {
+//    if (!_loginNavigationController) {
+//        BMLoginViewController *loginVC = [BMLoginViewController new];
+//        _loginNavigationController = [UINavigationController bm_rootViewController:loginVC tintColor:nil barTintColor:[UIColor whiteColor] titleColor:BMb2b_sub_color1 titleFont:[UIFont systemFontOfSize:16.0] barBgImageColor:[UIColor whiteColor] bottomLineColor:nil bottomLineHeight:0];
+//    }
+//    return _loginNavigationController;
+//}
+//
+//- (UINavigationController *)loginExceptionNavigationController {
+//    if (!_loginExceptionNavigationController) {
+//        _loginExceptionNavigationController = [UINavigationController bmB2B_defaultStyleWithRootViewController:[BMLoginExceptionViewController new]];
+//    }
+//    return _loginExceptionNavigationController;
+//}
 
 @end

@@ -3,7 +3,7 @@
 //  BMBlueMoonAngel
 //
 //  Created by BobWong on 2017/6/13.
-//  Copyright © 2017年 月亮小屋（中国）有限公司. All rights reserved.
+//  Copyright © 2017年 BobWongStudio. All rights reserved.
 //
 
 #import "BMRadioView.h"
@@ -68,7 +68,7 @@ NSString *const BMRadioViewTriggleActionNotification = @"BMRadioViewTriggleActio
         [button setTitle:radioTitle forState:UIControlStateNormal];
         [button setTitleColor:BMCOMMON_COLOR_333333 forState:UIControlStateNormal];
         [button setTitleColor:BMCOMMON_COLOR_999999 forState:UIControlStateDisabled];
-        button.titleLabel.font = UIFontSystemOfSize(14.0);
+        button.titleLabel.font = [UIFont systemFontOfSize:14.0];
         [button setImage:[UIImage imageNamed:@"bm_ui_components_radio_normal"] forState:UIControlStateNormal];
         [button setImage:[UIImage imageNamed:@"bm_ui_components_radio_selected"] forState:UIControlStateSelected];
         [button setImage:[UIImage imageNamed:@"bm_ui_components_radio_disable"] forState:UIControlStateDisabled];

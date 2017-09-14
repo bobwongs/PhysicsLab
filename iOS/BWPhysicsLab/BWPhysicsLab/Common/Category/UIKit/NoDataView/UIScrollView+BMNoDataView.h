@@ -2,7 +2,7 @@
 //  UIScrollView+BMNoData.h
 //  BMPurchaseSystem
 //
-//  Created by ___liangdahong on 2016/12/6.
+//  Created by BobWong on 2016/12/6.
 //  Copyright © 2016年 蓝月亮. All rights reserved.
 //
 

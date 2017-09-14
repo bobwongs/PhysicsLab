@@ -1,9 +1,9 @@
 //
 //  BMShoppingCartView.h
-//  BMWash
+//  BWPhysicsLab
 //
-//  Created by ___liangdahong on 2017/2/14.
-//  Copyright © 2017年 月亮小屋（中国）有限公司. All rights reserved.
+//  Created by BobWong on 2017/2/14.
+//  Copyright © 2017年 BobWongStudio. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -1,6 +1,6 @@
 //
 //  UIViewController+BMExtension.m
-//  B2BMall
+//  BWPhysicsLab
 //
 //  Created by BobWong on 2017/8/22.
 //  Copyright © 2017年 BobWong. All rights reserved.
