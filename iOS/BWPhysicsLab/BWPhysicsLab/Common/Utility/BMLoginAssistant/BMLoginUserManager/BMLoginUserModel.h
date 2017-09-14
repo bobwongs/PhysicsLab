@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <BMBaseNetworkConfigureProtocol.h>
+//#import <BMBaseNetworkConfigureProtocol.h>
 
 /*
  * 描述:登录用户Model
@@ -24,7 +24,7 @@
 @property (nonatomic, strong)NSString *pwd;                             //密码
 @property (nonatomic, strong)NSString *token;                           //令牌
 @property (nonatomic, strong)NSString *headerImageUrl;                  //头像url
-@property (nonatomic, assign)BMUserLoginStatus loginStatus;             //登录状态
+//@property (nonatomic, assign)BMUserLoginStatus loginStatus;             //登录状态
 @property (nonatomic, assign) int64_t balance;                          //余额
 @property (assign, nonatomic) NSInteger cartCount;                      ///< 购物车数量
 

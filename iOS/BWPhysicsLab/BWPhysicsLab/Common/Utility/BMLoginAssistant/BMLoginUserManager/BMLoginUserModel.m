@@ -59,7 +59,7 @@
     [aCoder encodeObject:self.pwd forKey:@"pwd"];
     [aCoder encodeObject:self.token forKey:@"token"];
     [aCoder encodeObject:self.headerImageUrl forKey:@"headerImageUrl"];
-    [aCoder encodeObject:@(self.loginStatus) forKey:@"loginStatus"];
+//    [aCoder encodeObject:@(self.loginStatus) forKey:@"loginStatus"];
     [aCoder encodeObject:@(self.balance) forKey:@"balance"];
 }
 
@@ -72,7 +72,7 @@
         self.pwd = [aDecoder decodeObjectForKey:@"pwd"];
         self.token = [aDecoder decodeObjectForKey:@"token"];
         self.headerImageUrl = [aDecoder decodeObjectForKey:@"headerImageUrl"];
-        self.loginStatus = [[aDecoder decodeObjectForKey:@"loginStatus"] unsignedIntegerValue];
+//        self.loginStatus = [[aDecoder decodeObjectForKey:@"loginStatus"] unsignedIntegerValue];
         self.balance = [[aDecoder decodeObjectForKey:@"balance"] integerValue];
     }
     return self;

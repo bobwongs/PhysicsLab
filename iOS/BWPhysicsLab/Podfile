@@ -10,6 +10,7 @@ target 'BWPhysicsLab' do
 	pod 'YYCategories', '1.0.4'
 	pod 'XXNibBridge', '2.3.1'
 	pod 'pop', '1.0.10'
+    pod 'FLAnimatedImage', '1.0.12'
     
     pod 'UPPaySDK', '3.3.6'  # 银联支付控件
     pod 'UMengUShare/Social/WeChat', '6.4.5'  # 友盟-微信

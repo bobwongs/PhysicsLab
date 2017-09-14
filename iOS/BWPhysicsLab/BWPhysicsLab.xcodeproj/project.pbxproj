@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B495D1691F6A19BC00CD01B7 /* UITextView+BWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B495D1681F6A19BC00CD01B7 /* UITextView+BWAdd.m */; };
 		B4C140E71F69166500146644 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C140E61F69166500146644 /* main.m */; };
 		B4C140EA1F69166500146644 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C140E91F69166500146644 /* AppDelegate.m */; };
 		B4C140F21F69166500146644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4C140F11F69166500146644 /* Assets.xcassets */; };
@@ -69,7 +70,6 @@
 		B4C1433E1F692F7600146644 /* bm_default_loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = B4C142D31F692F7600146644 /* bm_default_loading.gif */; };
 		B4C1433F1F692F7600146644 /* BMIndicatorWhitePointView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C142D61F692F7600146644 /* BMIndicatorWhitePointView.m */; };
 		B4C143401F692F7600146644 /* BMSetNumberAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C142D91F692F7600146644 /* BMSetNumberAlert.m */; };
-		B4C143411F692F7600146644 /* BMCornerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C142DD1F692F7600146644 /* BMCornerLabel.m */; };
 		B4C143421F692F7600146644 /* BMFieldBtn1View.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C142E01F692F7600146644 /* BMFieldBtn1View.m */; };
 		B4C143431F692F7600146644 /* BMFieldBtn1View.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4C142E11F692F7600146644 /* BMFieldBtn1View.xib */; };
 		B4C143441F692F7600146644 /* BMFieldBtn2View.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C142E41F692F7600146644 /* BMFieldBtn2View.m */; };
@@ -154,6 +154,8 @@
 		3C3B2E4EC1F0BF857640C6DA /* Pods-BWPhysicsLab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWPhysicsLab.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWPhysicsLab/Pods-BWPhysicsLab.release.xcconfig"; sourceTree = "<group>"; };
 		786F7E037FF67B1E81F42C76 /* libPods-BWPhysicsLab.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWPhysicsLab.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9014C2B9ACF551523C301609 /* Pods-BWPhysicsLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWPhysicsLab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWPhysicsLab/Pods-BWPhysicsLab.debug.xcconfig"; sourceTree = "<group>"; };
+		B495D1671F6A19BC00CD01B7 /* UITextView+BWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+BWAdd.h"; sourceTree = "<group>"; };
+		B495D1681F6A19BC00CD01B7 /* UITextView+BWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+BWAdd.m"; sourceTree = "<group>"; };
 		B4C140E21F69166500146644 /* BWPhysicsLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWPhysicsLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4C140E61F69166500146644 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B4C140E81F69166500146644 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -258,8 +260,6 @@
 		B4C142D61F692F7600146644 /* BMIndicatorWhitePointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMIndicatorWhitePointView.m; sourceTree = "<group>"; };
 		B4C142D81F692F7600146644 /* BMSetNumberAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMSetNumberAlert.h; sourceTree = "<group>"; };
 		B4C142D91F692F7600146644 /* BMSetNumberAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMSetNumberAlert.m; sourceTree = "<group>"; };
-		B4C142DC1F692F7600146644 /* BMCornerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMCornerLabel.h; sourceTree = "<group>"; };
-		B4C142DD1F692F7600146644 /* BMCornerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMCornerLabel.m; sourceTree = "<group>"; };
 		B4C142DF1F692F7600146644 /* BMFieldBtn1View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMFieldBtn1View.h; sourceTree = "<group>"; };
 		B4C142E01F692F7600146644 /* BMFieldBtn1View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMFieldBtn1View.m; sourceTree = "<group>"; };
 		B4C142E11F692F7600146644 /* BMFieldBtn1View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMFieldBtn1View.xib; sourceTree = "<group>"; };
@@ -744,6 +744,8 @@
 				B4C141EC1F692F2600146644 /* UIView+BMExtension.m */,
 				B4C141ED1F692F2600146644 /* UIViewController+BMExtension.h */,
 				B4C141EE1F692F2600146644 /* UIViewController+BMExtension.m */,
+				B495D1671F6A19BC00CD01B7 /* UITextView+BWAdd.h */,
+				B495D1681F6A19BC00CD01B7 /* UITextView+BWAdd.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -864,7 +866,6 @@
 		B4C142DA1F692F7600146644 /* BMUIComponents */ = {
 			isa = PBXGroup;
 			children = (
-				B4C142DB1F692F7600146644 /* BMCornerLabel */,
 				B4C142DE1F692F7600146644 /* BMFieldBtn */,
 				B4C142E21F692F7600146644 /* BMFieldBtn2 */,
 				B4C142E61F692F7600146644 /* BMHeaderView */,
@@ -881,15 +882,6 @@
 				B4C143241F692F7600146644 /* Resource */,
 			);
 			path = BMUIComponents;
-			sourceTree = "<group>";
-		};
-		B4C142DB1F692F7600146644 /* BMCornerLabel */ = {
-			isa = PBXGroup;
-			children = (
-				B4C142DC1F692F7600146644 /* BMCornerLabel.h */,
-				B4C142DD1F692F7600146644 /* BMCornerLabel.m */,
-			);
-			path = BMCornerLabel;
 			sourceTree = "<group>";
 		};
 		B4C142DE1F692F7600146644 /* BMFieldBtn */ = {
@@ -1384,6 +1376,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-BWPhysicsLab/Pods-BWPhysicsLab-resources.sh",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -1431,7 +1424,6 @@
 				B4C1433D1F692F7600146644 /* BMGifLoadingHUD.m in Sources */,
 				B4C143631F692F7600146644 /* BMTextMultilineCell.m in Sources */,
 				B4C143491F692F7600146644 /* BMIrregularGridCellDataAdapter.m in Sources */,
-				B4C143411F692F7600146644 /* BMCornerLabel.m in Sources */,
 				B4C141F31F692F2600146644 /* UIScrollView+BMNoDataView.m in Sources */,
 				B4C143441F692F7600146644 /* BMFieldBtn2View.m in Sources */,
 				B4C141F91F692F2700146644 /* UITabBarController+BMExtension.m in Sources */,
@@ -1479,6 +1471,7 @@
 				B4C143421F692F7600146644 /* BMFieldBtn1View.m in Sources */,
 				B4C143981F692FA200146644 /* BMValidCodeTimeModel.m in Sources */,
 				B4C141F01F692F2600146644 /* CAGradientLayer+BMExtension.m in Sources */,
+				B495D1691F6A19BC00CD01B7 /* UITextView+BWAdd.m in Sources */,
 				B4C143481F692F7600146644 /* BMIrregularGirCollectionView.m in Sources */,
 				B4C143381F692F7600146644 /* BMNewAddressPickerCell.m in Sources */,
 				B4C1433B1F692F7600146644 /* BMAddToCartView.m in Sources */,

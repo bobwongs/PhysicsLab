@@ -7,7 +7,7 @@
 //
 
 #import "BMParagraphFieldView.h"
-#import <UITextView+BMKit.h>
+#import "UITextView+BWAdd.h"
 
 @implementation BMParagraphFieldView
 

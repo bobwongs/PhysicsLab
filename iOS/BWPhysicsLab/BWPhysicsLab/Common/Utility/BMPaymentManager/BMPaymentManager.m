@@ -54,13 +54,13 @@ NSString *const BMUnionPayModeProduction = @"00";  // 生产环境（正式）�
 #pragma mark - 支付宝
 
 - (void)alipayWithOrder:(NSString *)orderString {
-    @weakify(self);
+    __weak typeof(self) weakSelf = self;
     [[AlipaySDK defaultService] payOrder:orderString fromScheme:kAlipayAppScheme callback:^(NSDictionary *resultDic) {
-        @strongify(self);
+        __strong typeof(weakSelf) strongSelf = weakSelf;
         
         // 没有安装支付宝客户端，网页支付的回调
         NSLog(@"reslut = %@",resultDic);
-        [self alipayProcessResult:resultDic];
+        [strongSelf alipayProcessResult:resultDic];
     }];
 }
 
@@ -70,13 +70,13 @@ NSString *const BMUnionPayModeProduction = @"00";  // 生产环境（正式）�
     }
     
     //跳转支付宝钱包进行支付，处理支付结果
-    @weakify(self);
+    __weak typeof(self) weakSelf = self;
     [[AlipaySDK defaultService] processOrderWithPaymentResult:url standbyCallback:^(NSDictionary *resultDic) {
-        @strongify(self);
+        __strong typeof(weakSelf) strongSelf = weakSelf;
         
         // 从支付宝App回到月亮天使
         NSLog(@"reslut = %@",resultDic);
-        [self alipayProcessResult:resultDic];
+        [strongSelf alipayProcessResult:resultDic];
     }];
 }
 

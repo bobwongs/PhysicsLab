@@ -45,7 +45,7 @@
 //    self.button.layer.borderColor   = [[UIColor grayColor] colorWithAlphaComponent:0.25f].CGColor;
 
     //设置边框颜色
-    self.button.layer.borderColor = [UIColor bm_colorWithHexString:@"d7d7d7"].CGColor;
+    self.button.layer.borderColor = [UIColor colorWithHexString:@"d7d7d7"].CGColor;
     //设置4中状态的背景颜色
     [self.button setBackgroundImage:[UIImage imageWithColor:[UIColor whiteColor]]      forState:UIControlStateNormal];
     [self.button setBackgroundImage:[UIImage imageWithColor:[UIColor colorWithHexString:@"ff6c47"]] forState:UIControlStateSelected];
@@ -73,7 +73,7 @@
     if (self.button.selected) {
         self.button.layer.borderColor = [UIColor clearColor].CGColor;
     }else{
-        self.button.layer.borderColor = [UIColor bm_colorWithHexString:@"d7d7d7"].CGColor;
+        self.button.layer.borderColor = [UIColor colorWithHexString:@"d7d7d7"].CGColor;
     }
     
 }
