@@ -10,6 +10,15 @@
 		B40462E41F6A2A670074B89E /* BMCartProductInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = B40462E01F6A2A670074B89E /* BMCartProductInputView.m */; };
 		B40462E51F6A2A670074B89E /* BMCartProductInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B40462E11F6A2A670074B89E /* BMCartProductInputView.xib */; };
 		B40462E61F6A2A670074B89E /* BMProductItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B40462E31F6A2A670074B89E /* BMProductItemModel.m */; };
+		B40462E81F6A2F7B0074B89E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40462E71F6A2F7B0074B89E /* SystemConfiguration.framework */; };
+		B40462EA1F6A2F830074B89E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40462E91F6A2F830074B89E /* CoreTelephony.framework */; };
+		B40462EC1F6A2F8C0074B89E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B40462EB1F6A2F8C0074B89E /* libc++.tbd */; };
+		B40462EE1F6A2F960074B89E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B40462ED1F6A2F960074B89E /* libz.tbd */; };
+		B40462F01F6A2F9D0074B89E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40462EF1F6A2F9D0074B89E /* QuartzCore.framework */; };
+		B40462F21F6A2FA40074B89E /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40462F11F6A2FA40074B89E /* CoreText.framework */; };
+		B40462F41F6A2FAD0074B89E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40462F31F6A2FAD0074B89E /* CoreGraphics.framework */; };
+		B40462F61F6A2FBB0074B89E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40462F51F6A2FBB0074B89E /* CFNetwork.framework */; };
+		B40462F81F6A2FC20074B89E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40462F71F6A2FC20074B89E /* CoreMotion.framework */; };
 		B495D1691F6A19BC00CD01B7 /* UITextView+BWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B495D1681F6A19BC00CD01B7 /* UITextView+BWAdd.m */; };
 		B495D16D1F6A1C8200CD01B7 /* BMAppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = B495D16C1F6A1C8200CD01B7 /* BMAppContext.m */; };
 		B495D1701F6A1D2B00CD01B7 /* UIDevice+BWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B495D16F1F6A1D2B00CD01B7 /* UIDevice+BWAdd.m */; };
@@ -165,6 +174,15 @@
 		B40462E11F6A2A670074B89E /* BMCartProductInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMCartProductInputView.xib; sourceTree = "<group>"; };
 		B40462E21F6A2A670074B89E /* BMProductItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMProductItemModel.h; sourceTree = "<group>"; };
 		B40462E31F6A2A670074B89E /* BMProductItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMProductItemModel.m; sourceTree = "<group>"; };
+		B40462E71F6A2F7B0074B89E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B40462E91F6A2F830074B89E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B40462EB1F6A2F8C0074B89E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		B40462ED1F6A2F960074B89E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B40462EF1F6A2F9D0074B89E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B40462F11F6A2FA40074B89E /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		B40462F31F6A2FAD0074B89E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B40462F51F6A2FBB0074B89E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B40462F71F6A2FC20074B89E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		B495D1671F6A19BC00CD01B7 /* UITextView+BWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+BWAdd.h"; sourceTree = "<group>"; };
 		B495D1681F6A19BC00CD01B7 /* UITextView+BWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+BWAdd.m"; sourceTree = "<group>"; };
 		B495D16B1F6A1C8200CD01B7 /* BMAppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMAppContext.h; sourceTree = "<group>"; };
@@ -378,6 +396,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B40462F81F6A2FC20074B89E /* CoreMotion.framework in Frameworks */,
+				B40462F61F6A2FBB0074B89E /* CFNetwork.framework in Frameworks */,
+				B40462F41F6A2FAD0074B89E /* CoreGraphics.framework in Frameworks */,
+				B40462F21F6A2FA40074B89E /* CoreText.framework in Frameworks */,
+				B40462F01F6A2F9D0074B89E /* QuartzCore.framework in Frameworks */,
+				B40462EE1F6A2F960074B89E /* libz.tbd in Frameworks */,
+				B40462EC1F6A2F8C0074B89E /* libc++.tbd in Frameworks */,
+				B40462EA1F6A2F830074B89E /* CoreTelephony.framework in Frameworks */,
+				B40462E81F6A2F7B0074B89E /* SystemConfiguration.framework in Frameworks */,
 				B4C1439D1F6930D300146644 /* UIKit.framework in Frameworks */,
 				B4C143A21F69323900146644 /* AlipaySDK.framework in Frameworks */,
 				B4C1439B1F6930CC00146644 /* Foundation.framework in Frameworks */,
@@ -1215,6 +1242,15 @@
 		BB168ECB2A13DE7C54549B2E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B40462F71F6A2FC20074B89E /* CoreMotion.framework */,
+				B40462F51F6A2FBB0074B89E /* CFNetwork.framework */,
+				B40462F31F6A2FAD0074B89E /* CoreGraphics.framework */,
+				B40462F11F6A2FA40074B89E /* CoreText.framework */,
+				B40462EF1F6A2F9D0074B89E /* QuartzCore.framework */,
+				B40462ED1F6A2F960074B89E /* libz.tbd */,
+				B40462EB1F6A2F8C0074B89E /* libc++.tbd */,
+				B40462E91F6A2F830074B89E /* CoreTelephony.framework */,
+				B40462E71F6A2F7B0074B89E /* SystemConfiguration.framework */,
 				B4C1439C1F6930D300146644 /* UIKit.framework */,
 				B4C1439A1F6930CC00146644 /* Foundation.framework */,
 				786F7E037FF67B1E81F42C76 /* libPods-BWPhysicsLab.a */,
