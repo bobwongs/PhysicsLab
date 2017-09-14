@@ -8,7 +8,6 @@
 
 #import "BMResultBaseViewController.h"
 #import "UIButton+BMExtension.h"
-#import <UIButton+BMKit.h>
 
 @interface BMResultBaseViewController ()
 
@@ -126,7 +125,6 @@
 - (void)setSecondButtonTitle:(NSString *)secondButtonTitle {
     _secondButtonTitle = secondButtonTitle;
     [_secondButton setTitle:secondButtonTitle forState:UIControlStateNormal];
-    [_secondButton setUnderlineWithRang:NSMakeRange(0, _secondButton.titleLabel.text.length)];
 }
 
 - (void)setHideFirstButton:(BOOL)hideFirstButton {

@@ -8,26 +8,8 @@
 
 #import "BMRouterManager.h"
 #import <UIKit/UIKit.h>
-#import "BMOrderListViewController.h"
-#import "BMCartViewController.h"
 
 @implementation BMRouterManager
-
-+ (void)routeToWaitForPayViewControllerWithCurrentVC:(UIViewController *)currentVC {
-    UINavigationController *navigationController = currentVC.navigationController;
-    if (!navigationController) return;
-    
-    NSArray *arrayVC = navigationController.viewControllers;  // 获得VC数组
-    BMOrderListViewController *orderListVC = [BMOrderListViewController new];
-    orderListVC.orderTabStatus = BMOrderTabStatusWaitPayment;
-    [navigationController pushViewController:orderListVC animated:YES];  // 跳转到订单列表
-    
-    navigationController.viewControllers = @[arrayVC.firstObject, orderListVC];  // 修改VC Stack
-}
-
-+ (void)routeToCartRootVCInCurrentVC:(UIViewController *)currentVC {
-    [self routeToFirstViewControllerClass:[BMCartViewController class] inCurrentVC:currentVC];
-}
 
 + (void)routeToFirstViewControllerClass:(Class)firstVCClass inCurrentVC:(UIViewController *)currentVC {
     UITabBarController *tabBarVC = (UITabBarController *)[UIApplication sharedApplication].keyWindow.rootViewController;

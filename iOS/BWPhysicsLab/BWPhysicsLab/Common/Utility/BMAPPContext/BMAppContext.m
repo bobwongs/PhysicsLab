@@ -10,9 +10,9 @@
 #import <UIKit/UIKit.h>
 #import "KeychainItemWrapper.h"
 #import "SDImageCache.h"
-#import "NSString+BMKit.h"
-#import "NSUserDefaults+BMKit.h"
-#import "BMKitMacroDefinition.h"
+#import "NSString+BMExtension.h"
+//#import "NSUserDefaults+BMKit.h"
+//#import "BMKitMacroDefinition.h"
 
 #define keychainidentifier @"BMMoonHouse"
 @interface BMAppContext ()
@@ -127,7 +127,7 @@
     }else{
         _appCacheSizeString = [NSString stringWithFormat:@"%.2fB",sizeB];
     }
-    DDLogInfo(@"SDImageCache缓存大小:%@",_appCacheSizeString);
+    NSLog(@"SDImageCache缓存大小:%@",_appCacheSizeString);
     return _appCacheSizeString;
 }
 

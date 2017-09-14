@@ -10,8 +10,6 @@
 
 @interface BMRouterManager : NSObject
 
-+ (void)routeToWaitForPayViewControllerWithCurrentVC:(UIViewController *)currentVC;
-+ (void)routeToCartRootVCInCurrentVC:(UIViewController *)currentVC;
 + (void)routeToFirstViewControllerClass:(Class)firstVCClass inCurrentVC:(UIViewController *)currentVC;
 
 @end

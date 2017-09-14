@@ -7,7 +7,7 @@
 //
 
 #import "BMSetNumberAlert.h"
-#import <UIApplication+BMKit.h>
+#import "UIApplication+BWAdd.h"
 #import <UIKit/UIKit.h>
 #import <SVProgressHUD.h>
 

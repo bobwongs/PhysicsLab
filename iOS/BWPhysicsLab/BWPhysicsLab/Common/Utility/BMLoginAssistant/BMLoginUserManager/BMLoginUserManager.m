@@ -8,7 +8,7 @@
 
 #import "BMLoginUserManager.h"
 //#import <TMCache.h>
-#import "BMUserGetInfoAPIManager.h"
+//#import "BMUserGetInfoAPIManager.h"
 
 
 
@@ -26,12 +26,12 @@ NSString *BMNotificationUserInfoChange = @"BMNotificationUserInfoChange";
 NSString *BMNotificationCartNumChange = @"BMNotificationCartNumChange";  // 购物车数量变化
 
 
-@interface BMLoginUserManager ()<BMAPIManagerCallBackDelegate>
+@interface BMLoginUserManager ()
 @property (nonatomic, readwrite,strong) BMLoginUserModel *loginedUserModel;//已登录用户model
 
 //接口
-@property (nonatomic, strong) BMUserGetInfoAPIManager *getUserInfoAPIManager;//获取用户信息
-@property (nonatomic ,assign) NSUInteger getUserInfoRequestId;
+//@property (nonatomic, strong) BMUserGetInfoAPIManager *getUserInfoAPIManager;//获取用户信息
+//@property (nonatomic ,assign) NSUInteger getUserInfoRequestId;
 
 
 @end
@@ -107,7 +107,7 @@ NSString *BMNotificationCartNumChange = @"BMNotificationCartNumChange";  // 购�
     self.loginedUserModel.pwd = @"";
     self.loginedUserModel.token = @"";
     self.loginedUserModel.headerImageUrl = @"";
-    self.loginedUserModel.loginStatus = BMUserLoginStatusUnLogin;
+//    self.loginedUserModel.loginStatus = BMUserLoginStatusUnLogin;
     self.loginedUserModel.balance = 0;
     self.loginedUserModel.cartCount = 0;
     [self cacheToDisk];
@@ -117,22 +117,22 @@ NSString *BMNotificationCartNumChange = @"BMNotificationCartNumChange";  // 购�
 
 - (void)cacheToDisk
 {
-    DDLogInfo(@"缓存loginedUserModel到本地:%@",self.loginedUserModel);
+//    NSLog(@"缓存loginedUserModel到本地:%@",self.loginedUserModel);
     [self archiver];
 }
 
 
 - (void)asynUpdateUserInfo
 {
-    if ([BMLoginUserManager sharedInstance].loginedUserModel.loginStatus == BMUserLoginStatusLoginNormal) {
-        DDLogInfo(@"接口请求->获取用户信息!");
-        self.getUserInfoRequestId = [self.getUserInfoAPIManager loadData];
-    }
+//    if ([BMLoginUserManager sharedInstance].loginedUserModel.loginStatus == BMUserLoginStatusLoginNormal) {
+//        NSLog(@"接口请求->获取用户信息!");
+//        self.getUserInfoRequestId = [self.getUserInfoAPIManager loadData];
+//    }
 }
 
 - (void)initDataFromDiskCache
 {
-    DDLogInfo(@"从本地缓存获取loginedUserModel:%@",self.loginedUserModel);
+    NSLog(@"从本地缓存获取loginedUserModel:%@",self.loginedUserModel);
     BMLoginUserModel *loginUserModel = [self unArchiver];
     if (loginUserModel) {
         self.loginedUserModel = loginUserModel;
@@ -140,10 +140,10 @@ NSString *BMNotificationCartNumChange = @"BMNotificationCartNumChange";  // 购�
 }
 
 - (BOOL)checkLoginStatus {
-    if ([BMLoginUserManager sharedInstance].loginedUserModel.loginStatus != BMUserLoginStatusLoginNormal) {
-        [[NSNotificationCenter defaultCenter] postNotificationName:BMNotificationRequestLogin object:nil];
-        return NO;
-    }
+//    if ([BMLoginUserManager sharedInstance].loginedUserModel.loginStatus != BMUserLoginStatusLoginNormal) {
+//        [[NSNotificationCenter defaultCenter] postNotificationName:BMNotificationRequestLogin object:nil];
+//        return NO;
+//    }
     return YES;
 }
 
@@ -181,28 +181,5 @@ NSString *BMNotificationCartNumChange = @"BMNotificationCartNumChange";  // 购�
 }
 
 #pragma mark - 归档
-
-
-
-#pragma mark - 接口
-- (BMUserGetInfoAPIManager *)getUserInfoAPIManager
-{
-    if (_getUserInfoAPIManager == nil) {
-        _getUserInfoAPIManager = [[BMUserGetInfoAPIManager alloc] init];
-        _getUserInfoAPIManager.apiCallBackDelegate = self;
-    }
-    return _getUserInfoAPIManager;
-}
-
-- (void)managerCallApiDidSuccess:(BMBaseAPIManager *)manager
-{
-    //在afterPerformSuccessWithResponse方法中，已经对BMLoginUserManager进行重新赋值
-    //这里不做任何处理，用户信息，永远都是重BMLoginUserManager中取
-}
-- (void)managerCallApiDidFailed:(BMBaseAPIManager *)manager
-{
-    //不做任何提示
-}
-
 
 @end

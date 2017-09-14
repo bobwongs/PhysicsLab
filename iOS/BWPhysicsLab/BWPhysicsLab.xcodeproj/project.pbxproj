@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B40462E41F6A2A670074B89E /* BMCartProductInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = B40462E01F6A2A670074B89E /* BMCartProductInputView.m */; };
+		B40462E51F6A2A670074B89E /* BMCartProductInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B40462E11F6A2A670074B89E /* BMCartProductInputView.xib */; };
+		B40462E61F6A2A670074B89E /* BMProductItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B40462E31F6A2A670074B89E /* BMProductItemModel.m */; };
 		B495D1691F6A19BC00CD01B7 /* UITextView+BWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B495D1681F6A19BC00CD01B7 /* UITextView+BWAdd.m */; };
 		B495D16D1F6A1C8200CD01B7 /* BMAppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = B495D16C1F6A1C8200CD01B7 /* BMAppContext.m */; };
 		B495D1701F6A1D2B00CD01B7 /* UIDevice+BWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B495D16F1F6A1D2B00CD01B7 /* UIDevice+BWAdd.m */; };
 		B495D1731F6A1DCA00CD01B7 /* UIApplication+BWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B495D1721F6A1DCA00CD01B7 /* UIApplication+BWAdd.m */; };
 		B495D1771F6A22AC00CD01B7 /* BWMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B495D1761F6A22AC00CD01B7 /* BWMainTabBarController.m */; };
+		B495D17B1F6A28B000CD01B7 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = B495D17A1F6A28B000CD01B7 /* KeychainItemWrapper.m */; };
 		B4C140E71F69166500146644 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C140E61F69166500146644 /* main.m */; };
 		B4C140EA1F69166500146644 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C140E91F69166500146644 /* AppDelegate.m */; };
 		B4C140F21F69166500146644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4C140F11F69166500146644 /* Assets.xcassets */; };
@@ -127,7 +131,6 @@
 		B4C143951F692FA200146644 /* BMRouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C143831F692FA200146644 /* BMRouterManager.m */; };
 		B4C143961F692FA200146644 /* BMShowCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C143861F692FA200146644 /* BMShowCommon.m */; };
 		B4C143971F692FA200146644 /* BMValidCodeTimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C143891F692FA200146644 /* BMValidCodeTimeManager.m */; };
-		B4C143981F692FA200146644 /* BMValidCodeTimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C1438B1F692FA200146644 /* BMValidCodeTimeModel.m */; };
 		B4C143991F692FA200146644 /* BMVersionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C1438E1F692FA200146644 /* BMVersionManager.m */; };
 		B4C1439B1F6930CC00146644 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C1439A1F6930CC00146644 /* Foundation.framework */; };
 		B4C1439D1F6930D300146644 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C1439C1F6930D300146644 /* UIKit.framework */; };
@@ -157,6 +160,11 @@
 		3C3B2E4EC1F0BF857640C6DA /* Pods-BWPhysicsLab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWPhysicsLab.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWPhysicsLab/Pods-BWPhysicsLab.release.xcconfig"; sourceTree = "<group>"; };
 		786F7E037FF67B1E81F42C76 /* libPods-BWPhysicsLab.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWPhysicsLab.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9014C2B9ACF551523C301609 /* Pods-BWPhysicsLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWPhysicsLab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWPhysicsLab/Pods-BWPhysicsLab.debug.xcconfig"; sourceTree = "<group>"; };
+		B40462DF1F6A2A670074B89E /* BMCartProductInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMCartProductInputView.h; sourceTree = "<group>"; };
+		B40462E01F6A2A670074B89E /* BMCartProductInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMCartProductInputView.m; sourceTree = "<group>"; };
+		B40462E11F6A2A670074B89E /* BMCartProductInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMCartProductInputView.xib; sourceTree = "<group>"; };
+		B40462E21F6A2A670074B89E /* BMProductItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMProductItemModel.h; sourceTree = "<group>"; };
+		B40462E31F6A2A670074B89E /* BMProductItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMProductItemModel.m; sourceTree = "<group>"; };
 		B495D1671F6A19BC00CD01B7 /* UITextView+BWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+BWAdd.h"; sourceTree = "<group>"; };
 		B495D1681F6A19BC00CD01B7 /* UITextView+BWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+BWAdd.m"; sourceTree = "<group>"; };
 		B495D16B1F6A1C8200CD01B7 /* BMAppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMAppContext.h; sourceTree = "<group>"; };
@@ -167,6 +175,8 @@
 		B495D1721F6A1DCA00CD01B7 /* UIApplication+BWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+BWAdd.m"; sourceTree = "<group>"; };
 		B495D1751F6A22AC00CD01B7 /* BWMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWMainTabBarController.h; sourceTree = "<group>"; };
 		B495D1761F6A22AC00CD01B7 /* BWMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWMainTabBarController.m; sourceTree = "<group>"; };
+		B495D1791F6A28B000CD01B7 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		B495D17A1F6A28B000CD01B7 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
 		B4C140E21F69166500146644 /* BWPhysicsLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWPhysicsLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4C140E61F69166500146644 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B4C140E81F69166500146644 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -355,8 +365,6 @@
 		B4C143861F692FA200146644 /* BMShowCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMShowCommon.m; sourceTree = "<group>"; };
 		B4C143881F692FA200146644 /* BMValidCodeTimeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMValidCodeTimeManager.h; sourceTree = "<group>"; };
 		B4C143891F692FA200146644 /* BMValidCodeTimeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMValidCodeTimeManager.m; sourceTree = "<group>"; };
-		B4C1438A1F692FA200146644 /* BMValidCodeTimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMValidCodeTimeModel.h; sourceTree = "<group>"; };
-		B4C1438B1F692FA200146644 /* BMValidCodeTimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMValidCodeTimeModel.m; sourceTree = "<group>"; };
 		B4C1438D1F692FA200146644 /* BMVersionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMVersionManager.h; sourceTree = "<group>"; };
 		B4C1438E1F692FA200146644 /* BMVersionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMVersionManager.m; sourceTree = "<group>"; };
 		B4C1439A1F6930CC00146644 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -403,6 +411,18 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B40462DE1F6A2A670074B89E /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				B40462DF1F6A2A670074B89E /* BMCartProductInputView.h */,
+				B40462E01F6A2A670074B89E /* BMCartProductInputView.m */,
+				B40462E11F6A2A670074B89E /* BMCartProductInputView.xib */,
+				B40462E21F6A2A670074B89E /* BMProductItemModel.h */,
+				B40462E31F6A2A670074B89E /* BMProductItemModel.m */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		B495D16A1F6A1C8200CD01B7 /* BMAPPContext */ = {
 			isa = PBXGroup;
 			children = (
@@ -419,6 +439,15 @@
 				B495D1761F6A22AC00CD01B7 /* BWMainTabBarController.m */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		B495D1781F6A28B000CD01B7 /* KeychainItemWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				B495D1791F6A28B000CD01B7 /* KeychainItemWrapper.h */,
+				B495D17A1F6A28B000CD01B7 /* KeychainItemWrapper.m */,
+			);
+			path = KeychainItemWrapper;
 			sourceTree = "<group>";
 		};
 		B4C140D91F69166400146644 = {
@@ -561,6 +590,7 @@
 		B4C141721F69278100146644 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				B495D1781F6A28B000CD01B7 /* KeychainItemWrapper */,
 				B4C1439E1F69323900146644 /* AlipaySDK */,
 			);
 			path = Library;
@@ -846,6 +876,7 @@
 				B4C142CC1F692F7600146644 /* BMAddToCartView.h */,
 				B4C142CD1F692F7600146644 /* BMAddToCartView.m */,
 				B4C142CE1F692F7600146644 /* BMAddToCartView.xib */,
+				B40462DE1F6A2A670074B89E /* Support */,
 			);
 			path = BMAddToCartView;
 			sourceTree = "<group>";
@@ -1159,8 +1190,6 @@
 			children = (
 				B4C143881F692FA200146644 /* BMValidCodeTimeManager.h */,
 				B4C143891F692FA200146644 /* BMValidCodeTimeManager.m */,
-				B4C1438A1F692FA200146644 /* BMValidCodeTimeModel.h */,
-				B4C1438B1F692FA200146644 /* BMValidCodeTimeModel.m */,
 			);
 			path = BMValidCodeManager;
 			sourceTree = "<group>";
@@ -1309,6 +1338,7 @@
 				B4C1418F1F69278100146644 /* Zhankeng in Resources */,
 				B4C143371F692F7600146644 /* icon_new_address_picker_checkbox_blue@3x.png in Resources */,
 				B4C1435E1F692F7600146644 /* BMTextField2View.xib in Resources */,
+				B40462E51F6A2A670074B89E /* BMCartProductInputView.xib in Resources */,
 				B4C141C71F692DC900146644 /* function_html_refresh@2x.png in Resources */,
 				B4C143431F692F7600146644 /* BMFieldBtn1View.xib in Resources */,
 				B4C141BE1F692DC900146644 /* BMTipsContentView.xib in Resources */,
@@ -1438,6 +1468,7 @@
 			files = (
 				B4C1433A1F692F7600146644 /* BMNewAddressPickerView.m in Sources */,
 				B4C141C11F692DC900146644 /* BMWebViewController.m in Sources */,
+				B40462E41F6A2A670074B89E /* BMCartProductInputView.m in Sources */,
 				B4C143961F692FA200146644 /* BMShowCommon.m in Sources */,
 				B4C1434E1F692F7600146644 /* BMPlaceholderLabel.m in Sources */,
 				B4C141FA1F692F2700146644 /* UITableViewCell+BMExtension.m in Sources */,
@@ -1484,6 +1515,7 @@
 				B4C140E71F69166500146644 /* main.m in Sources */,
 				B4C141FB1F692F2700146644 /* UIView+BMExtension.m in Sources */,
 				B4C1435B1F692F7600146644 /* BMTextField2Cell.m in Sources */,
+				B495D17B1F6A28B000CD01B7 /* KeychainItemWrapper.m in Sources */,
 				B4C141F81F692F2600146644 /* UINavigationController+BMExtension.m in Sources */,
 				B4C143901F692FA200146644 /* BMLoginUserManager.m in Sources */,
 				B4C143571F692F7600146644 /* BMTextFieldCell.m in Sources */,
@@ -1495,7 +1527,6 @@
 				B4C141BF1F692DC900146644 /* BMFunctionHtmlBottomView.m in Sources */,
 				B4C143921F692FA200146644 /* BMLogSwitch.m in Sources */,
 				B4C143421F692F7600146644 /* BMFieldBtn1View.m in Sources */,
-				B4C143981F692FA200146644 /* BMValidCodeTimeModel.m in Sources */,
 				B4C141F01F692F2600146644 /* CAGradientLayer+BMExtension.m in Sources */,
 				B495D1691F6A19BC00CD01B7 /* UITextView+BWAdd.m in Sources */,
 				B4C143481F692F7600146644 /* BMIrregularGirCollectionView.m in Sources */,
@@ -1506,6 +1537,7 @@
 				B4C143341F692F7600146644 /* BMNewRegionModel.m in Sources */,
 				B4C141BA1F692DC900146644 /* BMResultBaseViewController.m in Sources */,
 				B4C143951F692FA200146644 /* BMRouterManager.m in Sources */,
+				B40462E61F6A2A670074B89E /* BMProductItemModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

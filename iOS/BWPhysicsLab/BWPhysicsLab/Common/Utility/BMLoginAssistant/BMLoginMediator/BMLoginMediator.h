@@ -1,6 +1,6 @@
 //
 //  BMLoginMediator.h
-//  BlueMoonBlueHouse
+//  BWPhysicsLab
 //
 //  Created by BobWong on 15/9/28.
 //  Copyright (c) 2015年 BobWong. All rights reserved.

@@ -70,11 +70,11 @@ CGFloat const BMAddToCartViewAnimationDuration = 0.25;
     self.countSettingView.addBlock = ^{
         self.count += 1;
     };
-    @weakify(self);
+    __weak typeof(self) weakSelf = self;
     self.countSettingView.inputBlock = ^{
-        @strongify(self);
-        [self.setNumberAlert showWithCount:self.count];
-        [self dismiss];  // 设置数量面板出来，消失
+        __strong typeof(weakSelf) strongSelf = weakSelf;
+        [strongSelf.setNumberAlert showWithCount:strongSelf.count];
+        [strongSelf dismiss];  // 设置数量面板出来，消失
     };
 }
 
@@ -143,14 +143,14 @@ CGFloat const BMAddToCartViewAnimationDuration = 0.25;
 - (BMSetNumberAlert *)setNumberAlert {
     if (!_setNumberAlert) {
         _setNumberAlert = [BMSetNumberAlert new];
-        @weakify(self);
+        __weak typeof(self) weakSelf = self;
         _setNumberAlert.confirmBlock = ^(NSInteger count) {
-            @strongify(self);
-            self.count = count;
+            __strong typeof(weakSelf) strongSelf = weakSelf;
+            strongSelf.count = count;
         };
         _setNumberAlert.dismissBlock = ^{
-            @strongify(self);
-            [self show];
+            __strong typeof(weakSelf) strongSelf = weakSelf;
+            [strongSelf show];
         };
     }
     return _setNumberAlert;

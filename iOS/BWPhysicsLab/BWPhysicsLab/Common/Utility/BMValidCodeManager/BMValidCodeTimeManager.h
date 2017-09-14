@@ -29,10 +29,4 @@ typedef NS_ENUM(NSInteger, BMValidCodeTimeType) {
 
 - (BOOL)countDowningWithType:(BMValidCodeTimeType)type;  ///< 是否正在倒计时
 
-//缓存到本地
-- (void)cacheToDisk;
-
-//重置倒计时
-- (void)resetCountDown;
-
 @end
