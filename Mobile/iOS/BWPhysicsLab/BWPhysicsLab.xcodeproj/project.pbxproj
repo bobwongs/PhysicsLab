@@ -1,0 +1,1088 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AB28210D8B35DD810ED37D2 /* libPods-BWPhysicsLab.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF6A67778C89DDBD12DED09 /* libPods-BWPhysicsLab.a */; };
+		41F4DF98B50A40C6533D3B3A /* libPods-BWPhysicsLabUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7C7021E598C7C6EBFF50EE /* libPods-BWPhysicsLabUITests.a */; };
+		B4B471921FF4842B00DFB45A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B471911FF4842B00DFB45A /* AppDelegate.m */; };
+		B4B4719A1FF4842B00DFB45A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4B471991FF4842B00DFB45A /* Assets.xcassets */; };
+		B4B4719D1FF4842B00DFB45A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B4719B1FF4842B00DFB45A /* LaunchScreen.storyboard */; };
+		B4B471A01FF4842B00DFB45A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B4719F1FF4842B00DFB45A /* main.m */; };
+		B4B471AA1FF4842B00DFB45A /* BWPhysicsLabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B471A91FF4842B00DFB45A /* BWPhysicsLabTests.m */; };
+		B4B471B51FF4842B00DFB45A /* BWPhysicsLabUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B471B41FF4842B00DFB45A /* BWPhysicsLabUITests.m */; };
+		B4B471E21FF48DBD00DFB45A /* UIKit in Resources */ = {isa = PBXBuildFile; fileRef = B4B471C71FF48DBD00DFB45A /* UIKit */; };
+		B4B471E31FF48DBD00DFB45A /* Foundation in Resources */ = {isa = PBXBuildFile; fileRef = B4B471C91FF48DBD00DFB45A /* Foundation */; };
+		B4B471E41FF48DBD00DFB45A /* BWNetworkKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B471CE1FF48DBD00DFB45A /* BWNetworkKit.m */; };
+		B4B471E51FF48DBD00DFB45A /* Image in Resources */ = {isa = PBXBuildFile; fileRef = B4B471D31FF48DBD00DFB45A /* Image */; };
+		B4B471E61FF48DBD00DFB45A /* BWGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B471DA1FF48DBD00DFB45A /* BWGlobal.m */; };
+		B4B471E71FF48DBD00DFB45A /* Library in Resources */ = {isa = PBXBuildFile; fileRef = B4B471DF1FF48DBD00DFB45A /* Library */; };
+		B4B471E81FF48DBD00DFB45A /* Document in Resources */ = {isa = PBXBuildFile; fileRef = B4B471E11FF48DBD00DFB45A /* Document */; };
+		B4B471EC1FF48ECA00DFB45A /* BWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B471EB1FF48ECA00DFB45A /* BWBaseViewController.m */; };
+		B4B471F51FF48F6700DFB45A /* BWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B471F31FF48F6700DFB45A /* BWHomeViewController.m */; };
+		B4B472011FF48F9000DFB45A /* BWLabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B472001FF48F9000DFB45A /* BWLabViewController.m */; };
+		B4B472041FF48F9B00DFB45A /* BWMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B472031FF48F9B00DFB45A /* BWMeViewController.m */; };
+		B4B472071FF48FA500DFB45A /* BWPhysicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B472061FF48FA500DFB45A /* BWPhysicsViewController.m */; };
+		B4B4720B1FF4902A00DFB45A /* BWMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B4720A1FF4902A00DFB45A /* BWMainTabBarController.m */; };
+		B9649D894C20BEDEAB6E012C /* libPods-BWPhysicsLabTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D09A08D6E258F0BC365EC61 /* libPods-BWPhysicsLabTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4B471A61FF4842B00DFB45A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4B471851FF4842B00DFB45A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4B4718C1FF4842B00DFB45A;
+			remoteInfo = BWPhysicsLab;
+		};
+		B4B471B11FF4842B00DFB45A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4B471851FF4842B00DFB45A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4B4718C1FF4842B00DFB45A;
+			remoteInfo = BWPhysicsLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0492C13B42DEC23565DE7EC0 /* Pods-BWPhysicsLab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWPhysicsLab.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWPhysicsLab/Pods-BWPhysicsLab.release.xcconfig"; sourceTree = "<group>"; };
+		5D09A08D6E258F0BC365EC61 /* libPods-BWPhysicsLabTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWPhysicsLabTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74A9505965CEDC7D71FFAAD7 /* Pods-BWPhysicsLabUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWPhysicsLabUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWPhysicsLabUITests/Pods-BWPhysicsLabUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C9E7B660FC63549FA25CBC9 /* Pods-BWPhysicsLabTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWPhysicsLabTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWPhysicsLabTests/Pods-BWPhysicsLabTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7EF6A67778C89DDBD12DED09 /* libPods-BWPhysicsLab.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWPhysicsLab.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B4718D1FF4842B00DFB45A /* BWPhysicsLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWPhysicsLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B471901FF4842B00DFB45A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B4B471911FF4842B00DFB45A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B4B471991FF4842B00DFB45A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4B4719C1FF4842B00DFB45A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4B4719E1FF4842B00DFB45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4B4719F1FF4842B00DFB45A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4B471A51FF4842B00DFB45A /* BWPhysicsLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWPhysicsLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B471A91FF4842B00DFB45A /* BWPhysicsLabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWPhysicsLabTests.m; sourceTree = "<group>"; };
+		B4B471AB1FF4842B00DFB45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4B471B01FF4842B00DFB45A /* BWPhysicsLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWPhysicsLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B471B41FF4842B00DFB45A /* BWPhysicsLabUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWPhysicsLabUITests.m; sourceTree = "<group>"; };
+		B4B471B61FF4842B00DFB45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4B471C71FF48DBD00DFB45A /* UIKit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UIKit; sourceTree = "<group>"; };
+		B4B471C91FF48DBD00DFB45A /* Foundation */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Foundation; sourceTree = "<group>"; };
+		B4B471CE1FF48DBD00DFB45A /* BWNetworkKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWNetworkKit.m; sourceTree = "<group>"; };
+		B4B471CF1FF48DBD00DFB45A /* BWNetworkKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWNetworkKit.h; sourceTree = "<group>"; };
+		B4B471D01FF48DBD00DFB45A /* BWNetworkConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWNetworkConfigure.h; sourceTree = "<group>"; };
+		B4B471D31FF48DBD00DFB45A /* Image */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Image; sourceTree = "<group>"; };
+		B4B471DA1FF48DBD00DFB45A /* BWGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWGlobal.m; sourceTree = "<group>"; };
+		B4B471DB1FF48DBD00DFB45A /* BWGlobalConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWGlobalConfigure.h; sourceTree = "<group>"; };
+		B4B471DC1FF48DBD00DFB45A /* BWGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWGlobal.h; sourceTree = "<group>"; };
+		B4B471DD1FF48DBD00DFB45A /* BWMacroDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWMacroDefinition.h; sourceTree = "<group>"; };
+		B4B471DF1FF48DBD00DFB45A /* Library */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Library; sourceTree = "<group>"; };
+		B4B471E11FF48DBD00DFB45A /* Document */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Document; sourceTree = "<group>"; };
+		B4B471EA1FF48ECA00DFB45A /* BWBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWBaseViewController.h; sourceTree = "<group>"; };
+		B4B471EB1FF48ECA00DFB45A /* BWBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWBaseViewController.m; sourceTree = "<group>"; };
+		B4B471F31FF48F6700DFB45A /* BWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWHomeViewController.m; sourceTree = "<group>"; };
+		B4B471F41FF48F6700DFB45A /* BWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWHomeViewController.h; sourceTree = "<group>"; };
+		B4B471FF1FF48F9000DFB45A /* BWLabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWLabViewController.h; sourceTree = "<group>"; };
+		B4B472001FF48F9000DFB45A /* BWLabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWLabViewController.m; sourceTree = "<group>"; };
+		B4B472021FF48F9B00DFB45A /* BWMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWMeViewController.h; sourceTree = "<group>"; };
+		B4B472031FF48F9B00DFB45A /* BWMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWMeViewController.m; sourceTree = "<group>"; };
+		B4B472051FF48FA500DFB45A /* BWPhysicsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWPhysicsViewController.h; sourceTree = "<group>"; };
+		B4B472061FF48FA500DFB45A /* BWPhysicsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWPhysicsViewController.m; sourceTree = "<group>"; };
+		B4B472091FF4902A00DFB45A /* BWMainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWMainTabBarController.h; sourceTree = "<group>"; };
+		B4B4720A1FF4902A00DFB45A /* BWMainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWMainTabBarController.m; sourceTree = "<group>"; };
+		B4B4720C1FF4972D00DFB45A /* BWPhysicsLab.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWPhysicsLab.pch; sourceTree = "<group>"; };
+		B71BAE6ABF113F0107CCAF78 /* Pods-BWPhysicsLabUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWPhysicsLabUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWPhysicsLabUITests/Pods-BWPhysicsLabUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C66C87B9DAC41E9A75F55342 /* Pods-BWPhysicsLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWPhysicsLab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWPhysicsLab/Pods-BWPhysicsLab.debug.xcconfig"; sourceTree = "<group>"; };
+		DB7C7021E598C7C6EBFF50EE /* libPods-BWPhysicsLabUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWPhysicsLabUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD9F88ECE84D547225C47054 /* Pods-BWPhysicsLabTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWPhysicsLabTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWPhysicsLabTests/Pods-BWPhysicsLabTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4B4718A1FF4842B00DFB45A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB28210D8B35DD810ED37D2 /* libPods-BWPhysicsLab.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4B471A21FF4842B00DFB45A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9649D894C20BEDEAB6E012C /* libPods-BWPhysicsLabTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4B471AD1FF4842B00DFB45A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F4DF98B50A40C6533D3B3A /* libPods-BWPhysicsLabUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24152B6CC243AA49B4C31AF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EF6A67778C89DDBD12DED09 /* libPods-BWPhysicsLab.a */,
+				5D09A08D6E258F0BC365EC61 /* libPods-BWPhysicsLabTests.a */,
+				DB7C7021E598C7C6EBFF50EE /* libPods-BWPhysicsLabUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4B471841FF4842B00DFB45A = {
+			isa = PBXGroup;
+			children = (
+				B4B4718F1FF4842B00DFB45A /* BWPhysicsLab */,
+				B4B471A81FF4842B00DFB45A /* BWPhysicsLabTests */,
+				B4B471B31FF4842B00DFB45A /* BWPhysicsLabUITests */,
+				B4B4718E1FF4842B00DFB45A /* Products */,
+				D0B7F0A9012238121F59D64E /* Pods */,
+				24152B6CC243AA49B4C31AF3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B4B4718E1FF4842B00DFB45A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4B4718D1FF4842B00DFB45A /* BWPhysicsLab.app */,
+				B4B471A51FF4842B00DFB45A /* BWPhysicsLabTests.xctest */,
+				B4B471B01FF4842B00DFB45A /* BWPhysicsLabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4B4718F1FF4842B00DFB45A /* BWPhysicsLab */ = {
+			isa = PBXGroup;
+			children = (
+				B4B471901FF4842B00DFB45A /* AppDelegate.h */,
+				B4B471911FF4842B00DFB45A /* AppDelegate.m */,
+				B4B471E01FF48DBD00DFB45A /* Document */,
+				B4B471D41FF48DBD00DFB45A /* Business */,
+				B4B471D91FF48DBD00DFB45A /* Global */,
+				B4B471C41FF48DBD00DFB45A /* Common */,
+				B4B471CD1FF48DBD00DFB45A /* Network */,
+				B4B471DE1FF48DBD00DFB45A /* Library */,
+				B4B471D11FF48DBD00DFB45A /* Resource */,
+				B4B471991FF4842B00DFB45A /* Assets.xcassets */,
+				B4B471C31FF48D9B00DFB45A /* Supporting Files */,
+			);
+			path = BWPhysicsLab;
+			sourceTree = "<group>";
+		};
+		B4B471A81FF4842B00DFB45A /* BWPhysicsLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4B471A91FF4842B00DFB45A /* BWPhysicsLabTests.m */,
+				B4B471AB1FF4842B00DFB45A /* Info.plist */,
+			);
+			path = BWPhysicsLabTests;
+			sourceTree = "<group>";
+		};
+		B4B471B31FF4842B00DFB45A /* BWPhysicsLabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4B471B41FF4842B00DFB45A /* BWPhysicsLabUITests.m */,
+				B4B471B61FF4842B00DFB45A /* Info.plist */,
+			);
+			path = BWPhysicsLabUITests;
+			sourceTree = "<group>";
+		};
+		B4B471C31FF48D9B00DFB45A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4B4719B1FF4842B00DFB45A /* LaunchScreen.storyboard */,
+				B4B4719E1FF4842B00DFB45A /* Info.plist */,
+				B4B4719F1FF4842B00DFB45A /* main.m */,
+				B4B4720C1FF4972D00DFB45A /* BWPhysicsLab.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4B471C41FF48DBD00DFB45A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B4B471C51FF48DBD00DFB45A /* Category */,
+				B4B471CA1FF48DBD00DFB45A /* View */,
+				B4B471CB1FF48DBD00DFB45A /* Class */,
+				B4B471CC1FF48DBD00DFB45A /* Utility */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B4B471C51FF48DBD00DFB45A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B4B471C61FF48DBD00DFB45A /* UIKit */,
+				B4B471C81FF48DBD00DFB45A /* Foundation */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B4B471C61FF48DBD00DFB45A /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B4B471C71FF48DBD00DFB45A /* UIKit */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		B4B471C81FF48DBD00DFB45A /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				B4B471C91FF48DBD00DFB45A /* Foundation */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		B4B471CA1FF48DBD00DFB45A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4B471CB1FF48DBD00DFB45A /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				B4B471E91FF48EB100DFB45A /* BaseViewController */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		B4B471CC1FF48DBD00DFB45A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		B4B471CD1FF48DBD00DFB45A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B4B471CF1FF48DBD00DFB45A /* BWNetworkKit.h */,
+				B4B471CE1FF48DBD00DFB45A /* BWNetworkKit.m */,
+				B4B471D01FF48DBD00DFB45A /* BWNetworkConfigure.h */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B4B471D11FF48DBD00DFB45A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B4B471D21FF48DBD00DFB45A /* Image */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B4B471D21FF48DBD00DFB45A /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				B4B471D31FF48DBD00DFB45A /* Image */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		B4B471D41FF48DBD00DFB45A /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				B4B472081FF48FD100DFB45A /* Main */,
+				B4B471D51FF48DBD00DFB45A /* Home */,
+				B4B471D81FF48DBD00DFB45A /* Physics */,
+				B4B471D61FF48DBD00DFB45A /* Lab */,
+				B4B471D71FF48DBD00DFB45A /* Me */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		B4B471D51FF48DBD00DFB45A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B4B471F21FF48F6700DFB45A /* Controller */,
+				B4B471F11FF48F6700DFB45A /* Model */,
+				B4B471F01FF48F6700DFB45A /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B4B471D61FF48DBD00DFB45A /* Lab */ = {
+			isa = PBXGroup;
+			children = (
+				B4B471F81FF48F7000DFB45A /* Controller */,
+				B4B471F61FF48F7000DFB45A /* Model */,
+				B4B471F71FF48F7000DFB45A /* View */,
+			);
+			path = Lab;
+			sourceTree = "<group>";
+		};
+		B4B471D71FF48DBD00DFB45A /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				B4B471FA1FF48F7800DFB45A /* Controller */,
+				B4B471F91FF48F7800DFB45A /* Model */,
+				B4B471FB1FF48F7800DFB45A /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		B4B471D81FF48DBD00DFB45A /* Physics */ = {
+			isa = PBXGroup;
+			children = (
+				B4B471FD1FF48F7F00DFB45A /* Controller */,
+				B4B471FE1FF48F7F00DFB45A /* Model */,
+				B4B471FC1FF48F7F00DFB45A /* View */,
+			);
+			path = Physics;
+			sourceTree = "<group>";
+		};
+		B4B471D91FF48DBD00DFB45A /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				B4B471DA1FF48DBD00DFB45A /* BWGlobal.m */,
+				B4B471DB1FF48DBD00DFB45A /* BWGlobalConfigure.h */,
+				B4B471DC1FF48DBD00DFB45A /* BWGlobal.h */,
+				B4B471DD1FF48DBD00DFB45A /* BWMacroDefinition.h */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		B4B471DE1FF48DBD00DFB45A /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				B4B471DF1FF48DBD00DFB45A /* Library */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		B4B471E01FF48DBD00DFB45A /* Document */ = {
+			isa = PBXGroup;
+			children = (
+				B4B471E11FF48DBD00DFB45A /* Document */,
+			);
+			path = Document;
+			sourceTree = "<group>";
+		};
+		B4B471E91FF48EB100DFB45A /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B4B471EA1FF48ECA00DFB45A /* BWBaseViewController.h */,
+				B4B471EB1FF48ECA00DFB45A /* BWBaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		B4B471F01FF48F6700DFB45A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4B471F11FF48F6700DFB45A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4B471F21FF48F6700DFB45A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B4B471F41FF48F6700DFB45A /* BWHomeViewController.h */,
+				B4B471F31FF48F6700DFB45A /* BWHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B4B471F61FF48F7000DFB45A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4B471F71FF48F7000DFB45A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4B471F81FF48F7000DFB45A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B4B471FF1FF48F9000DFB45A /* BWLabViewController.h */,
+				B4B472001FF48F9000DFB45A /* BWLabViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B4B471F91FF48F7800DFB45A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4B471FA1FF48F7800DFB45A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B4B472021FF48F9B00DFB45A /* BWMeViewController.h */,
+				B4B472031FF48F9B00DFB45A /* BWMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B4B471FB1FF48F7800DFB45A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4B471FC1FF48F7F00DFB45A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4B471FD1FF48F7F00DFB45A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B4B472051FF48FA500DFB45A /* BWPhysicsViewController.h */,
+				B4B472061FF48FA500DFB45A /* BWPhysicsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B4B471FE1FF48F7F00DFB45A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4B472081FF48FD100DFB45A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B4B472091FF4902A00DFB45A /* BWMainTabBarController.h */,
+				B4B4720A1FF4902A00DFB45A /* BWMainTabBarController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D0B7F0A9012238121F59D64E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C66C87B9DAC41E9A75F55342 /* Pods-BWPhysicsLab.debug.xcconfig */,
+				0492C13B42DEC23565DE7EC0 /* Pods-BWPhysicsLab.release.xcconfig */,
+				7C9E7B660FC63549FA25CBC9 /* Pods-BWPhysicsLabTests.debug.xcconfig */,
+				FD9F88ECE84D547225C47054 /* Pods-BWPhysicsLabTests.release.xcconfig */,
+				74A9505965CEDC7D71FFAAD7 /* Pods-BWPhysicsLabUITests.debug.xcconfig */,
+				B71BAE6ABF113F0107CCAF78 /* Pods-BWPhysicsLabUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4B4718C1FF4842B00DFB45A /* BWPhysicsLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4B471B91FF4842B00DFB45A /* Build configuration list for PBXNativeTarget "BWPhysicsLab" */;
+			buildPhases = (
+				EA30FB003AFDDBB5E92D646C /* [CP] Check Pods Manifest.lock */,
+				B4B471891FF4842B00DFB45A /* Sources */,
+				B4B4718A1FF4842B00DFB45A /* Frameworks */,
+				B4B4718B1FF4842B00DFB45A /* Resources */,
+				2623120A4EFF25F32A3A3E69 /* [CP] Embed Pods Frameworks */,
+				94AFBFB1D3BC2FB3B167508A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BWPhysicsLab;
+			productName = BWPhysicsLab;
+			productReference = B4B4718D1FF4842B00DFB45A /* BWPhysicsLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4B471A41FF4842B00DFB45A /* BWPhysicsLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4B471BC1FF4842B00DFB45A /* Build configuration list for PBXNativeTarget "BWPhysicsLabTests" */;
+			buildPhases = (
+				AFA73C4152D52FBFBEDEEC2F /* [CP] Check Pods Manifest.lock */,
+				B4B471A11FF4842B00DFB45A /* Sources */,
+				B4B471A21FF4842B00DFB45A /* Frameworks */,
+				B4B471A31FF4842B00DFB45A /* Resources */,
+				6B42DB98EBC3E20A1886CE4E /* [CP] Embed Pods Frameworks */,
+				CB674C669AAC8C9DF6ED605E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4B471A71FF4842B00DFB45A /* PBXTargetDependency */,
+			);
+			name = BWPhysicsLabTests;
+			productName = BWPhysicsLabTests;
+			productReference = B4B471A51FF4842B00DFB45A /* BWPhysicsLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4B471AF1FF4842B00DFB45A /* BWPhysicsLabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4B471BF1FF4842B00DFB45A /* Build configuration list for PBXNativeTarget "BWPhysicsLabUITests" */;
+			buildPhases = (
+				D739368965E58F7E1ABF549D /* [CP] Check Pods Manifest.lock */,
+				B4B471AC1FF4842B00DFB45A /* Sources */,
+				B4B471AD1FF4842B00DFB45A /* Frameworks */,
+				B4B471AE1FF4842B00DFB45A /* Resources */,
+				C7DBEDA1613E6E0F28908F3C /* [CP] Embed Pods Frameworks */,
+				A3FCF0ABCFE8FB1DC9E1A6C2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4B471B21FF4842B00DFB45A /* PBXTargetDependency */,
+			);
+			name = BWPhysicsLabUITests;
+			productName = BWPhysicsLabUITests;
+			productReference = B4B471B01FF4842B00DFB45A /* BWPhysicsLabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4B471851FF4842B00DFB45A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = BobWongStudio;
+				TargetAttributes = {
+					B4B4718C1FF4842B00DFB45A = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					B4B471A41FF4842B00DFB45A = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B4B4718C1FF4842B00DFB45A;
+					};
+					B4B471AF1FF4842B00DFB45A = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B4B4718C1FF4842B00DFB45A;
+					};
+				};
+			};
+			buildConfigurationList = B4B471881FF4842B00DFB45A /* Build configuration list for PBXProject "BWPhysicsLab" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4B471841FF4842B00DFB45A;
+			productRefGroup = B4B4718E1FF4842B00DFB45A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4B4718C1FF4842B00DFB45A /* BWPhysicsLab */,
+				B4B471A41FF4842B00DFB45A /* BWPhysicsLabTests */,
+				B4B471AF1FF4842B00DFB45A /* BWPhysicsLabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4B4718B1FF4842B00DFB45A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B471E71FF48DBD00DFB45A /* Library in Resources */,
+				B4B471E51FF48DBD00DFB45A /* Image in Resources */,
+				B4B471E21FF48DBD00DFB45A /* UIKit in Resources */,
+				B4B471E31FF48DBD00DFB45A /* Foundation in Resources */,
+				B4B471E81FF48DBD00DFB45A /* Document in Resources */,
+				B4B4719D1FF4842B00DFB45A /* LaunchScreen.storyboard in Resources */,
+				B4B4719A1FF4842B00DFB45A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4B471A31FF4842B00DFB45A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4B471AE1FF4842B00DFB45A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2623120A4EFF25F32A3A3E69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWPhysicsLab/Pods-BWPhysicsLab-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B42DB98EBC3E20A1886CE4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWPhysicsLabTests/Pods-BWPhysicsLabTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94AFBFB1D3BC2FB3B167508A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BWPhysicsLab/Pods-BWPhysicsLab-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWPhysicsLab/Pods-BWPhysicsLab-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3FCF0ABCFE8FB1DC9E1A6C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWPhysicsLabUITests/Pods-BWPhysicsLabUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFA73C4152D52FBFBEDEEC2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BWPhysicsLabTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7DBEDA1613E6E0F28908F3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWPhysicsLabUITests/Pods-BWPhysicsLabUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB674C669AAC8C9DF6ED605E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWPhysicsLabTests/Pods-BWPhysicsLabTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D739368965E58F7E1ABF549D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BWPhysicsLabUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA30FB003AFDDBB5E92D646C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BWPhysicsLab-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4B471891FF4842B00DFB45A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B471F51FF48F6700DFB45A /* BWHomeViewController.m in Sources */,
+				B4B4720B1FF4902A00DFB45A /* BWMainTabBarController.m in Sources */,
+				B4B472041FF48F9B00DFB45A /* BWMeViewController.m in Sources */,
+				B4B471A01FF4842B00DFB45A /* main.m in Sources */,
+				B4B472071FF48FA500DFB45A /* BWPhysicsViewController.m in Sources */,
+				B4B471E41FF48DBD00DFB45A /* BWNetworkKit.m in Sources */,
+				B4B471921FF4842B00DFB45A /* AppDelegate.m in Sources */,
+				B4B471EC1FF48ECA00DFB45A /* BWBaseViewController.m in Sources */,
+				B4B472011FF48F9000DFB45A /* BWLabViewController.m in Sources */,
+				B4B471E61FF48DBD00DFB45A /* BWGlobal.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4B471A11FF4842B00DFB45A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B471AA1FF4842B00DFB45A /* BWPhysicsLabTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4B471AC1FF4842B00DFB45A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B471B51FF4842B00DFB45A /* BWPhysicsLabUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4B471A71FF4842B00DFB45A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4B4718C1FF4842B00DFB45A /* BWPhysicsLab */;
+			targetProxy = B4B471A61FF4842B00DFB45A /* PBXContainerItemProxy */;
+		};
+		B4B471B21FF4842B00DFB45A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4B4718C1FF4842B00DFB45A /* BWPhysicsLab */;
+			targetProxy = B4B471B11FF4842B00DFB45A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4B4719B1FF4842B00DFB45A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4B4719C1FF4842B00DFB45A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4B471B71FF4842B00DFB45A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B4B471B81FF4842B00DFB45A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4B471BA1FF4842B00DFB45A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C66C87B9DAC41E9A75F55342 /* Pods-BWPhysicsLab.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3E8GUFW32;
+				GCC_PREFIX_HEADER = BWPhysicsLab/BWPhysicsLab.pch;
+				INFOPLIST_FILE = BWPhysicsLab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWPhysicsLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B4B471BB1FF4842B00DFB45A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0492C13B42DEC23565DE7EC0 /* Pods-BWPhysicsLab.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3E8GUFW32;
+				GCC_PREFIX_HEADER = BWPhysicsLab/BWPhysicsLab.pch;
+				INFOPLIST_FILE = BWPhysicsLab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWPhysicsLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B4B471BD1FF4842B00DFB45A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C9E7B660FC63549FA25CBC9 /* Pods-BWPhysicsLabTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3E8GUFW32;
+				INFOPLIST_FILE = BWPhysicsLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWPhysicsLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BWPhysicsLab.app/BWPhysicsLab";
+			};
+			name = Debug;
+		};
+		B4B471BE1FF4842B00DFB45A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD9F88ECE84D547225C47054 /* Pods-BWPhysicsLabTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3E8GUFW32;
+				INFOPLIST_FILE = BWPhysicsLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWPhysicsLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BWPhysicsLab.app/BWPhysicsLab";
+			};
+			name = Release;
+		};
+		B4B471C01FF4842B00DFB45A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74A9505965CEDC7D71FFAAD7 /* Pods-BWPhysicsLabUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3E8GUFW32;
+				INFOPLIST_FILE = BWPhysicsLabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWPhysicsLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BWPhysicsLab;
+			};
+			name = Debug;
+		};
+		B4B471C11FF4842B00DFB45A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B71BAE6ABF113F0107CCAF78 /* Pods-BWPhysicsLabUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3E8GUFW32;
+				INFOPLIST_FILE = BWPhysicsLabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWPhysicsLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BWPhysicsLab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4B471881FF4842B00DFB45A /* Build configuration list for PBXProject "BWPhysicsLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4B471B71FF4842B00DFB45A /* Debug */,
+				B4B471B81FF4842B00DFB45A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4B471B91FF4842B00DFB45A /* Build configuration list for PBXNativeTarget "BWPhysicsLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4B471BA1FF4842B00DFB45A /* Debug */,
+				B4B471BB1FF4842B00DFB45A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4B471BC1FF4842B00DFB45A /* Build configuration list for PBXNativeTarget "BWPhysicsLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4B471BD1FF4842B00DFB45A /* Debug */,
+				B4B471BE1FF4842B00DFB45A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4B471BF1FF4842B00DFB45A /* Build configuration list for PBXNativeTarget "BWPhysicsLabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4B471C01FF4842B00DFB45A /* Debug */,
+				B4B471C11FF4842B00DFB45A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4B471851FF4842B00DFB45A /* Project object */;
+}
