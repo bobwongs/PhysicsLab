@@ -9,5 +9,9 @@
 #ifndef BWNetworkConfigure_h
 #define BWNetworkConfigure_h
 
+#define BASE_URL @""
+#define BASE_TEST_URL @""
+
+#define URL_LOGIN @"/account/login"
 
 #endif /* BWNetworkConfigure_h */

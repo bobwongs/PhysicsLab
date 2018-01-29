@@ -28,6 +28,10 @@
 		B4B472041FF48F9B00DFB45A /* BWMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B472031FF48F9B00DFB45A /* BWMeViewController.m */; };
 		B4B472071FF48FA500DFB45A /* BWPhysicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B472061FF48FA500DFB45A /* BWPhysicsViewController.m */; };
 		B4B4720B1FF4902A00DFB45A /* BWMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B4720A1FF4902A00DFB45A /* BWMainTabBarController.m */; };
+		B4B92D98201F179B0008A4A6 /* BWLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B92D96201F179B0008A4A6 /* BWLoginViewController.m */; };
+		B4B92D99201F179B0008A4A6 /* BWLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4B92D97201F179B0008A4A6 /* BWLoginViewController.xib */; };
+		B4B92DA1201F1A050008A4A6 /* BWYTKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B92DA0201F1A050008A4A6 /* BWYTKRequest.m */; };
+		B4B92DA4201F1A3F0008A4A6 /* BWLoginApi.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B92DA3201F1A3F0008A4A6 /* BWLoginApi.m */; };
 		B9649D894C20BEDEAB6E012C /* libPods-BWPhysicsLabTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D09A08D6E258F0BC365EC61 /* libPods-BWPhysicsLabTests.a */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +96,13 @@
 		B4B472091FF4902A00DFB45A /* BWMainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWMainTabBarController.h; sourceTree = "<group>"; };
 		B4B4720A1FF4902A00DFB45A /* BWMainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWMainTabBarController.m; sourceTree = "<group>"; };
 		B4B4720C1FF4972D00DFB45A /* BWPhysicsLab.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWPhysicsLab.pch; sourceTree = "<group>"; };
+		B4B92D95201F179B0008A4A6 /* BWLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWLoginViewController.h; sourceTree = "<group>"; };
+		B4B92D96201F179B0008A4A6 /* BWLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWLoginViewController.m; sourceTree = "<group>"; };
+		B4B92D97201F179B0008A4A6 /* BWLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BWLoginViewController.xib; sourceTree = "<group>"; };
+		B4B92D9F201F1A050008A4A6 /* BWYTKRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWYTKRequest.h; sourceTree = "<group>"; };
+		B4B92DA0201F1A050008A4A6 /* BWYTKRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWYTKRequest.m; sourceTree = "<group>"; };
+		B4B92DA2201F1A3F0008A4A6 /* BWLoginApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWLoginApi.h; sourceTree = "<group>"; };
+		B4B92DA3201F1A3F0008A4A6 /* BWLoginApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWLoginApi.m; sourceTree = "<group>"; };
 		B71BAE6ABF113F0107CCAF78 /* Pods-BWPhysicsLabUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWPhysicsLabUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWPhysicsLabUITests/Pods-BWPhysicsLabUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C66C87B9DAC41E9A75F55342 /* Pods-BWPhysicsLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWPhysicsLab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWPhysicsLab/Pods-BWPhysicsLab.debug.xcconfig"; sourceTree = "<group>"; };
 		DB7C7021E598C7C6EBFF50EE /* libPods-BWPhysicsLabUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWPhysicsLabUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -269,6 +280,7 @@
 				B4B471CF1FF48DBD00DFB45A /* BWNetworkKit.h */,
 				B4B471CE1FF48DBD00DFB45A /* BWNetworkKit.m */,
 				B4B471D01FF48DBD00DFB45A /* BWNetworkConfigure.h */,
+				B4B92D9A201F19BB0008A4A6 /* Request */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -297,6 +309,7 @@
 				B4B471D81FF48DBD00DFB45A /* Physics */,
 				B4B471D61FF48DBD00DFB45A /* Lab */,
 				B4B471D71FF48DBD00DFB45A /* Me */,
+				B4B92D91201F17730008A4A6 /* Login */,
 			);
 			path = Business;
 			sourceTree = "<group>";
@@ -344,9 +357,9 @@
 		B4B471D91FF48DBD00DFB45A /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				B4B471DC1FF48DBD00DFB45A /* BWGlobal.h */,
 				B4B471DA1FF48DBD00DFB45A /* BWGlobal.m */,
 				B4B471DB1FF48DBD00DFB45A /* BWGlobalConfigure.h */,
-				B4B471DC1FF48DBD00DFB45A /* BWGlobal.h */,
 				B4B471DD1FF48DBD00DFB45A /* BWMacroDefinition.h */,
 			);
 			path = Global;
@@ -476,6 +489,75 @@
 				B4B4720A1FF4902A00DFB45A /* BWMainTabBarController.m */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		B4B92D91201F17730008A4A6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B4B92D92201F17870008A4A6 /* Controller */,
+				B4B92D93201F17870008A4A6 /* Model */,
+				B4B92D94201F17870008A4A6 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B4B92D92201F17870008A4A6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B4B92D95201F179B0008A4A6 /* BWLoginViewController.h */,
+				B4B92D96201F179B0008A4A6 /* BWLoginViewController.m */,
+				B4B92D97201F179B0008A4A6 /* BWLoginViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B4B92D93201F17870008A4A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4B92D94201F17870008A4A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4B92D9A201F19BB0008A4A6 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				B4B92D9E201F19ED0008A4A6 /* Base */,
+				B4B92D9C201F19D80008A4A6 /* Account */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		B4B92D9C201F19D80008A4A6 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				B4B92D9D201F19D80008A4A6 /* Login */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		B4B92D9D201F19D80008A4A6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B4B92DA2201F1A3F0008A4A6 /* BWLoginApi.h */,
+				B4B92DA3201F1A3F0008A4A6 /* BWLoginApi.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B4B92D9E201F19ED0008A4A6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B4B92D9F201F1A050008A4A6 /* BWYTKRequest.h */,
+				B4B92DA0201F1A050008A4A6 /* BWYTKRequest.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		D0B7F0A9012238121F59D64E /* Pods */ = {
@@ -609,6 +691,7 @@
 				B4B471E71FF48DBD00DFB45A /* Library in Resources */,
 				B4B471E51FF48DBD00DFB45A /* Image in Resources */,
 				B4B471E21FF48DBD00DFB45A /* UIKit in Resources */,
+				B4B92D99201F179B0008A4A6 /* BWLoginViewController.xib in Resources */,
 				B4B471E31FF48DBD00DFB45A /* Foundation in Resources */,
 				B4B471E81FF48DBD00DFB45A /* Document in Resources */,
 				B4B4719D1FF4842B00DFB45A /* LaunchScreen.storyboard in Resources */,
@@ -671,6 +754,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-BWPhysicsLab/Pods-BWPhysicsLab-resources.sh",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -788,7 +872,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4B471F51FF48F6700DFB45A /* BWHomeViewController.m in Sources */,
+				B4B92D98201F179B0008A4A6 /* BWLoginViewController.m in Sources */,
 				B4B4720B1FF4902A00DFB45A /* BWMainTabBarController.m in Sources */,
+				B4B92DA1201F1A050008A4A6 /* BWYTKRequest.m in Sources */,
 				B4B472041FF48F9B00DFB45A /* BWMeViewController.m in Sources */,
 				B4B471A01FF4842B00DFB45A /* main.m in Sources */,
 				B4B472071FF48FA500DFB45A /* BWPhysicsViewController.m in Sources */,
@@ -797,6 +883,7 @@
 				B4B471EC1FF48ECA00DFB45A /* BWBaseViewController.m in Sources */,
 				B4B472011FF48F9000DFB45A /* BWLabViewController.m in Sources */,
 				B4B471E61FF48DBD00DFB45A /* BWGlobal.m in Sources */,
+				B4B92DA4201F1A3F0008A4A6 /* BWLoginApi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
