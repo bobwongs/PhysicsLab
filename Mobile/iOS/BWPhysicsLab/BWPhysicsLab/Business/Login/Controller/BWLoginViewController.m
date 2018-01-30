@@ -29,9 +29,10 @@
     [SVProgressHUD show];
     [BWLoginApi requestWithArgument:argument completionBlockWithSuccess:^(__kindof YTKBaseRequest * _Nonnull request) {
         [SVProgressHUD dismiss];
-        NSLog(@"");
+        NSLog(@"response object: %@", request.responseObject);
     } failure:^(__kindof YTKBaseRequest * _Nonnull request) {
         [SVProgressHUD dismiss];
+        NSLog(@"failure error: %@", request.error);
     }];
 }
 

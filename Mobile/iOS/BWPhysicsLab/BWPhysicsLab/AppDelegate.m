@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "BWMainTabBarController.h"
+#import "BWLoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,10 +18,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    BWMainTabBarController *mainTabBarVC = [BWMainTabBarController new];
+    UIViewController *rootViewController = [BWLoginViewController new];
+//    UIViewController *rootViewController = [BWMainTabBarController new];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = mainTabBarVC;
+    self.window.rootViewController = rootViewController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
