@@ -1,3 +1,7 @@
+import * as myUtil from 'util';
+
+let createResponseObject = myUtil.createResponseObject;
+
 // DB
 let mysql = require('mysql');
 let connection = mysql.createConnection({
@@ -19,7 +23,6 @@ app.post('/account/login', function (req, res) {
     let body = req.body;
     let account = body.account, password = body.password;
     console.log('request body: ' + body);
-    var resMsg = {};
 
     // If you using the node-mysql module, just remove the .connect and .end. Just solved the problem myself. Apparently they pushed in unnecessary code in their last iteration that is also bugged. You don't need to connect if you have already ran the createConnection call
     // 移除connect()方法，避免第二次请求时的报错
@@ -27,24 +30,20 @@ app.post('/account/login', function (req, res) {
     let querySql = `select * from ${userInfoTable} where account='${account}'`;
     console.log('query sql: ' + querySql);
     connection.query(querySql, function(error, results, fields) {
-        // if (error) throw error;
+        var resObject;
         if (!results || results.length == 0) {
-            resMsg.responseCode = '10001';
-            resMsg.responseMsg = 'Invalid Account';
+            resObject = createResponseObject(2000, 'Invalid Account');
             res.json(resMsg);
             return;
         }
 
         if (password === results[0].password) {
-            resMsg.responseCode = '0';
-            resMsg.responseMsg = 'Login successfully!';
+            resObject = createResponseObject(0, 'Login successfully');
         } else {
-            resMsg.responseCode = '10000';
-            resMsg.responseMsg = 'Incorrect Password';
+            resObject = createResponseObject(2001, 'Incorrect Password');
         }
-        res.json(resMsg);
+        res.json(resObject);
     });
-    // connection.end();
 });
 
 app.post('/account/logout', function (req, res) {
@@ -52,11 +51,44 @@ app.post('/account/logout', function (req, res) {
 });
 
 app.post('/account/register', function (req, res) {
-    res.send('Register successfully!');
+    let body = req.body;
+    console.log('register body: ' + JSON.stringify(body));
+    let account = body.account;
+    var resObject;
+
+    // Check whether account is register
+    let querySql = `select account from ${userInfoTable} where account='${account}'`;
+    connection.query(querySql, function(error, results, fields) {
+        if (results && results.length > 0) {
+            resObject = createResponseObject(2100, 'Account is already existed');
+            res.json(resObject);
+            return;
+        }
+
+        // Check the user input whether is valid
+        let password = body.password;
+        let email = body.email;
+
+        // Insert data
+        let insertSql = `insert into user_info
+                        (account, password, email)
+                        -> values
+                        -> ('${account}', '${password}', '${email}');`;
+        connection.query(insertSql, function (error, result) {
+            if (error) {
+                resObject = createResponseObject(1000, error.message);
+                res.json(resObject);
+                return;
+            }
+            resObject = createResponseObject(0, 'Register successfully');
+            res.json(resObject);
+        });
+    })
 });
 
 app.post('/account/forgetPassword', function (req, res) {
     res.send('forgetPassword successfully!');
+
 });
 
 var server = app.listen(8081, function() {
