@@ -1,6 +1,7 @@
 import * as myUtil from 'util';
 
-let createResponseObject = myUtil.createResponseObject;
+let createResponseObject = myUtil.createResponseObject
+let checkAccountExisted = myUtil.checkAccountExisted
 
 // DB
 let mysql = require('mysql');
@@ -27,6 +28,11 @@ app.post('/account/login', function (req, res) {
     // If you using the node-mysql module, just remove the .connect and .end. Just solved the problem myself. Apparently they pushed in unnecessary code in their last iteration that is also bugged. You don't need to connect if you have already ran the createConnection call
     // 移除connect()方法，避免第二次请求时的报错
     // connection.connect();
+    checkAccountExisted(account, connection, function success() {
+        
+    }, function failure() {
+        
+    })
     let querySql = `select * from ${userInfoTable} where account='${account}'`;
     console.log('query sql: ' + querySql);
     connection.query(querySql, function(error, results, fields) {
@@ -57,14 +63,7 @@ app.post('/account/register', function (req, res) {
     var resObject;
 
     // Check whether account is register
-    let querySql = `select account from ${userInfoTable} where account='${account}'`;
-    connection.query(querySql, function(error, results, fields) {
-        if (results && results.length > 0) {
-            resObject = createResponseObject(2100, 'Account is already existed');
-            res.json(resObject);
-            return;
-        }
-
+    checkAccountExisted(account, connection, function success(){
         // Check the user input whether is valid
         let password = body.password;
         let email = body.email;
@@ -83,6 +82,9 @@ app.post('/account/register', function (req, res) {
             resObject = createResponseObject(0, 'Register successfully');
             res.json(resObject);
         });
+    }, function failure(){
+        resObject = createResponseObject(2100, 'Account is already existed');
+        res.json(resObject);
     })
 });
 

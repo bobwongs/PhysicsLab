@@ -7,13 +7,13 @@ export function createResponseObject(code, msg) {
 }
 
 // To Do: 异步回调方法的创建
-export function checkAccountExisted(account, connection) {
+export function checkAccountExisted(account, connection, success, failure) {
     let querySql = `select account from ${userInfoTable} where account='${account}'`;
     connection.query(querySql, function(error, results, fields) {
-        if (results && results.length > 0) {
-            resObject = createResponseObject(2100, 'Account is already existed');
-            res.json(resObject);
-            return true;
+        if (results && results.length > 0) {            
+            failure();
+            return;
         }
+        success();
     }
 }
